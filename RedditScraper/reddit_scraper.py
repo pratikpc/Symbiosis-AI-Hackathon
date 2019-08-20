@@ -1,9 +1,9 @@
 import html
-import json
+import csv
 import urllib.request, urllib.error
 import typing
 import time
-
+import json
 
 def load_from_string(json_data: str) -> typing.Any:
     data: json = json.loads(json_data)
@@ -30,7 +30,9 @@ def file_load(file_name: str):
 
 def file_write(file_name: str, data: typing.Any):
     with open(file_name, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        dict_writer = csv.DictWriter(f, data[0].keys())
+        dict_writer.writeheader()
+        dict_writer.writerows(data)
 
 
 def scrape_reddit_posts(url: str):
@@ -56,7 +58,7 @@ def scrape_reddit_searches(subreddit: str, question: str, limit: int, after=None
     if after is not None:
         url = url + "&after={after}".format(after=after)
     response = load_web_page(url=url)
-    print(response)
+    print("Web Page sent response")
     return response
 
 
@@ -94,13 +96,10 @@ def get_comments_to_posts(url: str):
 
         # Replace HTML formatted stuff to text
         text = html.unescape(text)
-
-        # Now we know that the data is split by \n\n
-        # In order to simplify it for backend, I'll split by \n\n to different strings
-        # And store it in array
         text = text.split('\n')
-        # Replace all empty elements in array
         text = list(filter(None, text))
+        text = '\n'.join(text)
+
         comment = dict(text=text)
         comments.append(comment)
     return comments
@@ -139,18 +138,18 @@ def search_reddit_posts_batch(subreddit: str, question: str, limit: int, after=N
 
         title = str(post_data["title"])
         text = str(post_data["selftext"])
+
         # Replace HTML formatted stuff to text
         text = html.unescape(text)
         title = html.unescape(title)
 
-        # Now we know that the data is split by \n\n
-        # In order to simplify it for backend, I'll split by \n\n to different strings
-        # And store it in array
         text = text.split('\n')
-        # Replace all empty elements in array
         text = list(filter(None, text))
+        text = '\n'.join(text)
 
-        post = dict(text=text, title=title)
+        text = title + '\n' + text
+
+        post = dict(text=text)
         posts_batch.append(post)
 
     # As count <= limit, job done
@@ -194,11 +193,13 @@ def search_reddit_posts(subreddit: str, question: str, limit: int):
 
 def save_posts_top_level_comments_which_contain(subreddit: str, question: str, limit: int):
     urls = get_urls_to_posts(subreddit=subreddit, question=question, limit=limit, after=None)
-    with open('post-titles.json', 'w', encoding='utf-8') as f:
+    with open('post-titles.csv', 'w', encoding='utf-8') as f:
+        dict_writer = csv.DictWriter(f, ["text"])
+        dict_writer.writeheader()
         for url in urls:
             comments = get_comments_to_posts(url)
-            json.dump(comments, f, ensure_ascii=False, indent=4)
-            print(comments)
+            print("Got Comments")
+            dict_writer.writerows(comments)
             time.sleep(5)
 
 
@@ -208,8 +209,8 @@ def main_scrape_searches():
     limit = 120
     posts = search_reddit_posts(subreddit=subreddit, question=question, limit=limit)
     # This is JSON
-    print(str(json.dumps(posts)))
-    file_write("output.json", posts)
+    print("Writing posts to file")
+    file_write("output.csv", posts)
 
 
 def main_scrape_posts():
