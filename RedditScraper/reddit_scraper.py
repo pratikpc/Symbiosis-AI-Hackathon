@@ -11,6 +11,7 @@ def load_from_string(json_data: str) -> typing.Any:
 
 
 def load_web_page(url: str) -> typing.Any:
+    print(url)
     url = urllib.request.Request(url, headers={
         'User-Agent': 'Hackathon Project Reddit Comment Scraper'
     })
@@ -32,7 +33,21 @@ def file_write(file_name: str, data: typing.Any):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-def scrape_reddit_results(subreddit: str, question: str, limit: int, after=None):
+def scrape_reddit_posts(url: str):
+    response = load_web_page(url=url)
+    if response is None:
+        print("Error")
+        return None
+    # Initial Element points to array details we not need
+    response = response[1]
+
+    comments_scraped = response["data"]["children"]
+    comments_scraped = list(filter(None, comments_scraped))
+
+    return comments_scraped
+
+
+def scrape_reddit_searches(subreddit: str, question: str, limit: int, after=None):
     url: str = "https://www.reddit.com/r/{subreddit}/search.json?" \
                "restrict_sr=1" \
                "&sort=top" \
@@ -41,21 +56,69 @@ def scrape_reddit_results(subreddit: str, question: str, limit: int, after=None)
     if after is not None:
         url = url + "&after={after}".format(after=after)
     response = load_web_page(url=url)
+    print(response)
     return response
 
 
 def get_reddit_results_list(subreddit: str, question: str, limit: int, after=None):
-    response = scrape_reddit_results(subreddit=subreddit, question=question, limit=limit, after=after)
+    response = scrape_reddit_searches(subreddit=subreddit, question=question, limit=limit, after=after)
 
     if response is None:
         print("Error")
         return None, None
-    print(response)
     # Get Number of Returned Elements
     number_of_posts: int = int(response["data"]["dist"])
     posts = response["data"]["children"]
 
     return number_of_posts, posts
+
+
+def get_comments_to_posts(url: str):
+    comments_scraped = scrape_reddit_posts(url=url)
+    comments = []
+    for comment_scrapped in comments_scraped:
+        kind = comment_scrapped["kind"]
+
+        # All Comments are t1
+        if kind != "t1":
+            continue
+
+        data = comment_scrapped["data"]
+        if data is None:
+            continue
+        text = data["body"]
+
+        # Ignore all deleted texts
+        if text == "[deleted]":
+            continue
+
+        # Replace HTML formatted stuff to text
+        text = html.unescape(text)
+
+        # Now we know that the data is split by \n\n
+        # In order to simplify it for backend, I'll split by \n\n to different strings
+        # And store it in array
+        text = text.split('\n')
+        # Replace all empty elements in array
+        text = list(filter(None, text))
+        comment = dict(text=text)
+        comments.append(comment)
+    return comments
+
+
+def get_urls_to_posts(subreddit: str, question: str, limit: int, after=None):
+    number_of_posts, posts = get_reddit_results_list(subreddit=subreddit, question=question, limit=limit, after=after)
+
+    if posts is None or number_of_posts == 0:
+        print("Error at get_urls_to_posts", number_of_posts)
+        return None
+
+    for post in posts:
+        post_data = post["data"]
+        url = post_data["url"]
+        # Contains / at end
+        url = url[:-1] + ".json"
+        yield url
 
 
 def search_reddit_posts_batch(subreddit: str, question: str, limit: int, after=None):
@@ -129,7 +192,17 @@ def search_reddit_posts(subreddit: str, question: str, limit: int):
     return posts
 
 
-def main():
+def save_posts_top_level_comments_which_contain(subreddit: str, question: str, limit: int):
+    urls = get_urls_to_posts(subreddit=subreddit, question=question, limit=limit, after=None)
+    with open('post-titles.json', 'w', encoding='utf-8') as f:
+        for url in urls:
+            comments = get_comments_to_posts(url)
+            json.dump(comments, f, ensure_ascii=False, indent=4)
+            print(comments)
+            time.sleep(5)
+
+
+def main_scrape_searches():
     subreddit = "MechanicAdvice"
     question = "hey"
     limit = 120
@@ -139,4 +212,10 @@ def main():
     file_write("output.json", posts)
 
 
-main()
+def main_scrape_posts():
+    subreddit = "cars"
+    question="title:weekly+title:what+title:car+title:should+title:i+title:buy+title:megathread"
+    limit = 100
+    save_posts_top_level_comments_which_contain(subreddit=subreddit, question=question, limit=limit)
+
+main_scrape_posts()
