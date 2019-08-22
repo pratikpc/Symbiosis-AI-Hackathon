@@ -308,9 +308,9 @@ def main_scrape_searches():
 
 
 def main_scrape_search_titles_only():
-    subreddit = "whatcarshouldIbuy"
+    subreddit = "Cartalk"
     limit = 5000
-    posts_uncleaned = list_reddit_titles(subreddit=subreddit, limit=limit, label=2, sort="new")
+    posts_uncleaned = list_reddit_titles(subreddit=subreddit, limit=limit, label=4, sort="new")
 
     posts = []
     for post in posts_uncleaned:
