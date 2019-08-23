@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 breakdown_df = pd.read_csv('./all_data/label_data/breakdown.csv')
 car_enq_df = pd.read_csv('./all_data/label_data/car_enquire.csv')
@@ -40,12 +39,15 @@ def clean_text(text):
     text = re.sub(r"[^A-Za-z]", " ", text)
     return text
 
-clean_breakdown = breakdown_df.iloc[:,0].apply(lambda x : clean_text(x))
-clean_testdrive = testdrive_df.iloc[:,0].apply(lambda x: clean_text(x))
-clean_feedback = feedback.iloc[:,0].apply(lambda x: clean_text(x))
-clean_quality = quality_df.iloc[:,0].apply(lambda x: clean_text(x))
-clean_enquire = car_enq_df.iloc[:,0].apply(lambda x: clean_text(x))
+breakdown_df['text'] = breakdown_df['text'].apply(lambda x : clean_text(x))
+testdrive_df['text'] = testdrive_df['text'].apply(lambda x: clean_text(x))
+feedback['text'] = feedback['text'].apply(lambda x: clean_text(x))
+quality_df['text'] = quality_df['text'].apply(lambda x: clean_text(x))
+car_enq_df['text'] = car_enq_df['text'].apply(lambda x: clean_text(x))
 
+
+#Removing yes from stop_testdrive
+testdrive_df = testdrive_df[testdrive_df.text != 'yes']
 
 # Displays the most frequently used word
 def count_words(data):
@@ -62,11 +64,11 @@ def count_words(data):
     plt.show()
     
 # Before filtering
-count_words(clean_breakdown)
-count_words(clean_testdrive)
-count_words(clean_feedback)
-count_words(clean_quality)
-count_words(clean_enquire)
+count_words(breakdown_df['text'])
+count_words(testdrive_df['text'])
+count_words(feedback['text'])
+count_words(quality_df['text'])
+count_words(car_enq_df['text'])
 
 
 # Removing stopwords from cleaned texts
@@ -76,25 +78,24 @@ def remove_stop_words(data):
     filtered_size = [word for word in filtered_text if len(word) > 2]
     return ' '.join(filtered_size)
 
-stop_breakdown = clean_breakdown.apply(lambda x : remove_stop_words(x))
-stop_testdrive = clean_testdrive.apply(lambda x : remove_stop_words(x))
-stop_feedback = clean_feedback.apply(lambda x : remove_stop_words(x))
-stop_quality = clean_quality.apply(lambda x : remove_stop_words(x))
-stop_enquire = clean_enquire.apply(lambda x : remove_stop_words(x))
+breakdown_df['text'] = breakdown_df['text'].apply(lambda x : remove_stop_words(x))
+testdrive_df['text'] = testdrive_df['text'].apply(lambda x: remove_stop_words(x))
+feedback['text'] = feedback['text'].apply(lambda x: remove_stop_words(x))
+quality_df['text'] = quality_df['text'].apply(lambda x: remove_stop_words(x))
+car_enq_df['text'] = car_enq_df['text'].apply(lambda x: remove_stop_words(x))
 
-#Removing yes from stop_testdrive
-stop_testdrive = stop_testdrive[stop_testdrive != 'yes']
 
 # After filtering
-count_words(stop_breakdown)
-count_words(stop_testdrive)
-count_words(stop_feedback)
-count_words(stop_quality)
-count_words(stop_enquire)
+count_words(breakdown_df['text'])
+count_words(testdrive_df['text'])
+count_words(feedback['text'])
+count_words(quality_df['text'])
+count_words(car_enq_df['text'])
 
 
-pooled_data = stop_breakdown
-pooled_data = pooled_data.append(stop_testdrive[:115])
-pooled_data = pooled_data.append(stop_feedback[:115])
-pooled_data = pooled_data.append(stop_quality[:115])
-pooled_data = pooled_data.append(stop_enquire[:115])
+pooled_data = breakdown_df
+pooled_data = pooled_data.append(feedback[:114], ignore_index = True)
+pooled_data = pooled_data.append(testdrive_df[:114], ignore_index = True)
+pooled_data = pooled_data.append(quality_df[:114], ignore_index = True)
+pooled_data = pooled_data.append(car_enq_df[:114], ignore_index = True)
+
