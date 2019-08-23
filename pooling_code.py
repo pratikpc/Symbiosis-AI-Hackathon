@@ -47,7 +47,10 @@ car_enq_df['text'] = car_enq_df['text'].apply(lambda x: clean_text(x))
 
 
 #Removing yes from stop_testdrive
-testdrive_df = testdrive_df[testdrive_df.text != 'yes']
+def word_splitter(obj):
+    obj = obj.split(' ')
+    return(len(obj) > 2)
+testdrive_df = testdrive_df[testdrive_df['text'].map(word_splitter)]
 
 # Displays the most frequently used word
 def count_words(data):
