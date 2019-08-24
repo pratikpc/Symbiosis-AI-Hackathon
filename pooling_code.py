@@ -9,12 +9,21 @@ quality_df = pd.read_csv('./all_data/label_data/quality.csv')
 testdrive_df = pd.read_csv('./all_data/label_data/form_testdrive.csv')
 
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.probability import FreqDist
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english')) # Creates a list of stopwords
 import seaborn as sns
 import matplotlib.pyplot as plt
 from nltk import WordNetLemmatizer
+from nltk.corpus import wordnet
+import numpy as np
+np.random.seed(2018)
+import nltk
+nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 # To clean the text of unnecessary data
 def clean_text(text):
@@ -66,20 +75,39 @@ def count_words(data):
     ax.set(ylabel = 'Word') 
     plt.show()
     
-# Before filtering
+'''# Before filtering
 count_words(breakdown_df['text'])
 count_words(testdrive_df['text'])
 count_words(feedback['text'])
 count_words(quality_df['text'])
-count_words(car_enq_df['text'])
+count_words(car_enq_df['text'])'''
 
 
 # Removing stopwords from cleaned texts
 def remove_stop_words(data):
-    wn = WordNetLemmatizer()
-    filtered_text = [wn.lemmatize(word) for word in data.split() if word not in stop_words]
+    filtered_text = [lemmatize_stemming(word) for word in data.split() if word not in stop_words]
     filtered_size = [word for word in filtered_text if len(word) > 2]
     return ' '.join(filtered_size)
+
+def get_wordnet_pos(word):
+    """Map POS tag to first character lemmatize() accepts"""
+    tag = nltk.pos_tag([word])[0][1][0].upper()
+    tag_dict = {"J": wordnet.ADJ,
+                "N": wordnet.NOUN,
+                "V": wordnet.VERB,
+                "R": wordnet.ADV}
+
+    return tag_dict.get(tag, wordnet.NOUN)
+  
+def lemmatize_stemming(text):
+   return  WordNetLemmatizer().lemmatize(text, get_wordnet_pos(text))
+
+'''def preprocess(text):
+    result = []
+    for token in gensim.utils.simple_preprocess(text):
+        if token not in gensim.parsing.preprocessing.STOPWORDS and len(token) > 3:
+            result.append(lemmatize_stemming(token))
+    return result'''
 
 breakdown_df['text'] = breakdown_df['text'].apply(lambda x : remove_stop_words(x))
 testdrive_df['text'] = testdrive_df['text'].apply(lambda x: remove_stop_words(x))
@@ -88,17 +116,21 @@ quality_df['text'] = quality_df['text'].apply(lambda x: remove_stop_words(x))
 car_enq_df['text'] = car_enq_df['text'].apply(lambda x: remove_stop_words(x))
 
 
-# After filtering
+'''# After filtering
 count_words(breakdown_df['text'])
 count_words(testdrive_df['text'])
 count_words(feedback['text'])
 count_words(quality_df['text'])
-count_words(car_enq_df['text'])
+count_words(car_enq_df['text'])'''
 
 
 pooled_data = breakdown_df
-pooled_data = pooled_data.append(feedback[:114], ignore_index = True)
-pooled_data = pooled_data.append(testdrive_df[:114], ignore_index = True)
-pooled_data = pooled_data.append(quality_df[:114], ignore_index = True)
-pooled_data = pooled_data.append(car_enq_df[:114], ignore_index = True)
+pooled_data = pooled_data.append(feedback[:153], ignore_index = True)
+pooled_data = pooled_data.append(testdrive_df[:153], ignore_index = True)
+pooled_data = pooled_data.append(quality_df[:153], ignore_index = True)
+pooled_data = pooled_data.append(car_enq_df[:153], ignore_index = True)
+
+print(type(pooled_data))
+
+pooled_data.to_csv(r'data.csv')
 

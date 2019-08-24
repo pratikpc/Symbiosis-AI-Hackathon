@@ -59,6 +59,16 @@ No. In this day and age. Cars are available off the shelf. Not a good question. 
 Whether the car has a keyless entry system. Safety against theft. ,1
 Could I come back in the evening for a test drive to check the headlights?,1
 What is the aftersale service network like of the brand? ,1
+What changes have been made from the previous model?,1
+Yes ,1
+"I would be interested to know the engine power . Like, how much cc the engine is? 1000, 1500, etc",1
+Yes,1
+Which colour is available?,1
+Yes,1
+Which models are available for sale? ,1
+"Yes, I will enquire for a availability of a specific model that I am looking out for.",1
+What is the fuel efficiency?,1
+What is the power of the car?,1
 What wheel drive does the car comes with ? ,1
 Recommend ,1
 What is the EX showroom and on road prices with corporate discount if any?,1
@@ -117,6 +127,15 @@ No nowadays you could buy a car from x dealer and service it at y dealer as per 
 Insurance zero depreciation type is available. Nowadays some manufacturers give this free with a new car. ,1
 Could you guide me with features of the car?,1
 What’s the value pattern of the vehicle? ,1
+What are the safety measures the car offers?,1
+Yes,1
+Yes,1
+Is an EMI option available?,1
+Yes,1
+What are the features available?,1
+No,1
+What are the seats made of?,1
+What about the disk breaks in the car?,1
 What are the amenities the vehicle come with ? ,1
 What are the after sales facilities available?,1
 Yes,1
@@ -168,6 +187,15 @@ Yes,1
 "Yes KPL is an important factor. So also features like abs for brakes , airbags, all wheels disc brakes for enhanced brakes. Etc. ",1
 Does the vehicle take premium gas or need special maintenance?,1
 How many have been sold till now,1
+Are the controls within reach?,1
+Yes,1
+No,1
+Interiors can they be upgraded,1
+Yes,1
+What are the average servicing costs?,1
+Yeah I would want to know about the mileage,1
+what about the engine power?,1
+What is the ground clearance?,1
 What are the repair plans ? (Future repairs for initial investment),1
 What are the other options in this segment which this model is competing with and how do weigh their features against price band?,1
 Yes,1
@@ -220,6 +248,15 @@ Yes,1
 "Yes ask for ratings in engine performance, whether the engine conforms to the environment norms, whether spares and after sales support is easily available. ",1
 For how long should you take the car out?,1
 What’s the warranty like?,1
+Is there enough storage facilities?,1
+Yes,1
+No,1
+How much fuel can be given free when the car is bought?,1
+Yes,1
+Some customer feedback,1
+I can gauge the performance after having a test drive,1
+What would be the EMI if interested in buying the car ?,1
+Does it has fog lights?,1
 How long is the warranty and what does the warranty cover ? ,1
 Do you’ve IVI in it? What are the other features being provided with and without any additional cost?,1
 Yes,1
@@ -276,3 +313,135 @@ Yes,1
 Okay good question. Depending on your pocket and resources. ,1
 How does the voice recognition system work?,1
 What safety features does the  car have? ,1
+Are the seats easily adjustable?,1
+Yes,1
+Yes,1
+Height of the roof of the car,1
+Yes,1
+"A comparison of the model, features & price",1
+"Yes, that comes at a latter stage if I am satisfied about the car",1
+Do they have disk breaks in the vehicle?,1
+what about the suspension of the c ar?,1
+"do I need to be insured to test drive a car?
+",1
+"what should be my age to test drive a car?
+",1
+"how old can test drive a car?
+",1
+"what happens if i crash at test drive?
+",1
+"can i test drive a car alone?
+",1
+"can anyone test drive a car?
+",1
+"what happens on a test drive?
+",1
+"should i let someone test drive the car?
+",1
+"do i need to pay to test drive?
+",1
+"do i need a driving license to test drive a car?
+",1
+"how many kilometres i can test drive a car?
+",1
+"will police catch at test drive?
+",1
+"will the car come to my house to pick up for test drive?
+",1
+"do you have any time slot for test drive?
+",1
+"are you open on Sunday?
+",1
+"can i get home pick up?
+",1
+"can i get home drop after test drive?
+",1
+"how many people can sit in the car at test drive?
+",1
+"can i bring my family for test drive?
+",1
+"small children allowed at test drive?
+",1
+"is test drive allowed in the night?
+",1
+"is test derive available early morning?
+",1
+"what assistance will i get at test drive?
+",1
+"is there a mechanic available during test drive?
+",1
+"after test drive is it compulsory that i need to buy the car?
+",1
+"what if i don’t buy the car after test drive?
+",1
+"do i need to buy the same test car after test drive?
+",1
+"can i drive the car which in intend to buy at test drive?
+",1
+"is there any fitness certificate needed at test drive?
+",1
+"why test drive required?
+",1
+"will i get demo of the car at test drive?
+",1
+"do I should be protected to test drive a vehicle? 
+",1
+"what ought to be my age to test drive a vehicle? 
+",1
+"how old can test drive a vehicle? 
+",1
+"what occurs in the event that I crash at test drive? 
+",1
+"would i be able to test drive a vehicle alone? 
+",1
+"would anyone be able to test drive a vehicle? 
+",1
+"what occurs on a test drive? 
+",1
+"would it be advisable for me to give somebody a chance to test drive the vehicle? 
+",1
+"do I have to pay to test drive? 
+",1
+"do I need a driving permit to test drive a vehicle? 
+",1
+"what number of kilometers I can test drive a vehicle? 
+",1
+"will police get at test drive? 
+",1
+"will the vehicle go to my home to get for test drive? 
+",1
+"do you have whenever opening for test drive? 
+",1
+"is it true that you are open on Sunday? 
+",1
+"would i be able to return home get? 
+",1
+"would i be able to return home drop after test drive? 
+",1
+"what number of individuals can sit in the vehicle at test drive? 
+",1
+"would i be able to bring my family for test drive? 
+",1
+"little kids permitted at test drive? 
+",1
+"is test drive permitted in the night? 
+",1
+"is test infer accessible early morning? 
+",1
+"what help will I get at test drive? 
+",1
+"is there a technician accessible during test drive? 
+",1
+"after test drive is it necessary that I have to purchase the vehicle? 
+",1
+"imagine a scenario where I don't purchase the vehicle after test drive. 
+",1
+"do I have to purchase a similar test vehicle after test drive? 
+",1
+"would i be able to drive the vehicle which in plan to purchase at test drive? 
+",1
+"is there any wellness authentication required at test drive? 
+",1
+"why test drive required? 
+",1
+will I get demo of the vehicle at test drive?,1
