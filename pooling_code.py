@@ -143,4 +143,3 @@ def count_words(data):
 count_words(pooled_data.iloc[:,0])
 
 pooled_data.to_csv(r'data.csv')
-
