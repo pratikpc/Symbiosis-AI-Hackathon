@@ -1,69 +1,69 @@
 ,text,label
-0,mazda stall put new spark plug,2
-1,car start know anyone could help ford taurus turn key happens,2
+0,stall put new spark plug,2
+1,start know anyone could help ford taurus turn key happens,2
 2,idle really rough second,2
 3,nissan sentra stuck park,2
 4,ford speed column stuck first gear,2
-5,truck start instal amp sub,2
-6,car battery still drive,2
+5,start instal amp sub,2
+6,battery still drive,2
 7,battery dead work,2
-8,mazda hesitates start,2
+8,hesitates start,2
 9,acura integra crank start compression fuel spark,2
 10,idea wrong,2
-11,car total,2
-12,car start morning,2
-13,truck start amp install,2
-14,honda pilot start click sound,2
-15,help car work,2
-16,whats cause truck start,2
-17,new key honda accord start car,2
+11,total,2
+12,start morning,2
+13,start amp install,2
+14,pilot start click sound,2
+15,help work,2
+16,whats cause start,2
+17,new key accord start,2
 18,ford focus make click noise start,2
 19,camaro start issue,2
-20,car trouble start warm,2
-21,car turn start despite replace bunch part,2
-22,car unused year advice get run,2
+20,trouble start warm,2
+21,turn start despite replace bunch part,2
+22,unused year advice get run,2
 23,alternator quit,2
 24,trouble start chevrolet spark,2
-25,need help wrong car stop middle road drive,2
-26,car stop middle street,2
+25,need help wrong stop middle road drive,2
+26,stop middle street,2
 27,crank start integra,2
 28,impala start window lock work interior light work dash come fine,2
 29,chevy sonic stall rough idle,2
-30,transmission break move car,2
+30,transmission break move,2
 31,suffer breakdown,2
-32,mazda slow subsequent place new flash plug,2
-33,vehicle begin foggiest idea event anybody could help ford taurus turn key occurs,2
+32,slow subsequent place new flash plug,2
+33,begin foggiest idea event anybody could help ford taurus turn key occurs,2
 34,sits truly harsh kick bucket second,2
 35,nissan sentra stuck park,2
 36,ford speed segment stuck first gear,2
-37,truck would begin subsequent introduce amp sub,2
-38,vehicle battery kick bucket still drive,2
+37,begin subsequent introduce amp sub,2
+38,battery kick bucket still drive,2
 39,battery dead work,2
-40,mazda dither start,2
+40,dither start,2
 41,acura integra crank however begin pressure fuel yet spark,2
 42,clue wrong,2
-43,vehicle total,2
-44,vehicle begin morning,2
-45,truck begin amp install,2
-46,honda pilot begin click sound,2
-47,help vehicle work,2
-48,whats cause truck start,2
-49,new key honda accord begin car,2
+43,total,2
+44,begin morning,2
+45,begin amp install,2
+46,pilot begin click sound,2
+47,help work,2
+48,whats cause start,2
+49,new key accord begin,2
 50,portage focus make click clamor start,2
 51,camaro begin issue,2
-52,vehicle experience difficulty begin warm,2
-53,vehicle turn however begin spite supplant lot part,2
-54,vehicle unused long time counsel make run,2
+52,experience difficulty begin warm,2
+53,turn however begin spite supplant lot part,2
+54,unused long time counsel make run,2
 55,reason alternator quit,2
 56,inconvenience start chevrolet spark,2
-57,need assistance vehicle cease street drive,2
-58,vehicle simply cease street,2
+57,need assistance cease street drive,2
+58,simply cease street,2
 59,wrench begin integra,2
 60,impala begin window lock work inside light work dash please fine,2
 61,chevy sonic slow unpleasant idle,2
-62,transmission break move car,2
-63,vehicle stall would able help,2
-64,indeed please reveal vehicle number,2
+62,transmission break move,2
+63,stall would able help,2
+64,indeed please reveal number,2
 65,number,2
 66,alright sir reach closest associate,2
 67,sir roadside engineer,2
@@ -74,12 +74,12 @@
 72,normal,2
 73,need far,2
 74,sorry sir come soon help,2
-75,vehicle quit work,2
-76,truck slow,2
-77,truck begin,2
-78,vehicle run,2
-79,car broke help,2
-80,yes please tell car number,2
+75,quit work,2
+76,slow,2
+77,begin,2
+78,run,2
+79,broke help,2
+80,yes please tell number,2
 81,number,2
 82,okay sir contact near assistant,2
 83,hello sir roadside engineer,2
@@ -90,18 +90,18 @@
 88,expect,2
 89,want far,2
 90,sorry sir come soon help,2
-91,car stop work,2
-92,truck stall,2
-93,truck start,2
-94,car run,2
+91,stop work,2
+92,stall,2
+93,start,2
+94,run,2
 95,fuel,2
 96,gas,2
 97,engine overheat stall,2
-98,truck broken,2
-99,hello car company car stop,2
+98,broken,2
+99,hello company stop,2
 100,need help,2
-101,car fuel help,2
-102,car tyre puncture need replace tyre,2
+101,fuel help,2
+102,tyre puncture need replace tyre,2
 103,call call centre one pick,2
 104,middle road need urgent help,2
 105,crowd place trouble,2
@@ -114,21 +114,21 @@
 112,away place,2
 113,send gps location,2
 114,send assistant replace battery,2
-115,car met accident,2
+115,met accident,2
 116,need tow help,2
 117,much cost tow help,2
 118,road side assistance insurance,2
 119,need pay road side assistance,2
 120,call centre number,2
-121,let check car somewhere,2
+121,let check somewhere,2
 122,family worried night,2
-123,get car reach home,2
-124,lose car key,2
-125,need car key replacement,2
-126,vehicle organization vehicle halt,2
+123,get reach home,2
+124,lose key,2
+125,need key replacement,2
+126,organization halt,2
 127,need assistance,2
-128,vehicle fuel finish would able support,2
-129,vehicle tire puncture need supplant tire,2
+128,fuel finish would able support,2
+129,tire puncture need supplant tire,2
 130,call consider focus nobody get,2
 131,street need press assistance,2
 132,packed spot tough situation,2
@@ -141,626 +141,1365 @@
 139,away place,2
 140,send gps area,2
 141,would able send right hand supplant battery,2
-142,vehicle met mishap,2
+142,met mishap,2
 143,need tow help,2
 144,amount cost tow help,2
 145,street side help protection,2
 146,pay street side help,2
 147,call focus number,2
-148,allow check chance vehicle place,2
+148,allow check chance place,2
 149,family stress night,2
-150,get vehicle arrive home,2
-151,lose vehicle key,2
-152,need vehicle key substitution,2
-153,get mail address put issue infront company,3
-154,told issue concerned team say laptop told resolve issue tomorrow,3
-155,tell referforrewards amp benefit refer someone,3
-156,hope auto sector slows long period guy realise pain own elephant zero value customer product sale proper service support half train technician amp unavailability spare,3
-157,update work still steer work remain till impressed service,3
-158,chassis mat hkf dealer samarth motor gwalior contact,3
-159,chor hai jee app pura staff,3
-160,hexa lush green meadow monsoon beauty,3
-161,tata nexon petrol registration vehicle position concorde motor workshop pune repair dep insurance contact number,3
-162,hexa warrenty date register invoice date instead delivery date right believe delivery date consider warranty date,3
-163,must definitely work harrier engine noise overall sale experience sale service people dont like buy tata car wish see tata surpass foreign company future automobile,3
-164,must definitely work harrier engine noise overall sale experience sale service people dont like buy tata car wish see tata surpass foreign company future automobile,3
-165,copy chase last month pls give fake hope dont solve problem disappointed,3
-166,please improve customer service specially even day unable provide car part,3
-167,thanks entire customer support team offering quick help resolve issue related referral program feel good associate brand listens care much appreciate,3
-168,someone assist breakdown assistance even assist customer,3
-169,want thanks arjun sagar motor noida sector resolve every single problem car completely satisfied supportive give star please share feedback arjun,3
-170,vehicle number breakdown near bharat benz workshop hazaribaug jharkhand complaint number service engineer yet confirm come attend complaint call,3
-171,congratulation tatamotors able understand problem face time purchase car know fix issue car manufacture may company planet know treat customer,3
-172,thanks complaint resolve,3
-173,people please take care cutie love lot hopefully treat tlc,3
-174,give nanomobil service torrent corporation nashik hope good job,3
-175,dont buy tata product bad service complain handle system process tata nexon face much problem insurance ratantata,3
-176,proud owner tiago bought month back one reason bought harman infotainment system support type android auto late update sad late car support outdated tech tatatiago,3
-177,anyone tata motor dept reach feedback walk tata showroom last month test drive harrier receive bloody cold response reading harrier review thread india seem like pattern across dealer,3
-178,dear sir purchase tata ultra bus mahakali motor purnea bihar approx day ago bus issue alternator showroom warranty take response,3
-179,,3
-180,car broken agra krm run car heat engine mid road car purchase ashok auto sale,3
-181,poor performance tigor warranty expire almost complete frequent break issue start gearbox start problem,3
-182,people service charge oil change service inr people fooling service vareynam motor road bhopal,3
-183,,3
-184,call many time service wait last hour ask sandip yadav service today take car home told take back ramp empty around ramp,3
-185,need work main reason sale,3
-186,fedup arya motor book new tiago car representative convincing buying old car finally cancel return complete money showroom ask buy car otherwise return singh money plz help,3
-187,beware buying tata car serious happen anyone rear wheel come drive new barely month old car imagine could happen family toddler travel look pic,3
-188,beware buying tata car serious happen anyone rear wheel come drive new barely month old car imagine could happen family toddler travel look pic,3
-189,wrong commitment misbehave sale executive new purchase tiago car,3
-190,issue people loose faith brand help escalate level lucky brother issue like carowner irrespective brand trust tamo guy excellent,3
-191,pathetic service experience immaturity handle customer problem force sell nexon bearing loss lac year even escalate issue nobody care tata damage brand lose customer like,3
-192,sadly tata still synonym trouble trouble,3
-193,sadly tata still synonym trouble trouble,3
-194,vehicle crashed submit repair global autowheels paprour begusarai submit vechile june till anything,3
-195,respect sir let know vehicle submit rkl motor gida gorakhpur uttar pradesh service centre part swap different vehicle steal escalate get support,3
-196,sooner provide engine sooner catch market,3
-197,bought tata tiago within half year apollo tyre get burst poor quality car run half year poor quality tyre,3
-198,,3
-199,,3
-200,suffer manufacturing defect vehicle please take back exchange maintain great quality good relation extreme reputation market customer tata motor know,3
-201,one incident notice nearly kill family due poor vehicle quality never heard situation rear wheel broke come vehicle drive happen tiago today trust tata vehicle never demand refund,3
-202,happy owner fantastico excellent service srt service peelamedu coimbatore special thanks swami,3
-203,expect tata harrier automatic,3
-204,pain report bad experience book tata tigor sudarshan motor dombivali east shift delivery date mislead feedback reg vehicle availability delivery registration time etc suprising tata motor thru slump,3
-205,poor service continued take minute change one orvm still wait billing hour delayed staff lunch sit without lunch till hartronmotors,3
-206,chassis mat hkf dealer samarth motor gwalior contact,3
-207,sent,3
-208,bad kind service car submit morning regular service still wait get car back,3
-209,please help dealer issue,3
-210,eagerly wait altroz could really game changer futuristic design look forward,3
-211,thanks provide time service tata harrier give kmpl tata company give proper service thanks lot,3
-212,total fraud autorized sagar tata motor noida tiago service invoice bill charge provide invoice bill service today get invoice find scam totalcheating notaccepted,3
-213,,3
-214,hasnt considerate solution team regard issue follow back pls retain customer address service issue service team plus take car particular feature remove without intimation,3
-215,complain register samarth motor gwalior website,3
-216,complain register samarth motor gwalior website,3
-217,phone number service center bhubaneshwar,3
-218,bad service believe hire incompetent staff take advantage customer emotional vulnerability,3
-219,hey want visit bhopal check tiago car unable contact dealer directly yes contact customer care number use bhopal dealer contact directly talk,3
-220,tata tigor xzo run tyre bulge cut one one rectify yet,3
-221,ana side vehicle taigo breakdown still support provide family stuck bhopal,3
-222,often tata motor friend also suffer problem respond properly also planning purchase tata car look another one,3
-223,customer service organization bad india tatacar tatahexa car own love tatahexa hate customer service,3
-224,week still get call guy living dead,3
-225,tata motor service ambikapur work slow responsive great work vechiles service good currently tata tigor doubt vechile good service bad,3
-226,take vehicle back sell vehicle manufacturing deffect fraud dealer customer type product destroy image tata motor market public,3
-227,take vehicle back sell vehicle manufacturing deffect fraud dealer customer type product destroy image tata motor market public,3
-228,finally solve problem thanks tata motor team,3
-229,stuck road blue colour tata nexon model please help disgust behaviour service centre one pick call rsa,3
-230,tamo third class aftersales service network thief present workshop steal spare wheel tool,3
-231,purchase tata safari storme july drove amp call storme workshp due breakdown spent lac amp company ask replace engine make sense tatamotors ratantata poorcustomerservice poorproductquality noreliability,3
-232,appreciate quick support thank much,3
-233,dear tata motor complain earlier substandard tyre come nexon lose another tyre burst sideways see legacy listen concern already disappointed seem tyre supply nexon poor qality,3
-234,please help confirm waterwadingcapacity tatanexon,3
-235,dear sir auto ancillary supplier supply tata motor small startup base bangalore many innovative idea lie idle kindly request invest company like grow become global giant,3
-236,new nexon launch book venue nexon come soon would definitely like buy saw test mule image look good,3
-237,new nexon launch book venue nexon come soon would definitely like buy saw test mule image look good,3
-238,ana side vehicle taigo breakdown still support provide family stuck bhopal,3
-239,broke yestd way amritsar start gurgaon tiago xza take gear put automatic manual mode drive happen stuck ludhiana city yestd holiday hence one staff garison motor,3
-240,tata tigor mileage ltr aurangabad jalna travel amaze car,3
-241,lol tata fanboy congratulate new car influence get,3
-242,purchase tata harrier july single welcome email phone call tata side welcome kit harrier family feed back call even day use get first service feed back call much behind dent market,3
-243,share detail,3
-244,also concern tyre vehicle also change dealer condition vehicle suggest must take legal action tata motor dealer,3
-245,auto expert would much like buy tata car sure quality indian jlr afford fact long run indica indigo completely spoil tata brand equity,3
-246,auto expert would much like buy tata car sure quality indian jlr afford fact long run indica indigo completely spoil tata brand equity,3
-247,think buying tata nexon gimme reason totally,3
-248,think buying tata nexon gimme reason totally,3
-249,want commit suicide,3
-250,big issue service tata every time dont local service center within city kind break,3
-251,dear tata motor loyalty customer brand tata car tata vista model use personal back beam broken really pathetic quality though steel plant really feel,3
-252,,3
-253,get response tata team despite several followup since last month enrol tata motora leap program month back without response till date,3
-254,build quality tatahexa rainwater seep passenger foot well result fungus mold,3
-255,launch look forward xza,3
-256,forget call hell reply message,3
-257,car dealer tata motor sikar deny cash less motor car accidental repair service cite reason insurance take dealer dealer sell company insurance tataaig,3
-258,one indigo model amp one hexa model wish inform tata service center patna since loose quality amp professionalism workmanship earlier plz look feel really sorry,3
-259,year flawless journey vista qjet move nexon rtq thanks awesome car request make scale model available plz want nexon vista storme little son fanatic tata like,3
-260,year flawless journey vista qjet move nexon rtq thanks awesome car request make scale model available plz want nexon vista storme little son fanatic tata like,3
-261,pls call chassis mat,3
-262,brilliant mileage city highway mix,3
-263,sorry tata tigor satisfied service tata worest brand,3
-264,contact take vehicle back change engine please replace vehicle legal process,3
-265,contact take vehicle back change engine please replace vehicle legal process,3
-266,talk dealer complain resolve please close complain thanks,3
-267,thanks get call dealer assure solution day thank much,3
-268,give car tata motor smell issue dealer coordinate support,3
-269,contact number dealer vrindavan shelter kanpur uttar pradesh vehicle registration number cannot send chassis number vehicle original document summit dealership,3
-270,contact number dealer vrindavan shelter kanpur uttar pradesh vehicle registration number cannot send chassis number vehicle original document summit dealership,3
-271,sorry need service make fool waste maney,3
-272,dear sir tata sari storm recently sent car dunac motor sri ganganagar untrained staff damage oil pan drain truly unprofessional behavior dunac motor,3
-273,sir meaning zero dep insurance buying new car,3
-274,thanks sent,3
-275,sir response tata motor tweeter team way serve people south africa told tata motor pathetic service please help,3
-276,sir response tata motor tweeter team way serve people south africa told tata motor pathetic service please help,3
-277,tata tiago automatic warranty breakdown akbar road delhi get support fron helpline number please support call,3
-278,day car workshop one even bother even give estimate pathetic word sale service,3
-279,contact number dealer vrindavan shelter kanpur uttar pradesh vehicle registration number cannot send chassis number vehicle original document summit dealership,3
-280,tataharrier alboveall service station professional bought car audi would others small issue easily avoid pre delivery attention detail,3
-281,get support dealer faridabad personal zest vehicle break pls arrange resolve early regard,3
-282,apply one claim tata job without know authenticity somehow didnt make payment please take action fraud name get misuse,3
-283,pls call chassis mat,3
-284,vehicle number dont want vehicle back attitude behavior dealer type dealer destroy ing image tata motor suffer much dealer please,3
-285,tatamotors file legal case mid saling product car steal inspite call engine immobilizer original key,3
-286,disturb misselling india trust brand really disappoint,3
-287,good morning sir franchise tata motor treo motor pradeep sharma harass buyer tata car heed give customer problem two month purchase new tata nexon give registration number,3
-288,hello book tata nexon last month make full payment aug car delivery schedule today aug get offer perhaps offer aug,3
-289,option future exist tataharrier customer convert manual transmission automatic one revert await,3
-290,mot ilnclm tmp detail get reference please tell whether amount charge justified delay process part,3
+150,get arrive home,2
+151,lose key,2
+152,need key substitution,2
+153,broke yestd way amritsar start gurgaon tiago xza take gear put automatic manual mode drive happen stuck ludhiana city yestd holiday hence one staff garison motor,2
+154,dear motor loyalty customer brand vista model use personal back beam broken really pathetic quality though steel plant really feel,2
+155,break condition free pick tow anywhere country,2
+156,broken agra krm run heat engine mid road purchase ashok auto sale,2
+157,saurabh hum aapko yeh batana chahte hain contact information aur chassis number bina hum aapki sahayta nahi kar payenge isliye hum aapse anurodh karte hain puchi hui detail humein dwara bhejein taaki humari team aapse sampark karke aapki madad kar sake,3
+158,please give one chance discussion directly increase sale motor india jai hind sir bhanu gupta,3
+159,mistake use hexa registration sent claim multi tech motor fbd worker drive car hit inside workshop shit big mistake make buying lakh,3
+160,pathetic service,3
+161,real please hexa best come comfort torque street presence ruggedness bring harrier seater replace hexa please,3
+162,hello sir sad inform motor worth trust purchase hop become good responsible company guy give defect piece executive deny solve matter help,3
+163,,3
+164,talk dealer complain resolve please close complain thanks,3
+165,kindly confirm whether irvm available tiago xzo,3
+166,contact vikas,3
+167,shawn thank write check presence different region click website,3
+168,ultra come comfortable cabin ensures maximum productivity powerful engine lends great power deliver excellent performance extraordinary feature ultra truly winner tatatrucks deshketruck tataultra,3
+169,sandeep disappointed know however take concern via instagram respond request check acknowledge,3
+170,vinay would really like help kindly elaborate concern also provide contact information dealer detail via relevant team contact assistance,3
+171,hello team harrier supposedly deliver fast tag attach image user manual please confirm collect dealer since fast tag thanks,3
+172,ensure maximum comfort young passenger school bus come quick cool air conditioning system provide excellent cool dedicate louvre provide seat ensure maximum comfort tataskoolbus,3
+173,sandip disappointed know experience please share dealer detail team quickly connect address concern,3
+174,great hear venkatraman share picture video journey levelnexsuv would glad see,3
+175,waooo great safest indian market love also wait altroz,3
+176,welcome rest assure issue resolve soon customer service satisfaction utmost importance always aim deliver best service customer rest assure resolve concern early,3
+177,number breakdown near bharat benz workshop hazaribaug jharkhand complaint number service engineer yet confirm come attend complaint call,3
+178,karan thank share request detail highlight concern relevant team rest assure connect soon resolve early,3
+179,hello ashoka try reach number provide response request provide alternate contact number team contact,3
+180,utkarsh would really like look concern raise please share contact detail amp chassis number via connect help,3
+181,vipul surely help please share referral contact detail model amp dealer information via team connect quicker assistance,3
+182,dmed detail nexon,3
+183,kustwam never want customer experience please elaborate concern also share contact detail via team connect assist,3
+184,umang thank interest nexon sunroof fit accessory variant levelnexsuv suggest visit near motor dealership get best guidance per requirement,3
+185,check write back amp still reading similar story customer google review tafe access coimbatore action take customer satisfaction something showroom care abt,3
+186,chassis mat hkf dealer samarth motor gwalior contact,3
+187,akshay sincerely apologize inconvenience cause share concern team soon connect assist,3
+188,dear sir owner nexon petrol purchase march today show red light near plese help omparkash rewari haryana,3
+189,stuck road blue colour nexon model please help disgust behaviour service centre one pick call rsa,3
+190,vivek please allow time get checked team get back soon update,3
+191,awesome service saturday remote lock didnt work ecu update manikandan sundar frm kln motor chennai come home amp fix outstanding commitment tataharrier harrier,3
+192,take trip beautiful city udaipur entire family comfort winger seater,3
+193,raasta chahe kaisa bhi jeet har manzil yodha engine saath raho har terrain liye taiyaar click know jeetloharmanzil tatayodha,3
+194,first make good get rust learn job maruti toyota,3
+195,concorde motor mysore road bangalore cheat caught red hand replace old use part billing new pathetic tatamotors tataharrier,3
+196,,3
+197,shauvik anything specific assist please explain query detail via would glad help,3
+198,get delivery may within week coolant leakage happen cause damage engine replace whole engine unit yesterday leakage happen please something really depressed scar please help,3
+199,vipul disappointed know experience please share model contact information chassis number dealer detail via team connect quicker assistance,3
+200,hello sir shubham upadhyay sir need job motor manager marketing sector mba well year experience automobile marketing sector request sir provide job motor dream job,3
+201,management announce thing cannot say openly confirm reply,3
+202,ankit would really like look concern raise please share contact detail amp dealer information via connect help,3
+203,unethical service new,3
+204,sujeet would like well understand concern kindly elaborate via would glad help,3
+205,namaste alok humse sampark karne liye dhanyawaad humara sujhaav hai aap humare khush graahakon sameekshaon par nazar dalein,3
+206,raj motor showroom rohtak wife herrier enter saw come back single person ask reach sit look bad experience raj motor rohtak,3
+207,dealer name dada motor khanna punjab india,3
+208,hey plan book harrier next week yesterday harrier engine noise cabin even harrier owner complain internet clue make worry update insulation,3
+209,motor bad service,3
+210,ankush suggest visit near motor dealership get best guidance per query locate near dealer please click link,3
+211,namaste saurabh hum aapko horahi samasya samajhte hai kripya apna chassis aur contact number humein dwaara bhejein isse humein aapaki sahayta karene mai asani hogi,3
+212,sandip team try contact provide number however call unanswered request share alternate contact number prefer time call soon get touch assist,3
+213,success come way intra air condition comfort high performance keep motivate take new height know click tataintra india stcompacttruck,3
+214,gaurav concerned know experience want help kindly share contact number chassis number dealer detail via help connect assistance,3
+215,assistance query suggest visit near motor dealership locate near dealer please click link,3
+216,pratik suggest visit near motor dealership get best buying decision locate near dealer please click link,3
+217,siddhesh thank reach drl available variant nexon know feature specification levelnexsuv kindly visit website,3
+218,sachin take concern sachin jain via twitter forward team rest assure resolve soon,3
+219,lakhon bhartiyon kia chaar pahiyon advantage par bharosa aap bhi chuniye ace zip gold aur badhaiye apni tarakki speed tataacezipgold tarakkikispeedbadhao,3
+220,afsal really delighted see love harrier really value feedback share relevant team consideration,3
+221,aditya sincerely apologize inconvenience cause share concern team soon connect assist,3
+222,glad hear honor customer like share picture video drive would happy see,3
+223,call many time service wait last hour ask sandip yadav service today take home told take back ramp empty around ramp,3
+224,satish anand rastogi attach late invoice seem like mint money sole aim,3
+225,disappointed read tweet premium customer feel like nothing way get treatment still like bring notice nano service charge around even coolent wash water topped still manager,3
+226,jaiveer would really like look concern raise please share contact detail via connect help,3
+227,veeresh apologize experience share valuable input relevant team rest assure customer service satisfaction utmost importance,3
+228,make factory base cng,3
+229,namaste amit kya koi samasya hai jisse hum aapki koi sahayata kar saktein hai kripya humein vistaar mein dwara batayein taaki hum aapki madad kar sakein,3
+230,karan sadden hear would like help kindly share contact detail chassis number dealer information via help team connect assistance,3
+231,also concern tyre also change dealer condition suggest must take legal action motor dealer,3
+232,new day new adventure changla come drivewithsoul checkintothereal,3
+233,issue provide complaint number,3
+234,settlement amit karaya paisa diya piush pandy pahle settlement nam par liya kahte hai aur paisa,3
+235,saurabh please allow time get checked team get back soon update,3
+236,buying one grey color,3
+237,new model outstanding feature like individual vent comfortable push back seat multiple usb charge point foot inch roof height extra luggage space ghumoindiasaathsaath tatawinger,3
+238,visit nainital tiago nainital monsoon cloud lake video travelogue anuragsason mom link,3
+239,shey palace magnetic hill pathar sahib hemis amp thiksey monastery itinerary day iconic ladakh drive promise full excitement brotherhood drivewithsoul checkintothereal,3
+240,share extremely pathetic experience harrier,3
+241,sunny receive contact number via acknowledge also forward concern team soon get touch assist,3
+242,arunam definitely experience want please share contact number dealer information via quickly get touch address concern assist,3
+243,sir bought nexon amp day shp due malfunction sry bthr disappoint amp unexpected frm tatas,3
+244,hey motor terrible experience unwanted overbilling tasc kandivali mumbai advisor estimate high bill amount absolutely fine first paid service ready give benefit unless agree amount annoy,3
+245,sir harrier book cancel due automatic version launch wait automatic version harrier power necessary essential feature opponent give,3
+246,rahul disappointed hear would really like well understand concern kindly elaborate also share contact information amp chassis number via relevant team contact assistance,3
+247,immanuel would definitely help kindly share contact information chassis number dealer detail via help relevant team connect assistance,3
+248,dear,3
+249,visit near motor dealership confusion able assist well locate near dealer please click link,3
+250,sohrab would really like know wrong kindly elaborate concern also provide model chassis number dealer detail via relevant team contact assistance,3
+251,ajay concerned know experience want help kindly share contact number via help connect assistance,3
+252,dinesh concerned hear problem face would like help please share contact information dealership detail chassis number via relevant team assist soon,3
+253,mohit disappointed hear problem face would like help please share contact information dealership detail chassis number via relevant team assist soon,3
+254,provide good product fraud dealer reason avoid dealer third class service never buy car neverbuytata fraud nexon,3
+255,shivam would really like look concern raise please share model contact detail amp dealer information via connect help,3
+256,get set cover glad work soon thank,3
+257,yes charge revolutionizingev electricvehicles,3
+258,sidharth never want customer experience please share contact detail chassis number dealer information via team connect assist,3
+259,shame motor,3
+260,plz read entire thread,3
+261,complain hope resolve soon pending many day customer care centre copy paste send msg amp nothing solve greivances customer,3
+262,bad service point tatamotors batala ganesh sharma big mistake bought bus batala convince saini,3
+263,delighted hear pleasant experience vinu keep share thought picture journey suv aboveall,3
+264,chirag glad hear concern resolve customer service satisfaction utmost importance always aim deliver best service customer always strive make experience even well,3
+265,really disgust mouse enter suv hexa without really miss old fiat term product quality,3
+266,impressive picture vipin keep share picture video journey nexon,3
+267,rajnish kumar mob nano reg,3
+268,insurance claim body shop work without personal request prior intimation would take day prior intimation personal request continuous follow get week commitment day customer care,3
+269,,3
+270,new model outstanding feature like individual vent comfortable push back seat multiple usb charge point foot inch roof height extra luggage space ghumoindiasaathsaath tatawinger,3
+271,pain report bad experience book tigor sudarshan motor dombivali east shift delivery date mislead feedback reg availability delivery registration time etc suprising motor thru slump,3
+272,everything share complaint number month,3
+273,swarnim receive detail via respond kindly check amp acknowledge,3
+274,harrier still test reason behind,3
+275,kamalchand fake letter aware issue duly report,3
+276,kid love move around play bus let enjoy every moment spend travel provide collapsible handle behind every seat hold onto case sudden turn halt jerk tataskoolbus,3
+277,sadly still synonym trouble trouble,3
+278,gaurav thank write kindly share contact number dealer detail via well assist,3
+279,however harrier include essential software hardware feature safety like electronic stability program esp airbags lockout prevention isofix driver amp driver seatbelt reminder etc,3
+280,assistance request get touch surely help,3
+281,motor distributor mess vadodara ask part available since month even order others ask advance deposit order happen turn third one open suggest,3
+282,request kindly submit query,3
+283,sandeep sorry face would like help please share contact information chassis number dealer detail via help relevant team assist accordingly,3
+284,jaspreet disappointed hear would like help kindly provide chassis number contact information dealer detail via help relevant team connect assistance,3
+285,one side say sale drop side dealership say tiago xza available wait week wihtout clue,3
+286,tatamotors sale service poor importance book time,3
+287,get refund book cost book tiago recently want know,3
+288,planning buy hexa amp heard news discontinue hexa true,3
+289,poor quality tyre use motor make ceat futher response ceat limited dhanbad ceat tatamotors mithilamotors ratantata,3
+290,understand team constant touch respect concern please assure address soon really appreciate patience understand matter,3
 291,unjustified behavior feel loot amp cheat reply wait long,3
-292,,3
-293,face mileage problem please help,3
-294,may reason everyone complaint service good,3
-295,face poor pathetic service distributor puneet auto lucknow tiago car met accident ashish singh work body shop puneet auto misbehave poorly say steal part know,3
-296,exit already much,3
-297,purchase tata tiago motor gorakhpur deliver defect piece car name back write wrong car name tiago write tigor absolutely cheat first denies duty change,3
-298,point rout complaint authorise service provider,3
-299,,3
-300,fed marketing call tata motor ragarding service scheme etc get call even register number dnd think make mistake purchasing tata car annoy call,3
-301,underrated suv,3
-302,auto panaromic sunroof buy,3
-303,auto panaromic sunroof buy,3
-304,require detail could please assist,3
-305,dear per advise assurance friend decide send car service centre today nexon picked subhangshu tata dealer employee rectification problem hope well service time,3
-306,car fit need primary secondary car,1
-307,yes actual model,1
-308,late model launch company,1
-309,service warranty,1
-310,buying lease system work,1
-311,make car different model market,1
-312,mode transmission available,1
-313,check legroom headroom boot space,1
-314,tell near dealership residence address visit see model available showroom timing contact number,1
-315,color available,1
-316,car manufacture last year offer low price compare late manufacture,1
-317,car manual automatic,1
-318,car compare car segment manufacturer,1
-319,crash car cause damage unintentionally,1
-320,different finance scheme available,1
-321,car smart car,1
-322,car malfunction replace,1
-323,surprise drive car,1
-324,system car work,1
-325,mileage car,1
-326,many accident car model take place last year,1
-327,dealer near home provide sale service list nearby dealership share,1
-328,ofcourse gotta assure good buying,1
-329,brake allow make smooth abrupt stop,1
-330,guarantee car wont defective,1
-331,would like inquire car available store highly rat market,1
-332,book test drive automatic manual time,1
-333,book test drive automatic manual time,1
-334,yes look specific color,1
-335,customise model available,1
-336,service station dealer open saturday sunday since run car low saturday sunday becomes best day week get car service,1
-337,service station dealer open saturday sunday since run car low saturday sunday becomes best day week get car service,1
-338,yes,1
-339,variant car come test drive manual transmission automatic transmission,1
-340,day age car available shelf good question,1
-341,whether car keyless entry system safety theft,1
-342,could come back even test drive check headlight,1
-343,aftersale service network like brand,1
-344,change make previous model,1
-345,would interested know engine power like much engine etc,1
-346,colour available,1
-347,model available sale,1
-348,yes enquire availability specific model look,1
-349,fuel efficiency,1
-350,power car,1
-351,wheel drive car come,1
-352,showroom road price corporate discount,1
-353,bharat stage standard,1
-354,type style car coupe sport utility hybrid etc,1
-355,buying remodel car per requirement,1
-356,minimum payment emi option,1
-357,want know availability model showroom test drive schedule test drive pickup office residence address,1
-358,buy back value car,1
-359,accept exchange offer car company,1
-360,price range accord variant,1
-361,price differential compare different model,1
-362,insurance service partnership,1
-363,option multi year service contract,1
-364,option electric car,1
-365,car repair due car manufacturing problem get back car time,1
-366,common problem car service department encounter,1
-367,price car,1
-368,often car require service,1
-369,dog sit comfortably car,1
-370,unique feature model comparison competitor unique feature car share,1
-371,well depends cause sort stuff may enrage dealer totally personal opinion,1
-372,accessory offer purchase car,1
-373,terrain would permit drive,1
-374,case damage face car buy pay minimal repair cost,1
-375,early timing available test drive,1
-376,early timing available test drive,1
-377,yes,1
-378,air conditioning necessary feature,1
-379,service station equip handle mechanical electrical paint job need stop shop provide solution issue,1
-380,service station equip handle mechanical electrical paint job need stop shop provide solution issue,1
-381,want reschedule test drive,1
-382,nowadays could buy car dealer service dealer per convenience,1
-383,insurance zero depreciation type available nowadays manufacturer give free new car,1
-384,could guide feature car,1
-385,value pattern vehicle,1
-386,safety measure car offer,1
-387,emi option available,1
-388,feature available,1
-389,seat make,1
-390,disk break car,1
-391,amenity vehicle come,1
-392,sale facility available,1
-393,model available petrol diesel version,1
-394,safety technology safety feature car,1
-395,answer yes question get customise car,1
-396,cng petrol hybrid,1
-397,buy back old car loyalty discount bring old car company company tie dealership finance finance company bank also please check tie bank salary account bank,1
-398,delivery date vehicle,1
-399,far customisations available,1
-400,specification engine,1
-401,service network,1
-402,would react different terrain specifically indian road,1
-403,option prepaid multi year insurance,1
-404,petrol diesel car tie specific petrol pump company,1
-405,resale value car,1
-406,something vehicle discover till week ownership,1
-407,year model release,1
-408,would like know everything related car,1
-409,stick shift automatic,1
-410,loss would face car would suffer damage,1
-411,look forward buy car want try dealership test drive car available specify detail make car different others,1
-412,test drive multiple model car one stretch,1
-413,test drive multiple model car one stretch,1
-414,yes wil,1
-415,steer wheel adjustable,1
-416,company cover part warranty company boldly highlight part coveed warranty,1
-417,company cover part warranty company boldly highlight part coveed warranty,1
-418,course price run cost major component fuel consumption two critical factor purchase decision average car buyer india middle class person,1
-419,yes kpl important factor also feature like brake airbags wheel disc brake enhance brake etc,1
-420,vehicle take premium gas need special maintenance,1
-421,many sell till,1
-422,control within reach,1
-423,interior upgraded,1
-424,average service cost,1
-425,yeah would want know mileage,1
-426,engine power,1
-427,ground clearance,1
-428,repair plan future repair initial investment,1
-429,option segment model compete weigh feature price band,1
-430,available colour,1
-431,financing work credit score play important role,1
-432,yes consumer response data available,1
-433,four wheel drive,1
-434,please arrange callback distributor near get line thru tell number give advt,1
-435,registration number availability,1
-436,suspension good enough rid,1
-437,best discount car cash discount,1
-438,kill run away test car,1
-439,buyback option year agree,1
-440,life accessory fit car,1
-441,option car upgrade two year additional cost,1
-442,compare previous model change make model,1
-443,closest service center brand,1
-444,yeah definitely would like try suitable,1
-445,well car meneuvered traffic,1
-446,schedule appointment date,1
-447,vehicle trend market fulfill financial need,1
-448,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
-449,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
-450,yes average car owner vehicle simply mean transport point matter much whether reach say speed second thing like power pick speed etc much consideration question yes feature model important make comparison various make option available base make inform choice question yes safety feature important price differential appear high question insurance mandatory buyer would like idea premium amount another factor would guarantee warranty offer manufacturer various part vehicle number free service offer,1
-451,yes ask rating engine performance whether engine conforms environment norm whether spare sale support easily available,1
-452,long take car,1
-453,warranty like,1
-454,enough storage facility,1
-455,much fuel give free car bought,1
-456,customer feedback,1
-457,gauge performance test drive,1
-458,would emi interested buying car,1
-459,nissan sentra turn come stop,4
-460,car shut stop light sign,4
-461,bad drive broken oil pressure sensor,4
-462,help narrow start issue,4
-463,need new wiring harness beat short,4
-464,drove flood today,4
-465,isolate weird sound mechanic know talk,4
-466,car battery reading volt,4
-467,time change rotor,4
-468,transmission replacement car mile,4
-469,tire sidewall split thin long metal show driveable,4
-470,camry trouble vehicle take turn help would greatly appreciate mile,4
-471,scrap tire wallshould replace could still drive little longer bfgoodrich force sport comp,4
-472,anyone help identity noise,4
-473,cool fan relay grand marquis,4
-474,runner idle,4
-475,sorry bad qualityanyone know gear like noise never notice beforeonly happens reverse dodge ram pickup,4
-476,nitrogen fill tire,4
-477,idea tighten shifter linkage fwd mazda protege,4
-478,anyone know car grille use attach tryin figure idea,4
-479,ford focus window wont roll,4
-480,driver side window roll back,4
-481,car phantom unlock half lock manually lock possiblebut second later unlocks stop min car mechanic available sept,4
-482,test coil pack locate manifold sentra,4
-483,error code recently bought use chevy sonic,4
-484,leave cargo trailer hitch suv overnight,4
-485,hell kind lock lug shop work anything like need rotate tire bought car mention lock lugsdidn provide keyand found receipt emergency lock lug remover setwhich apparently work,4
-486,get lug nut without key flat replace,4
-487,replace control arm ball joint oldsmobile alero,4
-488,anyone tell snap car drive sudden heard something snap car start slide left make drag sound silly double check rust live michiganso wonder something else snap thanks,4
-489,mix red blue coolant bad car,4
-490,paint repair option,4
-491,squeal belt solve replace alternator belt,4
-492,rear pad fully sweep disc,4
-493,think problem dont know information give third car usually start honda accord sedan,4
-494,tire recommendation fiat pop,4
-495,need advice new engine break period outback,4
-496,anyone know remove water inside headlight happen,4
-497,left rear signal light turn,4
-498,sign die battery,4
-499,engine swap new engine,4
-500,anyone know grill delete gen liberty pre make insert,4
-501,buick century wagon die uphill,4
-502,would fix worn plastic corvette,4
-503,kia optimum lxmakes weird noise mphit last second start within minute sound like come passenger sidesomeone suggest might tire issue look second opinion,4
-504,best way fix rust leaky pipe,4
-505,button driver door work say doorbut lock button work door,4
-506,grand cherokee sputter shuts back engine light light electric work idea wrong,4
-507,get new peoject accent dofficult replace front passenger brake caliperrotorpadsand line diyable,4
-508,replace radiator hose engine side look little pock marked anything worry,4
-509,need change rotor resurfacednoob,4
-510,get urine car seat,4
-511,key stuck ignition shifter knob attach hyundai sonata,4
-512,reason car stutter rpm accelerate happens,4
-513,audi engine cut power,4
-514,jvc radio display back cam shiftingany idea,4
-515,try multiple usb adapter car portall fail charge intermittently accessory may support iphone,4
-516,anyone help diagnose noise,4
-517,replace compressor,4
-518,increase ride comfort without dramatically reduce handle discussion,4
-519,interest overheat problem,4
-520,smoke come engine coolant full,4
-521,tin noise,4
-522,mix old gas oil oil recycle,4
-523,slight shake drive turn,4
-524,cause sound turn,4
-525,suburban drivingthen start right back,4
-526,power steer issue runner pump something else,4
-527,red battery light come dash whenever brake,4
-528,possible computer issue,4
-529,turbo boost pressure bounce car get temperature,4
-530,someone part car make model mine part get,4
-531,please help idea battery related,4
-532,hyundai elantra clunk sound,4
-533,replace fuel tankfuel pumpand sender unit error code return,4
-534,type engine oil decent peugeot even,4
-535,someone post link driver side panel green amp fusible link connects corolla model zre best way test volt regulator besides autozone,4
-536,transmission problem,4
-537,replace brake,4
-538,mile need repair safe drive worth maintenance sell car,4
-539,pontiac get issue,4
-540,silverado electrical issue,4
-541,would try put brake pad rotor pay auto shop,4
-542,hearing weird noise car past week sound like rod knockbut oil level fine occurs cold start idea toyota venza xle awd inline,4
-543,transmission issue,4
-544,way cool engine compartment,4
-545,road oil pan replacement,4
-546,notice car exhaust system part would need get would easy fix fancy spending car yet,4
-547,hyundai sante noise problem,4
-548,ram troubleshoot,4
-549,good afternoon cartalk question replace shift solenoid,4
-550,oil change mile,4
-551,reason put upgraded clutch almost stock car,4
-552,local want replace door chevy equinox dent,4
-553,hyundai elantra cylinder throttle cut,4
-554,restore hood new paint necessary thanks,4
-555,power steer,4
-556,need help diagnose problem,4
-557,trouble valve cover gasket replacement,4
-558,subaru impreza slow leak tirewent subaru service centerquoted replace tire mile tire take look found assume bent nail reason could plug thanks,4
-559,something car keep reverberate vibrational resonance engine upon shock impact bump crack road,4
-560,cert tech confirm people say want oil change feel necessary blow rod,4
-561,nissan clutch issue,4
-562,hit car pole much would repair cost,4
-563,best rust convertersinhibitorsand undercoatings long salty winter,4
-564,get nissan altima fell glove compartment trunk open idea fix,4
-565,weird battery problem solve,4
-566,something today cause oil leak puddle try figure could source damage info comment,4
-567,mazda broken strut,4
-568,honda accord rebuiltso warranty fcw system fail keep flash along ldw lane departure warn also show video ebrake light along traction control happen last winter ebrake lock happen without brake lockup,4
-569,honda accord crankshaft position bad oil consumption,4
-570,rav violently shift park use day,4
-571,ford focus stationcar bad repair usually,4
-572,hey guy really need help identify pipe broke last night ran low ground boulder idea sure could fix locate bottom passenger side radiator oldsmobile alero,4
-573,find replacement screw hold map sensor ford escape,4
-574,golf door lockedhelp,4
-575,get loud car tradeexhaust bit loud like recommendation make quieter,4
-576,clear coat spray,4
-577,need help diagnose possible electrical issue rpm fluctuate ever slightly briefly uphill dodge neon sxt automatic,4
-578,low rpm neutral,4
-579,find information regard share platformspartsetc,4
-580,bubble safe drive,4
-581,find way find new breather hose,4
-582,car squeak reversebut sound stop press brake,4
-583,scammed fake dent repair guy parking lot option damage car,4
-584,gti manual transmission issue,4
-585,pump gas pedal start mile,4
-586,chevy cavalier power steer issue,4
-587,car make weird noiseany guess could possibly pontiac vibe,4
-588,customer complain rear axle noise crown vic rear rotor separation rust thru axle tube near backing plate surface rust due afternoon storm,4
-589,gas line destroyed,4
-590,chevrolet scottsdale grind make sharp right turn sound like come front passenger side would cause,4
-591,anyone tell cap found unattached anything stuck line engine mustang,4
-592,common alternator issue camry,4
-593,nissan scissor jack raiser tool lug remover,4
-594,low transmission fluid driveshould worry,4
-595,case anyone need know thrown rod sound like,4
-596,questioni recently bought use truck company one matrix sticker back window best way remove,4
-597,spark plug indicate burning oil,4
-598,jeep grand cherokee laredo update dad put airbag warn car startis generator issue something else,4
-599,mazda key ignition look like little tooth block,4
-600,shop say caliper seizedi jacked car work fine,4
-601,lot white smoke exhaust,4
-602,white smoke come mazda accelerate floor car,4
-603,possible fusebox pcm computer software issue,4
-604,brake sound like sandpaper second kia niro,4
-605,lock hydraulic hood support,4
-606,serpentine belt rant,4
-607,civic crank start unless press gas peddle replace camshaft position sensor,4
-608,jetta front hood would open take body shop yesterday remove symbol front grill access latch remove latch morning tire pressure light onthe temperature gauge yellow engine light,4
-609,coat steer wheel degrade even feel sticky touch think mostly due oily handssunlight heat anything could stop degradationor even restore,4
-610,water ingres fox,4
-611,squeak,4
-612,look car,0
-613,decide use mustang mileage year,0
-614,use sporty manual coupe,0
-615,look sporty car around usd,0
-616,something seem fishy use car look,0
-617,focus good deal,0
-618,thought use landcruiser,0
-619,start new job need car long distance commute,0
-620,mile many ford flex ecoboost,0
-621,canada cadillac xlr,0
-622,buy new car buy new car,0
-623,subaru legacy,0
-624,minivan choice odyssey sienna pacifica hybrid,0
-625,reliable vehicle get,0
-626,look suv type car family canada,0
-627,look daily commuter car dmv area,0
-628,opinion jetta,0
-629,look sport esq car blue black red mile,0
-630,need recommendation first car,0
-631,even know want anymore many option need boost goodness let chat discus fun,0
-632,start search manual hatchback car knowledge information know consider option,0
-633,buick lacrosse reliability,0
-634,classic car dilemma maverick stang,0
-635,buying business,0
-636,kind luxury car suggest,0
-637,bmw,0
-638,lifelong honda owner look possibly try something new best suv fam,0
-639,outback rav awd,0
-640,wrx caldina accord euro,0
-641,toyota corolla mile,0
-642,wide middle row seat suv minivan,0
-643,small fun car drive,0
-644,pontiac vibe mile,0
-645,kia buy,0
-646,stick mazda volt,0
-647,mazda mazda kia,0
-648,consider bmw xdrive money pit wait happen,0
-649,look cheap car,0
-650,bay area bmw mercedes audi infiniti lexus,0
-651,need family car car seat short med commute maybe audi,0
-652,civic,0
-653,narrow option decent size travel orient vehicle,0
-654,need,0
-655,best tuner car,0
-656,highway commuter car weekend trip canada,0
-657,look buy new awd sedan hatchback golf,0
-658,kia borrego something else,0
-659,buy ford fiesta hatchback,0
-660,lexus acura rdx,0
-661,need extremely safe technologically advanced car,0
-662,vehicle seatbelt back seat row,0
-663,jetta sel hyundai ioniq limited,0
-664,look midsize suv tow least midwest,0
-665,second car fuel efficient,0
-666,look suv less semi sport semi luxury look reliable,0
-667,honda civic hatchback,0
-668,use car,0
-669,lease hot hatch,0
-670,canada infiniti ford fusion,0
-671,look fast low mile automatic car,0
-672,opinion scion wagon much appreciate,0
-673,child heat stroke prevention mechanism,0
-674,research month feel overwhelmed start search begin point right direction,0
-675,need solid car throw mile year,0
-676,family suv less cad,0
-677,look sport sedan around,0
-678,car way adjustable headrest,0
-679,honda sense toyota safety sense rav,0
-680,advice purchasing hyundai sonata,0
-681,balance performance practicality daily driver,0
-682,entry level mercedes car reasonable maintain versus use,0
-683,accord mile sketchy dealer,0
-684,think get use hybrid someone sell one prius,0
-685,fast awd estate rhd,0
-686,new egolf rebate credit,0
-687,use,0
-688,ford focus,0
-689,use peugeots cheap,0
-690,good gas mileage reasonably fixable max,0
-691,corolla mazda sport rental,0
-692,honda accord coupe civic coupe,0
-693,audi tdi sport sportback car gbp,0
-694,purchase new vehicle,0
-695,bmw series mile,0
-696,bought new honda insight way market seem new vin show multiple dealer look catch,0
-697,damage would use car louisiana neighbor state likely,0
-698,market month buying hate car payment drive thing year important minor tech aux cable cruise keyless entry important monthly cost availability finance difficulty text,0
-699,ford escape toyota rav milage motor minor mechanical issue could fix get,0
-700,old corsa mile year old audi mile,0
-701,cheapest model year truck mile one buy,0
-702,best car get around chicago,0
-703,year old first car cad budget,0
-704,reliable suv,0
-705,fast awd around,0
-706,idea,0
-707,rav good deal,0
-708,best fast door car door,0
-709,budget cad suv fun sedan get,0
-710,safety rating star mazda,0
-711,replace age lexus premium sport sedan,0
-712,new use car fun ish daily commuter kid,0
-713,use first car ask recommendation list,0
-714,budget interest daily driver,0
-715,good first car,0
-716,wheel drive front wheel drive reverse snowbird,0
-717,cheapest car assemble japan buy,0
-718,help decide,0
-719,look car around,0
-720,bmw xdrive gli edition,0
-721,stuck,0
-722,wife want suv narrow choice,0
-723,look new family car,0
-724,chevy equinox premier package ford max titanium,0
-725,malibu daily commute,0
-726,best,0
-727,get license,0
-728,audi avant alltrack,0
-729,need help choose car semi rural area,0
-730,toyota rav camry fwd honda accord fwd,0
-731,sporty daily driver ish,0
-732,would recommend newer ford fusion,0
-733,look awd suv crossover around need last two year mile,0
-734,need awd snowy stormy condition fuel economy second important range,0
-735,certify use worth,0
-736,look first car buy,0
-737,family vehicle suv,0
-738,want fun reliable car,0
-739,new driver year civic,0
-740,ford dodge one buy,0
-741,tesla model new amg prob new,0
-742,model well,0
-743,per situation new use well option,0
-744,nissan micra suzuki swift,0
-745,get first car however know absolutely nothing look car advice,0
-746,kia rio toyota corolla,0
-747,usa look new daily driver,0
-748,audi mile,0
-749,maximum,0
-750,one would take price,0
-751,factory build ford ranger xlt toyota taco trd sport,0
-752,update convertible capable handle road trip comfort,0
-753,low mileage,0
-754,buy option use car,0
-755,think found car want buy think,0
-756,best driver seat,0
-757,look first car,0
-758,look car fit need,0
-759,first car around,0
-760,hyundai accent mile buy,0
-761,rav outback help,0
-762,buying first car,0
-763,graduate college look new car,0
-764,cad awd bit power,0
+292,shreyansh never want customer experience please share contact detail chassis number via team connect assist,3
+293,shashi thank bring notice share relevant team consideration let know anything specific assist glad help,3
+294,share issue concerned team contact priority,3
+295,commitment care customer mobile number please call complete promise mine wait talk somebody genuine feel customer associate team solve problem month old,3
+296,hardik would definitely get checked kindly share contact information chassis number model dealer detail via help connect assistance,3
+297,mich happy hear best team,3
+298,vision sedan concept show geneva showcase motor future design direction technological capability news test launch fakenews,3
+299,eicher,3
+300,let know anything else need assistance would happy help,3
+301,karthik would really like know wrong please elaborate concern also share contact information model dealer detail via assist,3
+302,lodge complaint via mail complaint regard cng kit work receive service sagar motor noida indian indian think false slogan jitendra singh,3
+303,ravi understand team contact confirm visit workshop per convenience along document require assistance feel free connect definitely assist,3
+304,explore kaza amp dhankar monastery kibber hikkim komik amp itinerary brotherhood day soul iconic ladakh drive drivewithsoul checkintothereality,3
+305,squad embarks adventure ladakh click youtube link reminisce soul first iconic international bhutan drive join expedition follow drivewithsoul iconic bhutan drive,3
+306,motor service centre tiago service waalon mujhey vishwas nahi raha help,3
+307,kaisi bhi chadhaan dhalaan mod ghat short turn circle dia aur high maneuverability saath ultra badi aasaani apna raasta bana leta hai tataultra deshketruck dilseultra,3
+308,chirag receive detail via forward team soon connect assist,3
+309,bough tiago april automobile rewa still receipt invoice moreover overcharge showroom price claimed company bad experience,3
+310,let know anything assist would happy help,3
+311,beware buying car serious happen anyone rear wheel come drive new barely month old imagine could happen family toddler travel look pic,3
+312,kindly stay tune website social medium handle find suv aboveall,3
+313,tumhara gadi bakwas work shop kaam bakwaas ownar looto aur kiya compalent karo hota khuch nahi hai bycout vahaan,3
+314,update work still steer work remain till impressed service,3
+315,parul never want customer experience please share contact detail chassis number via team connect assist,3
+316,humare desh vishaalta aur desh har kone mein vibhinn prakaar business zarurato poora karne liye banaya gaya hai isiliye aap bharat kisi bhi kone jaayenge toh zarur paayenge deshketruck,3
+317,sanjay please allow time get checked team get back soon update value cooperation meantime,3
+318,one insurance policy two person tristar auto agency customer proper response yet please attachment customer policy number,3
+319,antony concerned hear would like help please share contact information dealership detail chassis number via relevant team assist soon,3
+320,test true power machine sangla drivewithsoul checkintothereal,3
+321,give motor smell issue dealer coordinate support,3
+322,location dhanbad jharkhand variant lpk contact,3
+323,manoj without request detail would unable forward concern relevant team assistance please share model chassis number contact information dealer detail via connect help,3
+324,pankaj thank connect water wad capacity nexon let know anything else need assistance would happy help,3
+325,pradeep welcome glad concern resolve let know need assistance would glad help,3
+326,oxomiya trust customer extremely important rest assure team resolve friend concern early meanwhile feel free connect back incase assistance require would happy help,3
+327,customer complain motor service related problem return service center start casual approach solve problem say jao aur complain karo,3
+328,aditya disappointed hear would like help kindly provide chassis number contact information via help relevant team connect assistance,3
+329,bought harrier model june month yesterday get call anonymous number state pune offering sunroof true pls share detail abou,3
+330,please help,3
+331,day iconic ladakh drive see soul brotherhood journey kaza sight set magnificent tabo monastery drivewithsoul checkintothereal,3
+332,,3
+333,thank share requisite detail akhil share relevant team soon contact assistance,3
+334,john completely understand concern would like check please share contact detail arrange callback assist,3
+335,high altitude high attitude spiti valley drivewithsoul checkintothereality,3
+336,someone management team connect want service station get touch like fact day post delivery send service station kind quality check happen,3
+337,lol fanboy congratulate new influence get,3
+338,,3
+339,bright luminescent stop sign alert driver maintain safe distance school bus reduce chance collision mishap give point time tataskoolbus,3
+340,,3
+341,amol would like know concern kindly variant location amp contact detail forward concern relevant team,3
+342,plan buy nexon ask test drive malwa motor karnal haryana brought test drive bad clutch make noise proper work bad experience drop idea buy,3
+343,achieve optimum performance possible intra rule road conquer milestone intra top speed know click tataintra india stcompacttruck,3
+344,pawan harrier come sunroof per company policy cannot disclose information pertain future product feature,3
+345,garner immense prosperity business intra ton load capacity know click tataintra india stcompacttruck,3
+346,disappointed hear would like help kindly provide contact number help relevant team connect assistance,3
+347,jayesh thank reach request share contact number via team connect discussion,3
+348,sister book tiago kht motor kudenhalli really bad experience side almost one month time come bew excuse deliver accessory really bad experience never suggest anyone buy,3
+349,yeah totally relate face many issue service center indica overcharge job treat like atm spit money,3
+350,people please take care cutie love lot hopefully treat tlc,3
+351,agree totally brand new harrier stop traffic clutch problem climate control work housing project even bad stick salt seek immediate redressal new,3
+352,rakesh understand team connect call take concern forward rest assure resolve soon appreciate patience meantime,3
+353,welcome aditya rest assure concern resolve soon get back require assistance would glad help,3
+354,thank share requisite detail share relevant team soon contact assistance,3
+355,kailash let know specific query take forward,3
+356,bad service,3
+357,fit need primary secondary,1
+358,yes actual model,1
+359,late model launch company,1
+360,buying lease system work,1
+361,make different model market,1
+362,mode transmission available,1
+363,check legroom headroom boot space,1
+364,tell near dealership residence address visit see model available showroom timing contact number,1
+365,manufacture last year offer low price compare late manufacture,1
+366,compare segment manufacturer,1
+367,crash cause damage unintentionally,1
+368,different finance scheme available,1
+369,many accident model take place last year,1
+370,dealer near home provide sale service list nearby dealership share,1
+371,ofcourse gotta assure good buying,1
+372,brake allow make smooth abrupt stop,1
+373,guarantee wont defective,1
+374,would like inquire available store highly rat market,1
+375,book test drive automatic manual time,1
+376,book test drive automatic manual time,1
+377,yes look specific color,1
+378,customise model available,1
+379,service station dealer open saturday sunday since run low saturday sunday becomes best day week get service,1
+380,service station dealer open saturday sunday since run low saturday sunday becomes best day week get service,1
+381,variant come test drive manual transmission automatic transmission,1
+382,day age available shelf good question,1
+383,whether keyless entry system safety theft,1
+384,could come back even test drive check headlight,1
+385,aftersale service network like brand,1
+386,change make previous model,1
+387,would interested know engine power like much engine etc,1
+388,model available sale,1
+389,yes enquire availability specific model look,1
+390,wheel drive come,1
+391,showroom road price corporate discount,1
+392,bharat stage standard,1
+393,type style coupe sport utility hybrid etc,1
+394,buying remodel per requirement,1
+395,minimum payment emi option,1
+396,want know availability model showroom test drive schedule test drive pickup office residence address,1
+397,buy back value,1
+398,accept exchange offer company,1
+399,price range accord variant,1
+400,price differential compare different model,1
+401,insurance service partnership,1
+402,option multi year service contract,1
+403,repair due manufacturing problem get back time,1
+404,common problem service department encounter,1
+405,often require service,1
+406,dog sit comfortably,1
+407,unique feature model comparison competitor unique feature share,1
+408,well depends cause sort stuff may enrage dealer totally personal opinion,1
+409,accessory offer purchase,1
+410,terrain would permit drive,1
+411,case damage face buy pay minimal repair cost,1
+412,early timing available test drive,1
+413,early timing available test drive,1
+414,air conditioning necessary feature,1
+415,service station equip handle mechanical electrical paint job need stop shop provide solution issue,1
+416,service station equip handle mechanical electrical paint job need stop shop provide solution issue,1
+417,want reschedule test drive,1
+418,nowadays could buy dealer service dealer per convenience,1
+419,insurance zero depreciation type available nowadays manufacturer give free new,1
+420,could guide feature,1
+421,safety measure offer,1
+422,emi option available,1
+423,sale facility available,1
+424,model available petrol diesel version,1
+425,safety technology safety feature,1
+426,answer yes question get customise,1
+427,cng petrol hybrid,1
+428,buy back old loyalty discount bring old company company tie dealership finance finance company bank also please check tie bank salary account bank,1
+429,far customisations available,1
+430,would react different terrain specifically indian road,1
+431,option prepaid multi year insurance,1
+432,petrol diesel tie specific petrol pump company,1
+433,something discover till week ownership,1
+434,year model release,1
+435,would like know everything related,1
+436,stick shift automatic,1
+437,loss would face would suffer damage,1
+438,look forward buy want try dealership test drive available specify detail make different others,1
+439,test drive multiple model one stretch,1
+440,test drive multiple model one stretch,1
+441,steer wheel adjustable,1
+442,company cover part warranty company boldly highlight part coveed warranty,1
+443,company cover part warranty company boldly highlight part coveed warranty,1
+444,course price run cost major component fuel consumption two critical factor purchase decision average buyer india middle class person,1
+445,yes kpl important factor also feature like brake airbags wheel disc brake enhance brake etc,1
+446,take premium gas need special maintenance,1
+447,many sell till,1
+448,control within reach,1
+449,average service cost,1
+450,yeah would want know mileage,1
+451,repair plan future repair initial investment,1
+452,option segment model compete weigh feature price band,1
+453,financing work credit score play important role,1
+454,yes consumer response data available,1
+455,four wheel drive,1
+456,please arrange callback distributor near get line thru tell number give advt,1
+457,registration number availability,1
+458,suspension good enough rid,1
+459,best discount cash discount,1
+460,kill run away test,1
+461,buyback option year agree,1
+462,life accessory fit,1
+463,option upgrade two year additional cost,1
+464,compare previous model change make model,1
+465,closest service center brand,1
+466,yeah definitely would like try suitable,1
+467,well meneuvered traffic,1
+468,schedule appointment date,1
+469,trend market fulfill financial need,1
+470,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
+471,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
+472,yes average owner simply mean transport point matter much whether reach say speed second thing like power pick speed etc much consideration question yes feature model important make comparison various make option available base make inform choice question yes safety feature important price differential appear high question insurance mandatory buyer would like idea premium amount another factor would guarantee warranty offer manufacturer various part number free service offer,1
+473,yes ask rating engine performance whether engine conforms environment norm whether spare sale support easily available,1
+474,enough storage facility,1
+475,much fuel give free bought,1
+476,gauge performance test drive,1
+477,would emi interested buying,1
+478,long warranty warranty cover,1
+479,ivi feature provide without additional cost,1
+480,different model zxi cxi lxi available difference,1
+481,remodel loose warranty free service,1
+482,please email price list sheet various variant day std sheet show customer dealer make mind cost variant check feature net visit showroom request test drive festival discount,1
+483,accessible service centre,1
+484,cng system inbuilt,1
+485,average maintenance cost post two year,1
+486,option buying outside mumbai,1
+487,electric battery charge option,1
+488,break condition free pick tow anywhere country,1
+489,many people accomodate,1
+490,color variant sell,1
+491,mileage city highway drive test mileage share,1
+492,many sale make since launch,1
+493,would safety instructor test drive,1
+494,guarantee give safe,1
+495,get complete tour manager respective authority,1
+496,get complete tour manager respective authority,1
+497,milage without air conditioning,1
+498,many driven test drive company fix norm disclose customer test drive,1
+499,many driven test drive company fix norm disclose customer test drive,1
+500,okay good question depend pocket resource,1
+501,voice recognition system work,1
+502,seat easily adjustable,1
+503,comparison model feature price,1
+504,yes come latter stage satisfied,1
+505,need insured test drive,1
+506,age test drive,1
+507,old test drive,1
+508,happens crash test drive,1
+509,test drive alone,1
+510,anyone test drive,1
+511,happens test drive,1
+512,let someone test drive,1
+513,need pay test drive,1
+514,need drive license test drive,1
+515,many kilometre test drive,1
+516,police catch test drive,1
+517,come house pick test drive,1
+518,time slot test drive,1
+519,get home pick,1
+520,get home drop test drive,1
+521,many people sit test drive,1
+522,bring family test drive,1
+523,small child allow test drive,1
+524,test drive allow night,1
+525,test derive available early morning,1
+526,assistance get test drive,1
+527,mechanic available test drive,1
+528,test drive compulsory need buy,1
+529,buy test drive,1
+530,need buy test test drive,1
+531,drive intend buy test drive,1
+532,fitness certificate need test drive,1
+533,test drive require,1
+534,get demo test drive,1
+535,protect test drive,1
+536,ought age test drive,1
+537,old test drive,1
+538,occurs event crash test drive,1
+539,would able test drive alone,1
+540,would anyone able test drive,1
+541,occurs test drive,1
+542,would advisable give somebody chance test drive,1
+543,pay test drive,1
+544,need drive permit test drive,1
+545,number kilometer test drive,1
+546,police get test drive,1
+547,home get test drive,1
+548,whenever opening test drive,1
+549,true open sunday,1
+550,would able return home get,1
+551,would able return home drop test drive,1
+552,number individual sit test drive,1
+553,would able bring family test drive,1
+554,little kid permit test drive,1
+555,test drive permit night,1
+556,test infer accessible early morning,1
+557,help get test drive,1
+558,technician accessible test drive,1
+559,test drive necessary purchase,1
+560,imagine scenario purchase test drive,1
+561,purchase similar test test drive,1
+562,would able drive plan purchase test drive,1
+563,wellness authentication require test drive,1
+564,test drive require,1
+565,get demo test drive,1
+566,nissan sentra turn come stop,4
+567,shut stop light sign,4
+568,bad drive broken oil pressure sensor,4
+569,help narrow start issue,4
+570,need new wiring harness beat short,4
+571,drove flood today,4
+572,isolate weird sound mechanic know talk,4
+573,battery reading volt,4
+574,time change rotor,4
+575,transmission replacement mile,4
+576,tire sidewall split thin long metal show driveable,4
+577,camry trouble take turn help would greatly appreciate mile,4
+578,scrap tire wallshould replace could still drive little longer bfgoodrich force sport comp,4
+579,anyone help identity noise,4
+580,cool fan relay grand marquis,4
+581,runner idle,4
+582,sorry bad qualityanyone know gear like noise never notice beforeonly happens reverse dodge ram pickup,4
+583,nitrogen fill tire,4
+584,idea tighten shifter linkage fwd protege,4
+585,anyone know grille use attach tryin figure idea,4
+586,ford focus window wont roll,4
+587,driver side window roll back,4
+588,phantom unlock half lock manually lock possiblebut second later unlocks stop min mechanic available sept,4
+589,test coil pack locate manifold sentra,4
+590,error code recently bought use chevy sonic,4
+591,leave cargo trailer hitch suv overnight,4
+592,hell kind lock lug shop work anything like need rotate tire bought mention lock lugsdidn provide keyand found receipt emergency lock lug remover setwhich apparently work,4
+593,get lug nut without key flat replace,4
+594,replace control arm ball joint oldsmobile alero,4
+595,anyone tell snap drive sudden heard something snap start slide left make drag sound silly double check rust live michiganso wonder something else snap thanks,4
+596,mix red blue coolant bad,4
+597,paint repair option,4
+598,squeal belt solve replace alternator belt,4
+599,rear pad fully sweep disc,4
+600,think problem dont know information give third usually start accord sedan,4
+601,tire recommendation fiat pop,4
+602,need advice new engine break period outback,4
+603,anyone know remove water inside headlight happen,4
+604,left rear signal light turn,4
+605,sign die battery,4
+606,engine swap new engine,4
+607,anyone know grill delete gen liberty pre make insert,4
+608,buick century wagon die uphill,4
+609,would fix worn plastic corvette,4
+610,kia optimum lxmakes weird noise mphit last second start within minute sound like come passenger sidesomeone suggest might tire issue look second opinion,4
+611,best way fix rust leaky pipe,4
+612,button driver door work say doorbut lock button work door,4
+613,grand cherokee sputter shuts back engine light light electric work idea wrong,4
+614,get new peoject accent dofficult replace front passenger brake caliperrotorpadsand line diyable,4
+615,replace radiator hose engine side look little pock marked anything worry,4
+616,need change rotor resurfacednoob,4
+617,get urine seat,4
+618,key stuck ignition shifter knob attach hyundai sonata,4
+619,reason stutter rpm accelerate happens,4
+620,audi engine cut power,4
+621,jvc radio display back cam shiftingany idea,4
+622,try multiple usb adapter portall fail charge intermittently accessory may support iphone,4
+623,anyone help diagnose noise,4
+624,replace compressor,4
+625,increase ride comfort without dramatically reduce handle discussion,4
+626,interest overheat problem,4
+627,smoke come engine coolant full,4
+628,tin noise,4
+629,mix old gas oil oil recycle,4
+630,slight shake drive turn,4
+631,cause sound turn,4
+632,suburban drivingthen start right back,4
+633,power steer issue runner pump something else,4
+634,red battery light come dash whenever brake,4
+635,possible computer issue,4
+636,turbo boost pressure bounce get temperature,4
+637,someone part make model mine part get,4
+638,please help idea battery related,4
+639,hyundai elantra clunk sound,4
+640,replace fuel tankfuel pumpand sender unit error code return,4
+641,type engine oil decent peugeot even,4
+642,someone post link driver side panel green amp fusible link connects corolla model zre best way test volt regulator besides autozone,4
+643,transmission problem,4
+644,replace brake,4
+645,mile need repair safe drive worth maintenance sell,4
+646,pontiac get issue,4
+647,silverado electrical issue,4
+648,would try put brake pad rotor pay auto shop,4
+649,hearing weird noise past week sound like rod knockbut oil level fine occurs cold start idea toyota venza xle awd inline,4
+650,transmission issue,4
+651,way cool engine compartment,4
+652,road oil pan replacement,4
+653,notice exhaust system part would need get would easy fix fancy spending yet,4
+654,hyundai sante noise problem,4
+655,ram troubleshoot,4
+656,good afternoon cartalk question replace shift solenoid,4
+657,oil change mile,4
+658,reason put upgraded clutch almost stock,4
+659,local want replace door chevy equinox dent,4
+660,hyundai elantra cylinder throttle cut,4
+661,restore hood new paint necessary thanks,4
+662,power steer,4
+663,need help diagnose problem,4
+664,trouble valve cover gasket replacement,4
+665,subaru impreza slow leak tirewent subaru service centerquoted replace tire mile tire take look found assume bent nail reason plug thanks,4
+666,something keep reverberate vibrational resonance engine upon shock impact bump crack road,4
+667,cert tech confirm people say want oil change feel necessary blow rod,4
+668,nissan clutch issue,4
+669,hit pole much would repair cost,4
+670,best rust convertersinhibitorsand undercoatings long salty winter,4
+671,get nissan altima fell glove compartment trunk open idea fix,4
+672,weird battery problem solve,4
+673,something today cause oil leak puddle try figure could source damage info comment,4
+674,broken strut,4
+675,accord rebuiltso warranty fcw system fail keep flash along ldw lane departure warn also show video ebrake light along traction control happen last winter ebrake lock happen without brake lockup,4
+676,accord crankshaft position bad oil consumption,4
+677,rav violently shift park use day,4
+678,ford focus stationcar bad repair usually,4
+679,hey guy really need help identify pipe broke last night ran low ground boulder idea sure could fix locate bottom passenger side radiator oldsmobile alero,4
+680,find replacement screw hold map sensor ford escape,4
+681,golf door lockedhelp,4
+682,get loud tradeexhaust bit loud like recommendation make quieter,4
+683,clear coat spray,4
+684,need help diagnose possible electrical issue rpm fluctuate ever slightly briefly uphill dodge neon sxt automatic,4
+685,low rpm neutral,4
+686,find information regard share platformspartsetc,4
+687,bubble safe drive,4
+688,find way find new breather hose,4
+689,squeak reversebut sound stop press brake,4
+690,scammed fake dent repair guy parking lot option damage,4
+691,gti manual transmission issue,4
+692,pump gas pedal start mile,4
+693,chevy cavalier power steer issue,4
+694,make weird noiseany guess could possibly pontiac vibe,4
+695,customer complain rear axle noise crown vic rear rotor separation rust thru axle tube near backing plate surface rust due afternoon storm,4
+696,gas line destroyed,4
+697,chevrolet scottsdale grind make sharp right turn sound like come front passenger side would cause,4
+698,anyone tell cap found unattached anything stuck line engine mustang,4
+699,common alternator issue camry,4
+700,nissan scissor jack raiser tool lug remover,4
+701,low transmission fluid driveshould worry,4
+702,case anyone need know thrown rod sound like,4
+703,questioni recently bought use company one matrix sticker back window best way remove,4
+704,spark plug indicate burning oil,4
+705,jeep grand cherokee laredo update dad put airbag warn startis generator issue something else,4
+706,key ignition look like little tooth block,4
+707,shop say caliper seizedi jacked work fine,4
+708,lot white smoke exhaust,4
+709,white smoke come accelerate floor,4
+710,possible fusebox pcm computer software issue,4
+711,brake sound like sandpaper second kia niro,4
+712,lock hydraulic hood support,4
+713,serpentine belt rant,4
+714,civic crank start unless press gas peddle replace camshaft position sensor,4
+715,jetta front hood would open take body shop yesterday remove symbol front grill access latch remove latch morning tire pressure light onthe temperature gauge yellow engine light,4
+716,coat steer wheel degrade even feel sticky touch think mostly due oily handssunlight heat anything could stop degradationor even restore,4
+717,water ingres fox,4
+718,squeak,4
+719,anyone give advice repair bumper damage photo showwondering much repair would cost need replace,4
+720,easily remove badge emblem,4
+721,guyscan anyone please tell second light right mean,4
+722,make noise,4
+723,ran curbnot sure badly damage,4
+724,ignition coil issue,4
+725,wcgw side step clutch clapped old ford,4
+726,anybody know get oil pump brat,4
+727,door ajar intermittently show,4
+728,ecu keep reset,4
+729,volkswagen jetta turn randomly say mean turn,4
+730,oil change help,4
+731,ford explorer radio play use auxiliary cord,4
+732,timing belt replacement along seat belt buckle,4
+733,dashboard dead today dodge grand caravan,4
+734,wheel squeal,4
+735,chrysler sebring blowing air passenger vent,4
+736,camry squeal accessory belt area,4
+737,get away resurface rotor,4
+738,wheel bolt santa snappedevery auto part store say correct size find actual part need try call hyundai directly service department dealersto avail bolt never change,4
+739,idea would cause damage camshaft lifter engine detail comment,4
+740,ford ranger clutch hard push suddenly fix,4
+741,crankshaft position sensor hyundai santa sport fwd,4
+742,suzuki start make noisethen try start idea attempt video,4
+743,explorerblend door actuator malfunction,4
+744,radiator leak,4
+745,someone rear end sure handle sure driver insurance,4
+746,punishment muffler delete california,4
+747,jeep grand cherokee laredo check engine light blinking,4
+748,smoke come hoodbut drive fine bmw,4
+749,switch synthetic oil conventional high mileage oil,4
+750,camry oil quicklyhelp,4
+751,type adhesive use apply replacement crome tech wheel cover cadillac srx,4
+752,best budget speaker,4
+753,oddessy early make clatter clang noise first gear rpm,4
+754,weak air flow driver side dashboard air vent,4
+755,anyone ever found someone actual flush machine,4
+756,walk outside last night key key fob also could unlock idea,4
+757,anything use tow high engine torque,4
+758,rotational thump low speedon smooth roadfront left stump,4
+759,repair general information ridgeline,4
+760,inner front tire wear aggressively,4
+761,howdy folk grandpa fiat fancy shifter look icon show drive good idea info handbook circle red key turn come,4
+762,passat tdi motion idea vibration,4
+763,help warn,4
+764,many time need flush radiator,4
+765,anyone idea could cause generator belt snap time last year,4
+766,drain gas silverado,4
+767,brake pad question,4
+768,check engine vsa light come pilot vtm light turn couple time start stay know mean,4
+769,need help automatic civic sedan parking brake issue,4
+770,buick lacrosse issue,4
+771,regal starter locate end positive cable,4
+772,could clog catalytic converter cause misfire,4
+773,still run loud post accident repair,4
+774,hit bump coolant leak hose water come radiator hose collapse,4
+775,scrap wrrring noise accelerate,4
+776,help understand problem check engine light come back,4
+777,oil pan leak highlander dealer want fix much would cost party mechanic,4
+778,buick century trouble,4
+779,use friend use torque wrench tighten water pump bolt outback see aluminum block thread,4
+780,nope isnt oil read transmission fluid maximum,4
+781,found ice cream motor seem old wtf,4
+782,hey guysjust bought day ago wonder whats best solution fix paint damage window frame guess remove completely best way thisand repaint thanks,4
+783,alfa romeo gtv suddenly lose power highwaybut seem fine,4
+784,woke day ago see like ran wash try isopropyl alcohol idea,4
+785,order bolt get bag bag noi receive bolt,4
+786,temp gauge complete center warm new thing,4
+787,steer rack knock safe drive,4
+788,pontiac grand prix sensor extra plug,4
+789,mechanic mess brakeswhat,4
+790,temperature spike high pointthe drop back regular temp secondswhat mean,4
+791,steer heavy,4
+792,steer wheel make soft pop sharp turn,4
+793,need tip massive chunk take front bumperi piece,4
+794,stuck,4
+795,steer wheel brand new make noise even replacelemt clockspring replacement,4
+796,cost efficient way get lincoln mkc key fob duplicate,4
+797,hyundai problem starter motor battery,4
+798,break help change pad rotor,4
+799,idea wrong,4
+800,drive well circulation,4
+801,much transmission fluid flush cost,4
+802,help make creak sound turn wheel,4
+803,noise come suspension tire driver side frontminimal straight accentuate wheel turn left varies rpm joint axle seem could wheel bearing,4
+804,element sometimes steer wheel would shake crazy idle,4
+805,corolla always seem pull despite get align,4
+806,remove corrode back light switch chevy aveo hatchback,4
+807,repairable,4
+808,toyota corona back,4
+809,best way store battery solar chargerfloat chargeror,4
+810,civic muffler fell offwhat,4
+811,clutch fail,4
+812,oil change audi,4
+813,burning oil,4
+814,window driver side work,4
+815,taurus weird sound come tensioner,4
+816,low rpm shake,4
+817,replace rotor,4
+818,jeep cherokeemaster cylinder replacementhad replace linesnow one fitting leak stop,4
+819,fixable damage like,4
+820,toyota camry dash meter flicker,4
+821,drain plug bad orange thing around,4
+822,get away cheap tire,4
+823,grand caravan sxt radio upgrade,4
+824,still drive crooked alignment,4
+825,windshield washer fluid reservoir contamination,4
+826,warn light,4
+827,random squeal noise,4
+828,passat hearing strange soundscould related transmission fluid,4
+829,radiator work much,4
+830,need help identify coolant leak please,4
+831,tire leak connect air hose,4
+832,detailer ruin paint,4
+833,advice remove seize axle steer knuckle,4
+834,ive see front radiator,4
+835,fan thing stock,4
+836,sign clutch damage specifically rid,4
+837,bad alternator kill battery,4
+838,pontiac radio fuse problem,4
+839,fuel issue,4
+840,help wrong tire,4
+841,change differential fluid,4
+842,oil change,4
+843,anyone know fit chevy silverado classic vin,4
+844,must always set charge bmw,4
+845,find exhuast leak safe use home vaccume,4
+846,suburban gush power steer fluid,4
+847,fix element edition,4
+848,tire safe drive,4
+849,civic non vtec head gasket replace idle,4
+850,mile fail turboleaking water pumpengine oil overfill foul spark plug cylinder overheat left loandealership offer screw thoughtsadvicesuggestions,4
+851,water pump gasket dead,4
+852,worried tire,4
+853,wash fluid window cleaner,4
+854,saw instagram anyone use well work,4
+855,roughly much repair corlla automatic tranmission,4
+856,ford focus compressor issue,4
+857,break pad,4
+858,tpms stay toyota tacoma trd road anything wheel tire reset turn,4
+859,replace stock rim,4
+860,bolt cutter replace belt tensioner,4
+861,strange roar noise drive warm period cold start,4
+862,tire bad,4
+863,coolnot cold,4
+864,bubbling noise,4
+865,possible replace regulator window mount camry,4
+866,accidentally put antifreeze radiator instead overfill tankcan drive minute shop,4
+867,volvo,4
+868,one tire damage need replace replace detail inside,4
+869,steer wheel become nearly impossible turn drivingno soundsbattery light come minute later,4
+870,runsclean titlesold insurancedoes damage look bad fix picture tomorrow see copartwhat guy think,4
+871,bad grind rear,4
+872,luggage compartment door stay close help toyota camry need confirmation good replacement piece also much would mechanic charge change thanks anyone take time answer thisfeeling like damsel distress,4
+873,inch wheel let know thanks,4
+874,bad scratch fix paint pen need work estimate cost vertical stripe reflection horizontal one spot scratch,4
+875,much cost repair ford max,4
+876,anyone else interested best way recondition battery,4
+877,rub noise hot weather,4
+878,much would cost repair,4
+879,absespand hill descent light hyundai santa,4
+880,inexperienced noob need help change headgasket,4
+881,turbo problem,4
+882,dodge caliber,4
+883,lotus esprit twin turbo,4
+884,guy paintless dent repair say hour need couple pay couple extra,4
+885,conversion,4
+886,paint peel pretty bad wash without make bad use stop continue peel,4
+887,oil changewent home issuesneed advice,4
+888,transport,4
+889,notice pipe dont know anything car hang idea could help greatly appreciate,4
+890,seek advice coolant leak ford flex,4
+891,heatingbut air tire overheat,4
+892,civic problem,4
+893,lot caffeine stop laugh friend say,4
+894,need know transfer title,4
+895,code totoya prius,4
+896,toyota camrys cabin air filter,4
+897,try accelerate tachometer shoot upthe engine revsbut doesnt accelerate,4
+898,thing leak bad enough replace legacy,4
+899,mom figure probably time brake pad change almost year,4
+900,thing need wonder diy pay mechanic,4
+901,pontiac lemans starter issue,4
+902,nissan altima bcm kill air conditioning,4
+903,anyone idea noise may clutch startsclutch awayin say sometimes around corner cluecheers help,4
+904,turn cabin filter include service kia year mile old,4
+905,holidaysudden leak worry,4
+906,air deflector thing get exact part broke silverado mine want fix properly come front low bumper thanks,4
+907,fact little triangle point direction problem,4
+908,body shop claim total need advice keep run year info inside post,4
+909,screw reserve cap back broke like way fix,4
+910,remove tire rim hand,4
+911,graph mean oil use base rough average outside temperature,4
+912,scratch dent,4
+913,bought new stereo wire way different hook upswhat,4
+914,use able pair phone radionow get way fix,4
+915,try replace axle end dump half transmission fluid ground put back top fluid,4
+916,change oil,4
+917,engine transmission interest fix hard shift particularly hard engagement,4
+918,tapped wall reverse admire woman passing fix touch paint clear coat,4
+919,squeak noise come rear passenger side civic hybrid spd consistent rhythmic engine surge gear steady low throttle make crack noise front passenger side gear change pull really easily cause easy fix drop something fuel tankwhat,4
+920,acura rdx battery keep die overnight,4
+921,pull starter oddessy put accord,4
+922,chevrolet traverse oxygen sensor bank sensor,4
+923,anyone know turbocharger land rover discovery hse locate,4
+924,need help identify sound manual tranny,4
+925,challenger warp heat flex seal,4
+926,would fit good choice winter tire audi currently use season,4
+927,windshield chipped crack,4
+928,even budge radio bolt,4
+929,need front glass window door chevy tracker front driver,4
+930,oil engine burnt,4
+931,license plate issue still intricate art,4
+932,camry gas leak top engine fuel rail injector start,4
+933,check engine vsc light come oil change,4
+934,front vent work,4
+935,stupidly add coolant,4
+936,hii dealer oil change ask need replace tire sure need replace right,4
+937,infiniti make faint drum noise say forty mile per hour steer wheel turn like hit curve road highway away start straight,4
+938,decarbonize diesel engine,4
+939,chevy suburban light mph,4
+940,best way fix loose dash vent clip toyota camry,4
+941,stupid brother force turn steer wheel engine,4
+942,issue boost,4
+943,experiencecan anyone explain replace rubber ford fiesta,4
+944,idea make sound,4
+945,third brake light worksbut side,4
+946,fix low rpm gear reverse neutral high rpmreverse drivelow rpm shaky civic auto,4
+947,camino stereo troubleshoot,4
+948,fixable piece water pump mount enginedatsun,4
+949,need help figure wrong,4
+950,get cheap wheel,4
+951,steer wheel grease,4
+952,one last question rotella oil,4
+953,planning brake,4
+954,look buying mustang strip spindlewhat mean difficult replacement,4
+955,mustang want shift gear,4
+956,nissan datsun takeoff squeal noise,4
+957,question hole bottom air filter suppost connect anything carburetor camaro pretty new stuff dont want cause issue already thanks,4
+958,oil leak engine,4
+959,add underbody lead light tesla model,4
+960,engine coolant level low,4
+961,help meendless clutch bleeding bubble miata,4
+962,change transmission filter insight,4
+963,sure piece call thats half,4
+964,civic sedan mile problem steeringsuspensiontiresand wheel seem skid lightly vibrate encounter potholebumpor medium light bump road,4
+965,really deep clean inside leather seat,4
+966,open jammed door deer impact,4
+967,suggestion fix paint blemish,4
+968,jeep grand cherokee airbag warn dad airbag light constantly cause issue also,4
+969,good use less,4
+970,jeep grand cherokee recognize shut door cut power driver passenger side door panel suggestion,4
+971,nissan pathfinder make squeak noise motion time,4
+972,loud metallic snap driver side brake accelerate reverse,4
+973,civic overheat still,4
+974,replace fuse saturn ion,4
+975,wire suppose hook,4
+976,question whose engine auto shut light,4
+977,hey redditi bought wonder whats best spray roll bed liner step take put cleaningsandingetc thank,4
+978,strange rumble noise,4
+979,huge thud whenever driveway sound like come back idea kind hard hear super loud,4
+980,subaru forester light issue,4
+981,help stubborn engine light code small evap leak kia forte,4
+982,coil plug ignition ohm measurement,4
+983,ford focus clutch relay fuse blow soon turn,4
+984,nissan frontier crew cab,4
+985,electrical issue,4
+986,cavalier rear brake,4
+987,anyone know replace mirror corolla look like cover missingno mirror inside,4
+988,gmc yukon tick noise,4
+989,automatic keep stall start sometimes drive,4
+990,worth change brake pad,4
+991,dodge durango transmission dodge durango,4
+992,need change oil accord drove mile month,4
+993,loud grind noise axle replacement,4
+994,sonata rear window problem help,4
+995,help civic start,4
+996,chevy express rough rideca figure,4
+997,hit deer sensible way repair,4
+998,know something thing wrongbut need help crv mile,4
+999,help severe grind brake reverse,4
+1000,bad rust,4
+1001,weird noise blower motor take look found filter damage,4
+1002,shake around mph,4
+1003,break new engine quickly rebuild,4
+1004,remove plastidip overspray,4
+1005,find issue mechanic trust,4
+1006,anything side wall sure deep,4
+1007,could something engine cause hole bigor animal hood close hole left battery,4
+1008,fix need new paint clear coat clay something,4
+1009,toyota agze never see own thought originally oil starvation think foreign debris bearing cap equally bad thought,4
+1010,help civic make odd grind noise,4
+1011,could use hyundai elantra replacement side mirror replace broken elantra side mirror,4
+1012,toyota tundra brake bleeding,4
+1013,look short duration power source door open,4
+1014,check brake flash thing hang,4
+1015,probably common diagnose brake light issue,4
+1016,need buy new buckle case,4
+1017,civic mile overheats drive slow idle cool drive fast,4
+1018,anybody know part get cargo hook chevy traverse,4
+1019,pump gas engine,4
+1020,electronics work,4
+1021,need replace master window switch hyundai left one switch worni found replacement online right auto buttonsdoes matter make difference,4
+1022,severe grind noise reverse brake,4
+1023,cleaning use cleaning rag clean make plastic bluehow try use water regular rag away anyone know get rid blue colorant make back normal,4
+1024,sound like air brake minute charge,4
+1025,sorry wrong place dont know else ask button right middle dial fan speed dont manual anymore golf couldnt find online also dont notice difference push,4
+1026,reverse,4
+1027,fit milesany preventative maintenence,4
+1028,head unit issue,4
+1029,change valve cover gasketanything look cover,4
+1030,camry code,4
+1031,announce write,4
+1032,way remove without hose clamp plier,4
+1033,engage first time mile,4
+1034,windshield wiper stop squeak,4
+1035,help sound happens start,4
+1036,ripped tire sidewall hit curb need replace fit,4
+1037,anyone know cause source sound happens whenever start drive civic thanks advance everyone,4
+1038,anyone idea warn mean keep pop find thing online,4
+1039,cold move,4
+1040,meme make memoriam anti ford weapon,4
+1041,chinese quad starter engage key turn position,4
+1042,replace driver side seat belt buckle sound reasonable much,4
+1043,ram transmission issue,4
+1044,steer wheel make weird noise turn right could wrong safe drive like,4
+1045,could take electrical motor battery prius put buggy,4
+1046,newbie herequestion tire,4
+1047,alternative repaint rust,4
+1048,best first fun reliable budget cad,4
+1049,ford explorer sport trac knock,4
+1050,noise occur maximum steer angle,4
+1051,lose coolant,4
+1052,ford edge electrical issue,4
+1053,subaru baja remove dash disconnect wire speed sensor neutral switch work starter solenoid code show engine light flash,4
+1054,nissan altima suspension fail issue canada,4
+1055,someone tell part call corvette,4
+1056,manual sioux city lowa,4
+1057,best auto shop clarksvilletn,4
+1058,ever tire shop say tire pressure low inflate,4
+1059,corolla shift transmission toast,4
+1060,bad wheel bearing lead axle issue,4
+1061,accord startup noise,4
+1062,use power auto tint mirror dash cam,4
+1063,whine noise track,4
+1064,hit wheel stud drum break solution,4
+1065,right wheel shake,4
+1066,please help identify alarm like sound come engine video,4
+1067,toyota solara low rattle rumble stoppedgoes away take foot brake start move,4
+1068,found oil metal spring thing hard black price something mile thought,4
+1069,inch gash circular dent suggestion make less noticeable,4
+1070,recommendation use know affordable repairsreliabilityand high mpg,4
+1071,need aux input use bluetooth adapter play music phone charge port carry audio signal,4
+1072,anybody race deck tip keep floor pop pull,4
+1073,sure right subreddit thisbut take tag key idea volvo btw,4
+1074,vauxhall astra chain belt,4
+1075,water collect astra door,4
+1076,trigger airbag lamp malfunction,4
+1077,help pls fill bmw ipassenger side run lighttaillightand dash light stop work afterwardsit bulb,4
+1078,shopping nissan xterra gotchas look,4
+1079,high pitch whine engine bay,4
+1080,question custom exhaust idea,4
+1081,disturb clutch transmission noise input shaftthrowout bearingor something else,4
+1082,road trip oil change,4
+1083,chrysler cruiser rpm randomly spikecar jerk forwardwhat happen,4
+1084,check engine audi,4
+1085,altima whine squeak front wheel make turn left right,4
+1086,single outlet muffler dual outlet muffler help,4
+1087,evap system code come ranger,4
+1088,camino weird issue starter neutral safety switch,4
+1089,sound like problem ignition lock cylinder,4
+1090,need help put dash back together,4
+1091,someone stole side mirror glass destroyed wire nyc thanks douchebags,4
+1092,runner check engine vsc,4
+1093,anybody help identify transmission would come,4
+1094,guy think could repair need new windshield,4
+1095,really need helpthe speaker crazy loud whit radio offwhat,4
+1096,toyota corolla shorn sometimes work,4
+1097,key chain part broke idea fix key set,4
+1098,break pedal suddenly super hard press,4
+1099,part namepart number miss back bumper,4
+1100,altima fan runningstops maybe secondsand come back,4
+1101,think get bad gas,4
+1102,die battery extremely low idle,4
+1103,reinstall valve body underneath,4
+1104,fluid wheel tire leak brake fluid runner,4
+1105,lazy itokay,4
+1106,weird rattle startupgoes away second hyundai genesis coupe,4
+1107,record strange noise,4
+1108,question change tire,4
+1109,like know would recommend change brake rotor,4
+1110,shell rotella oil question,4
+1111,weird noise inside,4
+1112,start couple monthstried found spark plug time new plug large issue cylinder like assume throughout bmw engine btw,4
+1113,center console make loud noise,4
+1114,engine mount brokeleaked tranny oil,4
+1115,radio randomly start,4
+1116,new beetle hatch open emergency lever,4
+1117,hyundai accent clutch noise,4
+1118,strange noise inside,4
+1119,oil reset overheat,4
+1120,saturn vue start fine fuel,4
+1121,make turbo louder without increase much power,4
+1122,idle rpm try turn normal,4
+1123,rear bumper fell,4
+1124,best rotary engine,4
+1125,get picture step dad wonder could tell interior belong,4
+1126,look good set wheel mercedes wagon,4
+1127,clean battery terminal subaru forester start differently shudder,4
+1128,garage reuse inspection sticker,4
+1129,flat tire today inspect tirethere puncture hole could cause flat would result flat tire,4
+1130,whistle sound push gas pedal toyota tacoma mile,4
+1131,one bad problem happen,4
+1132,saturn aura stereo work,4
+1133,could squeak clutch throw bearing happens clutch press,4
+1134,help tire pressure drop reason,4
+1135,help vortec trailblazer sensor broke change head gasket bolt,4
+1136,best way fix rust,4
+1137,nissan micra battery problem,4
+1138,dad discus first option,4
+1139,sentra transmission fluid,4
+1140,crv die blower motoror resistor,4
+1141,good time headlight question prius,4
+1142,accidentally put premium grade fuel,4
+1143,bad happen fall,4
+1144,would recommend spray inside rusty back door fill hole,4
+1145,engine question,4
+1146,gas cap also safest way clean grime,4
+1147,botch alignment entitle tire reimbursement,4
+1148,dent settle,4
+1149,idea could cause slowly leak week happen chance get look,4
+1150,rac recently put new battery mine die rev loudly stationaryis normal,4
+1151,cause rust buildup burst pipe cool system,4
+1152,non oem vacuum hose replacement,4
+1153,temperature jeep instrument cluster water temp dummy light turn,4
+1154,drive bad sensor,4
+1155,smog legal exhaust mod california,4
+1156,drove overheat minute junkyard kind damage think occur,4
+1157,fuse shin red light mean circuit still short could cause lexus,4
+1158,replace headlight bulb headlight still work,4
+1159,could bad charcoal filter cause intermittent check engine light,4
+1160,someone please tell rub noise start week get new brake sure break start drive insane lol,4
+1161,randomly shuts turn low speed,4
+1162,chevy equinox audio,4
+1163,subaru forester air pump issue,4
+1164,crack steer knuckle clean tighten tie rod castle nut safe drive mile street shop grand prix,4
+1165,whole keyed way fix repaint whole thing,4
+1166,guy prefer dual tip exhaust quad exhaust car look,4
+1167,nissan versa brake noise,4
+1168,idle issue knock issue weird rev issue see end video mini countryman,4
+1169,need help remove dash stuck part,4
+1170,sorry wrong sub saw earlier,4
+1171,speed wobble nissan roguehelp,4
+1172,guess normal corollait also fail autozone charger battery test via volt regulator right get test result,4
+1173,subaru legacy fill every gas station,4
+1174,else need know crate motor,4
+1175,normal rear pad rotor replacement maximum,4
+1176,get shot beauty change throttle actuator anyone guess platform,4
+1177,bumped crv today office parking cost mucb fix,4
+1178,cadillac deville start problem,4
+1179,oil filter changebefore trip,4
+1180,suffer manufacturing defect please take back exchange maintain great quality good relation extreme reputation market customer motor know,4
+1181,suspension,4
+1182,look,0
+1183,decide use mustang mileage year,0
+1184,look sporty around usd,0
+1185,buy new buy new,0
+1186,reliable get,0
+1187,look suv type family canada,0
+1188,look daily commuter dmv area,0
+1189,look sport esq blue black red mile,0
+1190,need recommendation first,0
+1191,even know want anymore many option need boost goodness let chat discus fun,0
+1192,start search manual hatchback knowledge information know consider option,0
+1193,buying business,0
+1194,purchasing business,0
+1195,kind luxury suggest,0
+1196,lifelong owner look possibly try something new best suv fam,0
+1197,small fun drive,0
+1198,buy,0
+1199,purchase,0
+1200,look cheap,0
+1201,need family seat short med commute maybe audi,0
+1202,narrow option decent size travel orient vehicle,0
+1203,need,0
+1204,best tuner,0
+1205,need extremely safe technologically advanced,0
+1206,seatbelt back seat row,0
+1207,look midsize suv tow least midwest,0
+1208,second fuel efficient,0
+1209,look suv less semi sport semi luxury look reliable,0
+1210,look fast low mile automatic,0
+1211,research month feel overwhelmed start search begin point right direction,0
+1212,need solid throw mile year,0
+1213,family suv less cad,0
+1214,look sport sedan around,0
+1215,way adjustable headrest,0
+1216,advice purchasing hyundai sonata,0
+1217,good gas mileage reasonably fixable max,0
+1218,corolla sport rental,0
+1219,purchase new,0
+1220,bmw series mile,0
+1221,cheapest model year mile one buy,0
+1222,best get around chicago,0
+1223,reliable suv,0
+1224,budget cad suv fun sedan get,0
+1225,budget interest daily driver,0
+1226,good first,0
+1227,wheel drive front wheel drive reverse snowbird,0
+1228,look around,0
+1229,bmw xdrive gli edition,0
+1230,wife want suv narrow choice,0
+1231,look new family,0
+1232,need help choose semi rural area,0
+1233,look awd suv crossover around need last two year mile,0
+1234,look first buy,0
+1235,family suv,0
+1236,want fun reliable,0
+1237,get first however know absolutely nothing look advice,0
+1238,look first,0
+1239,look fit need,0
+1240,buying first,0
+1241,high school student look sporty first budget,0
+1242,accord major issue,0
+1243,look range,0
+1244,first,0
+1245,need help find manual first,0
+1246,need suggestion new relatively new target come college,0
+1247,good first,0
+1248,mile toyota mile cpo,0
+1249,college student look buy,0
+1250,best cheap performance,0
+1251,best sedan buy,0
+1252,best sedan purchase,0
+1253,buy second weekend trade fun daily,0
+1254,purchase second weekend trade fun daily,0
+1255,start look around car need help figure fit need test drive,0
+1256,look new daily commuter good snow hill,0
+1257,reliable hold value tall frugal person,0
+1258,manual fun drive daily driver,0
+1259,soon college graduate budget,0
+1260,reliable around,0
+1261,advice first,0
+1262,look daily driver,0
+1263,buy,0
+1264,purchase,0
+1265,sport,0
+1266,look comfortable use,0
+1267,look good value suv canada,0
+1268,college student full time worker look fun reliable good gas mileage good sound system,0
+1269,mitsubishi cad good buy,0
+1270,look reliable,0
+1271,look fun,0
+1272,first hopefully,0
+1273,first buy,0
+1274,first purchase,0
+1275,look fun weekend,0
+1276,wife sport luxury crossover midsize suv range new use,0
+1277,look buy small pickup suggestion,0
+1278,hello guy look buy new think cruiser jeep wrangler reliable good long term daily driver model take living desert area really important,0
+1279,seek something reliable,0
+1280,buy,0
+1281,purchase,0
+1282,much need,0
+1283,small lady buy lady want fast efficient,0
+1284,hyundai elantra limited edition,0
+1285,look reliable use crossover,0
+1286,price place priuses prii,0
+1287,reliable fun around,0
+1288,idea look,0
+1289,decide buy,0
+1290,whats good low budget family,0
+1291,look somewhat small medium size easy drive reliable space back large dog,0
+1292,need work school last least year,0
+1293,buy girlfriend runner,0
+1294,reliable fun sporty good gas mileage,0
+1295,college student buying drive home campus budget advice,0
+1296,sport performance sedan hatch,0
+1297,look family would fit adult child comfortably currently drive hyundai sonata sport mile would like find something less mile reliable room child seat handle new england weather,0
+1298,buying first,0
+1299,buying first,0
+1300,decent luxury reliable,0
+1301,fun adult awd manual transmission option,0
+1302,look high elevation rockies,0
+1303,look suv preferably mid size,0
+1304,use suv tow,0
+1305,ready buy last year,0
+1306,get buy living brooklyn,0
+1307,try figure get first,0
+1308,buying first something roomy,0
+1309,determine best deal use corolla,0
+1310,look mid size sedan warranty reliable,0
+1311,move europe new england need help unfamiliar market,0
+1312,kia optimum mile good condition,0
+1313,new use range,0
+1314,look fast suv crossover,0
+1315,look compact mid size suv family budget,0
+1316,buying first sure pick base need budget,0
+1317,look,0
+1318,need advice buying hertz,0
+1319,first consider ford crown vic thought,0
+1320,look sportier room drive,0
+1321,project best tune ability semi reliable easy affordability maintain able fit bike rack budget mod,0
+1322,shopping fun begin,0
+1323,look great manual daily driver houston area,0
+1324,buy tow boat,0
+1325,purchase tow boat,0
+1326,good option decent power decent mileage,0
+1327,need daily driver,0
+1328,cuvs suv actually utility usage,0
+1329,seek recommendation daily sedan cdn monthly lease budget,0
+1330,look mid full size sedan detail post,0
+1331,look buy luxury suv think bmw xdrive suggestion,0
+1332,get new job want new small suv hatchback sedan budget,0
+1333,luxury sedan around cad upgrade,0
+1334,small mid suv get,0
+1335,luxury sporty,0
+1336,budget know anything,0
+1337,good daily,0
+1338,guy think suzuki swift sport first,0
+1339,look reliable first build mod best year civic accord recommendation thanks,0
+1340,look good gas reliable easy repair around around canadian willing,0
+1341,insurance use sport car,0
+1342,look sport good first commute college student,0
+1343,look something sporty fast budget look advice,0
+1344,look possibly buying chevrolet tahoe hybrid never see road anymore,0
+1345,look new commuter,0
+1346,look something sporty reliable low maintenance cost,0
+1347,look tow stay around,0
+1348,fun sporty daily driver,0
+1349,need help look,0
+1350,think buying buick encore,0
+1351,look daily driver audi volkswagen bmw opel manual,0
+1352,good cheap buy new driver college student,0
+1353,look good less,0
+1354,chevy rst tundra trd pro,0
+1355,cheap fast non daily manual usa,0
+1356,look mix sport new,0
+1357,look new daily,0
+1358,look next midwest winter mobile,0
+1359,get drive licence get,0
+1360,market new need advice someone dad,0
+1361,look pop crackle factory,0
+1362,guidance next purchase sporty,0
+1363,look buy acura find automatic,0
+1364,get toyota corolla civic hyundai elantra sport manual transmission,0
+1365,sporty fun drive daily driver,0
+1366,best place find type online person,0
+1367,might get use soon first gunna february medium red cover bed get eny tip ask look buying,0
+1368,fit need primary secondary,0
+1369,yes actual model,0
+1370,late model launch company,0
+1371,service warranty,0
+1372,buying lease system work,0
+1373,make different model market,0
+1374,mode transmission available,0
+1375,color available,0
+1376,manufacture last year offer low price compare late manufacture,0
+1377,manual automatic,0
+1378,compare segment manufacturer,0
+1379,different finance scheme available,0
+1380,smart,0
+1381,system work,0
+1382,mileage,0
+1383,many accident model take place last year,0
+1384,change make previous model,0
+1385,would interested know engine power like much engine etc,0
+1386,colour available,0
+1387,model available sale,0
+1388,fuel efficiency,0
+1389,power,0
+1390,wheel drive come,0
+1391,wheel drive come,0
+1392,showroom road price corporate discount,0
+1393,bharat stage standard,0
+1394,type style coupe sport utility hybrid etc,0
+1395,buying remodel per requirement,0
+1396,minimum payment emi option,0
+1397,accept exchange offer company,0
+1398,price range accord variant,0
+1399,price differential compare different model,0
+1400,insurance service partnership,0
+1401,option multi year service contract,0
+1402,option electric,0
+1403,price,0
+1404,often require service,0
+1405,dog sit comfortably,0
+1406,unique feature model comparison competitor unique feature share,0
+1407,accessory offer purchase,0
+1408,could guide feature,0
+1409,value pattern,0
+1410,safety measure offer,0
+1411,cng petrol hybrid,0
+1412,buy back old loyalty discount bring old company company tie dealership finance finance company bank also please check tie bank salary account bank,0
+1413,delivery date,0
+1414,far customisations available,0
+1415,specification engine,0
+1416,yes,0
+1417,service network,0
+1418,would react different terrain specifically indian road,0
+1419,option prepaid multi year insurance,0
+1420,petrol diesel tie specific petrol pump company,0
+1421,resale value,0
+1422,something discover till week ownership,0
+1423,year model release,0
+1424,safety feature,0
+1425,get customise,0
+1426,amenity come,0
+1427,sale facility available,0
+1428,model available petrol diesel version,0
+1429,safety technology safety feature,0
+1430,would like know everything related,0
+1431,stick shift automatic,0
+1432,yes kpl important factor also feature like brake airbags wheel disc brake enhance brake etc,0
+1433,take premium gas need special maintenance,0
+1434,many sell till,0
+1435,course price run cost major component fuel consumption two critical factor purchase decision average buyer india middle class person,0
+1436,control within reach,0
+1437,interior upgraded,0
+1438,average service cost,0
+1439,yeah would want know mileage,0
+1440,engine power,0
+1441,ground clearance,0
+1442,repair plan future repair initial investment,0
+1443,option segment model compete weigh feature price band,0
+1444,available colour,0
+1445,financing work credit score play important role,0
+1446,yes consumer response data available,0
+1447,four wheel drive,0
+1448,buyback option year agree,0
+1449,life accessory fit,0
+1450,option upgrade two year additional cost,0
+1451,compare previous model change make model,0
+1452,warranty like,0
+1453,enough storage facility,0
+1454,much fuel give free bought,0
+1455,customer feedback,0
+1456,gauge performance test drive,0
+1457,would emi interested buying,0
+1458,fog light,0
+1459,long warranty warranty cover,0
+1460,ivi feature provide without additional cost,0
+1461,different model zxi cxi lxi available difference,0
+1462,late technology,0
+1463,remodel loose warranty free service,0
+1464,cruise control,0
+1465,please email price list sheet various variant day std sheet show customer dealer make mind cost variant check feature net visit showroom request test drive festival discount,0
+1466,color option,0
+1467,accessible service centre,0
+1468,cng system inbuilt,0
+1469,average maintenance cost post two year,0
+1470,max speed,0
+1471,option buying outside mumbai,0
+1472,electric battery charge option,0
+1473,sale volume,0
+1474,many people accomodate,0
+1475,color variant sell,0
+1476,choose,0
+1477,mileage city highway drive test mileage share,0
+1478,many sale make since launch,0
+1479,voice recognition system work,0
+1480,safety feature,0
+1481,seat easily adjustable,0
+1482,height roof,0
+1483,comparison model feature price,0
+1484,disk break,0
+1485,would like information purchasing new,0
+1486,would like information buying new,0
+1487,would like information purchasing new,0
+1488,would like information buying new,0
+1489,would like information purchasing new,0
+1490,would like information buying new,0
+1491,would like information purchasing new,0
+1492,would like information buying new,0
+1493,would like information purchasing new,0
+1494,reconnect dealership,0
+1495,reconnect dealership,0
+1496,reconnect dealership,0
+1497,reconnect dealership,0
+1498,reconnect dealership,0
+1499,reconnect dealership,0
+1500,reconnect dealership,0
+1501,reconnect dealership,0
+1502,reconnect dealership,0
+1503,reconnect dealership,0

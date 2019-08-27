@@ -27,7 +27,7 @@ def get_tweets(username):
             print("Currently on page: ", page)
             # 200 tweets to be extracted 
             number_of_tweets = 200
-            tweets = api.user_timeline(screen_name=username, count=number_of_tweets, page=page+20, tweet_mode='extended') 
+            tweets = api.user_timeline(screen_name=username, count=number_of_tweets, page=page, tweet_mode='extended') 
             
             # create array of tweet information: username,  
             # tweet id, date/time, text 

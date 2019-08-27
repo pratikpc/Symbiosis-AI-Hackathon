@@ -1,0 +1,1200 @@
+,text,label
+0,vehicle stall would able help,2
+1,indeed please reveal vehicle number,2
+2,number,2
+3,alright sir reach closest associate,2
+4,sir roadside engineer,2
+5,found,2
+6,situate someone,2
+7,drive motor cease,2
+8,foggiest idea,2
+9,normal,2
+10,need far,2
+11,sorry sir come soon help,2
+12,vehicle quit work,2
+13,truck slow,2
+14,truck begin,2
+15,vehicle run,2
+16,car broke help,2
+17,yes please tell car number,2
+18,number,2
+19,okay sir contact near assistant,2
+20,hello sir roadside engineer,2
+21,locate,2
+22,locate,2
+23,drive engine stop,2
+24,know,2
+25,expect,2
+26,want far,2
+27,sorry sir come soon help,2
+28,car stop work,2
+29,truck stall,2
+30,truck start,2
+31,car run,2
+32,fuel,2
+33,gas,2
+34,engine overheat stall,2
+35,truck broken,2
+36,hello car company car stop,2
+37,need help,2
+38,car fuel help,2
+39,car tyre puncture need replace tyre,2
+40,call call centre one pick,2
+41,middle road need urgent help,2
+42,crowd place trouble,2
+43,tow come,2
+44,send cat tow contact number,2
+45,look like battery,2
+46,seem engine start,2
+47,look like engine heat,2
+48,three smoke come,2
+49,away place,2
+50,send gps location,2
+51,send assistant replace battery,2
+52,car met accident,2
+53,need tow help,2
+54,much cost tow help,2
+55,road side assistance insurance,2
+56,need pay road side assistance,2
+57,call centre number,2
+58,let check car somewhere,2
+59,family worried night,2
+60,get car reach home,2
+61,lose car key,2
+62,need car key replacement,2
+63,vehicle organization vehicle halt,2
+64,need assistance,2
+65,vehicle fuel finish would able support,2
+66,vehicle tire puncture need supplant tire,2
+67,call consider focus nobody get,2
+68,street need press assistance,2
+69,packed spot tough situation,2
+70,tow come,2
+71,send car tow company contact number,2
+72,would appear battery,2
+73,appear motor turn,2
+74,would appear motor warm,2
+75,three smoke come,2
+76,away place,2
+77,send gps area,2
+78,would able send right hand supplant battery,2
+79,vehicle met mishap,2
+80,need tow help,2
+81,amount cost tow help,2
+82,street side help protection,2
+83,pay street side help,2
+84,call focus number,2
+85,allow check chance vehicle place,2
+86,family stress night,2
+87,get vehicle arrive home,2
+88,lose vehicle key,2
+89,need vehicle key substitution,2
+90,tell near dealership residence address visit see model available showroom timing contact number,1
+91,crash car cause damage unintentionally,1
+92,car malfunction replace,1
+93,surprise drive car,1
+94,dealer near home provide sale service list nearby dealership share,1
+95,guarantee car wont defective,1
+96,would like inquire car available store highly rat market,1
+97,book test drive automatic manual time,1
+98,book test drive automatic manual time,1
+99,service station dealer open saturday sunday since run car low saturday sunday becomes best day week get car service,1
+100,service station dealer open saturday sunday since run car low saturday sunday becomes best day week get car service,1
+101,whether car keyless entry system safety theft,1
+102,could come back even test drive check headlight,1
+103,aftersale service network like brand,1
+104,yes enquire availability specific model look,1
+105,want know availability model showroom test drive schedule test drive pickup office residence address,1
+106,car repair due car manufacturing problem get back car time,1
+107,common problem car service department encounter,1
+108,well depends cause sort stuff may enrage dealer totally personal opinion,1
+109,accessory offer purchase car,1
+110,terrain would permit drive,1
+111,case damage face car buy pay minimal repair cost,1
+112,early timing available test drive,1
+113,early timing available test drive,1
+114,service station equip handle mechanical electrical paint job,1
+115,service station equip handle mechanical electrical paint job,1
+116,want reschedule test drive,1
+117,nowadays could buy car dealer service dealer per convenience,1
+118,insurance zero depreciation type available nowadays manufacturer give free new car,1
+119,could guide feature car,1
+120,would take test drive model opt since usually top end give test drive,1
+121,service network,1
+122,would react different terrain specifically indian road,1
+123,loss would face car would suffer damage,1
+124,look forward buy car want try dealership test drive car available specify detail make car different others,1
+125,test drive multiple model car one stretch,1
+126,test drive multiple model car one stretch,1
+127,company cover part warranty company boldly highlight part coveed warranty,1
+128,company cover part warranty company boldly highlight part coveed warranty,1
+129,course price run cost major component fuel consumption two critical factor purchase decision average car buyer india middle class person,1
+130,please arrange callback distributor near get line thru tell number give advt,1
+131,kill run away test car,1
+132,closest service center brand,1
+133,yeah definitely would like try suitable,1
+134,well car meneuvered traffic,1
+135,schedule appointment date,1
+136,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
+137,setvice station glass lounge provide complete visibility entire work shop company ensure transparency deal customer,1
+138,long take car,1
+139,gauge performance test drive,1
+140,would safety instructor test drive,1
+141,guarantee give safe vehicle,1
+142,get complete tour car manager respective authority,1
+143,get complete tour car manager respective authority,1
+144,milage without air conditioning,1
+145,many car driven test drive company fix norm disclose customer test drive,1
+146,many car driven test drive company fix norm disclose customer test drive,1
+147,question related durability car could test drive,1
+148,need insured test drive car,1
+149,age test drive car,1
+150,old test drive car,1
+151,happens crash test drive,1
+152,test drive car alone,1
+153,anyone test drive car,1
+154,happens test drive,1
+155,let someone test drive car,1
+156,need pay test drive,1
+157,need drive license test drive car,1
+158,many kilometre test drive car,1
+159,police catch test drive,1
+160,car come house pick test drive,1
+161,time slot test drive,1
+162,open sunday,1
+163,get home pick,1
+164,get home drop test drive,1
+165,many people sit car test drive,1
+166,bring family test drive,1
+167,small child allow test drive,1
+168,test drive allow night,1
+169,test derive available early morning,1
+170,assistance get test drive,1
+171,mechanic available test drive,1
+172,test drive compulsory need buy car,1
+173,buy car test drive,1
+174,need buy test car test drive,1
+175,drive car intend buy test drive,1
+176,fitness certificate need test drive,1
+177,test drive require,1
+178,get demo car test drive,1
+179,protect test drive vehicle,1
+180,ought age test drive vehicle,1
+181,old test drive vehicle,1
+182,occurs event crash test drive,1
+183,would able test drive vehicle alone,1
+184,would anyone able test drive vehicle,1
+185,occurs test drive,1
+186,would advisable give somebody chance test drive vehicle,1
+187,pay test drive,1
+188,need drive permit test drive vehicle,1
+189,number kilometer test drive vehicle,1
+190,police get test drive,1
+191,vehicle home get test drive,1
+192,whenever opening test drive,1
+193,true open sunday,1
+194,would able return home get,1
+195,would able return home drop test drive,1
+196,number individual sit vehicle test drive,1
+197,would able bring family test drive,1
+198,little kid permit test drive,1
+199,test drive permit night,1
+200,test infer accessible early morning,1
+201,help get test drive,1
+202,technician accessible test drive,1
+203,test drive necessary purchase vehicle,1
+204,imagine scenario purchase vehicle test drive,1
+205,purchase similar test vehicle test drive,1
+206,would able drive vehicle plan purchase test drive,1
+207,wellness authentication require test drive,1
+208,test drive require,1
+209,get demo vehicle test drive,1
+210,mind disclose closest business habitation address visit see model accessible showroom timing contact number,1
+211,imagine scenario crash vehicle cause harm unexpectedly,1
+212,vehicle breakdown supplant,1
+213,shock drive vehicle,1
+214,vendor closest home give two deal administration,1
+215,rundown close business share,1
+216,certification vehicle wont flaw,1
+217,might want ask vehicle accessible store profoundly appraise market,1
+218,would able book test drive programmed manual simultaneously,1
+219,would able book test drive programmed manual simultaneously,1
+220,administration station vendor open saturday sunday,1
+221,since run vehicle low saturday sunday turn great day week get vehicle adjust,1
+222,administration station vendor open saturday sunday,1
+223,since run vehicle low saturday sunday turn great day week get vehicle overhaul,1
+224,regardless whether vehicle keyless section framework security burglary,1
+225,might able return night test drive check headlight,1
+226,aftersale administration system brand,1
+227,truly enquire accessibility particular model pay special mind,1
+228,need know accessibility model showroom test drive plan test drive pickup office home location,1
+229,chance vehicle fix vehicle produce issue point recover vehicle time,1
+230,well know issue vehicle administration office experience,1
+231,well depends cause kind stuff may chafe vendor absolutely closely held conviction,1
+232,adornment offer buy vehicle,1
+233,landscape would allow drive,1
+234,event harm confront vehicle get pay negligible fix cost,1
+235,punctual timing accessible test drive,1
+236,soonest timing accessible test drive,1
+237,administration station prepared deal mechanical electrical paint employment,1
+238,administration station prepared deal mechanical electrical paint occupation,1
+239,need reschedule test drive,1
+240,day could purchase vehicle seller administration vendor accord benefit,1
+241,protection zero deterioration type accessible day producer give free another vehicle,1
+242,might able manage highlight vehicle,1
+243,would step exam drive model settle since generally top end give test drive,1
+244,administration organize,1
+245,might respond various landscape explicitly indian street,1
+246,misfortune would confront vehicle would endure harm,1
+247,anticipate purchase vehicle need attempt vendor test drive auto accessible would able indicate detail make vehicle unique relation people,1
+248,would able test drive different model similar vehicle one stretch,1
+249,would able test drive different model similar vehicle one stretch,1
+250,organization cover part guarantee,1
+251,organization ought intensely feature part coveed guarantee,1
+252,organization cover part guarantee,1
+253,organization ought strongly feature part coveed guarantee,1
+254,obviously cost run cost significant part fuel utilization two basic factor buy choice normal vehicle purchaser india white collar class individual,1
+255,much trouble organize callback merchant closest get line tell number give advt,1
+256,imagine scenario slaughter flee test vehicle,1
+257,near administration place brand,1
+258,near business,1
+259,well believe certainly might want give shot appropriate,1
+260,well vehicle meneuvered traffic,1
+261,point would able plan arrangement date,1
+262,setvice station glass parlor give total perceivability whole work shop,1
+263,organization ought guarantee straightforwardness manage client,1
+264,setvice station glass parlor give total perceivability whole work shop,1
+265,organization ought guarantee straightforwardness manage client,1
+266,extent would good idea take vehicle,1
+267,measure exhibition subsequent test drive,1
+268,would wellbeing educator test drive,1
+269,assurance would able give shelter vehicle,1
+270,get total voyage vehicle administrator particular specialist,1
+271,truly,1
+272,get total voyage vehicle administrator individual expert,1
+273,indeed,1
+274,milage without cool,1
+275,number vehicle driven test drive,1
+276,event organization fix standard point equivalent uncovered client test drive,1
+277,number vehicle driven test drive,1
+278,chance organization fix standard point equivalent uncovered client test drive,1
+279,question identify sturdiness vehicle would able test drive,1
+280,look car,0
+281,decide use mustang mileage year,0
+282,look sporty car around usd,0
+283,buy new car buy new car,0
+284,reliable vehicle get,0
+285,look suv type car family canada,0
+286,look daily commuter car dmv area,0
+287,look sport esq car blue black red mile,0
+288,need recommendation first car,0
+289,even know want anymore many option need boost goodness let chat discus fun,0
+290,start search manual hatchback car knowledge information know consider option,0
+291,buying business,0
+292,purchasing business,0
+293,kind luxury car suggest,0
+294,lifelong honda owner look possibly try something new best suv fam,0
+295,small fun car drive,0
+296,car buy,0
+297,car purchase,0
+298,look cheap car,0
+299,need family car car seat short med commute maybe audi,0
+300,narrow option decent size travel orient vehicle,0
+301,need,0
+302,best tuner car,0
+303,need extremely safe technologically advanced car,0
+304,vehicle seatbelt back seat row,0
+305,look midsize suv tow least midwest,0
+306,second car fuel efficient,0
+307,look suv less semi sport semi luxury look reliable,0
+308,look fast low mile automatic car,0
+309,research month feel overwhelmed start search begin point right direction,0
+310,need solid car throw mile year,0
+311,family suv less cad,0
+312,look sport sedan around,0
+313,car way adjustable headrest,0
+314,advice purchasing hyundai sonata,0
+315,good gas mileage reasonably fixable max,0
+316,corolla mazda sport rental,0
+317,purchase new vehicle,0
+318,bmw series mile,0
+319,cheapest model year truck mile one buy,0
+320,best car get around chicago,0
+321,reliable suv,0
+322,budget cad suv fun sedan get,0
+323,budget interest daily driver,0
+324,good first car,0
+325,wheel drive front wheel drive reverse snowbird,0
+326,look car around,0
+327,bmw xdrive gli edition,0
+328,wife want suv narrow choice,0
+329,look new family car,0
+330,need help choose car semi rural area,0
+331,look awd suv crossover around need last two year mile,0
+332,look first car buy,0
+333,family vehicle suv,0
+334,want fun reliable car,0
+335,get first car however know absolutely nothing look car advice,0
+336,look first car,0
+337,look car fit need,0
+338,buying first car,0
+339,high school student look sporty first car budget,0
+340,honda accord major issue,0
+341,car look range,0
+342,first car,0
+343,need help find manual car first car,0
+344,need suggestion new relatively new car target come college,0
+345,good first car,0
+346,mile toyota mile cpo,0
+347,college student look buy car,0
+348,best cheap performance car,0
+349,best sedan buy,0
+350,best sedan purchase,0
+351,buy second weekend car trade fun daily,0
+352,purchase second weekend car trade fun daily,0
+353,start look around car need help figure fit need test drive,0
+354,look new car daily commuter good snow hill,0
+355,reliable vehicle hold value tall frugal person,0
+356,manual fun drive daily driver,0
+357,soon college graduate budget,0
+358,reliable car around,0
+359,advice first car,0
+360,look daily driver,0
+361,buy car,0
+362,purchase car,0
+363,sport car,0
+364,look comfortable use car,0
+365,look good value suv canada,0
+366,college student full time worker look fun reliable good gas mileage car good sound system,0
+367,mitsubishi cad good buy,0
+368,look reliable car,0
+369,look fun car,0
+370,first car hopefully,0
+371,first car buy,0
+372,first car purchase,0
+373,look fun weekend car,0
+374,car wife sport luxury crossover midsize suv range new use,0
+375,look buy small pickup truck suggestion,0
+376,hello guy look buy new car think cruiser jeep wrangler reliable good long term daily driver model take living desert area really important,0
+377,seek something reliable,0
+378,buy car,0
+379,purchase car,0
+380,much truck need,0
+381,car small lady buy lady want fast efficient,0
+382,hyundai elantra limited edition,0
+383,look reliable use crossover,0
+384,price place priuses prii,0
+385,reliable fun car around,0
+386,idea car look,0
+387,decide vehicle buy,0
+388,whats good low budget family car,0
+389,look somewhat small medium size car easy drive reliable space back large dog,0
+390,need car work school last least year,0
+391,buy girlfriend runner,0
+392,reliable fun sporty car good gas mileage,0
+393,college student buying car drive home campus budget advice,0
+394,sport car performance sedan hatch,0
+395,look family car would fit adult child comfortably currently drive hyundai sonata sport mile would like find something less mile reliable room child seat handle new england weather,0
+396,buying first car,0
+397,buying first car,0
+398,decent luxury reliable car,0
+399,fun adult awd manual transmission option,0
+400,look car high elevation rockies,0
+401,look suv preferably mid size,0
+402,use suv tow,0
+403,ready buy car last year,0
+404,get car buy living brooklyn,0
+405,try figure get first car,0
+406,buying first car something roomy,0
+407,determine best deal use corolla,0
+408,look mid size sedan warranty reliable,0
+409,move europe new england need help unfamiliar market,0
+410,kia optimum mile good condition,0
+411,new use car range,0
+412,look fast suv crossover,0
+413,look compact mid size suv family budget,0
+414,buying first car sure pick base need budget,0
+415,car look,0
+416,need advice buying car hertz,0
+417,first car consider ford crown vic thought,0
+418,look sportier car room drive,0
+419,project car best tune ability semi reliable easy affordability maintain able fit bike rack budget car mod,0
+420,car shopping fun begin,0
+421,look great manual daily driver houston area,0
+422,buy tow boat,0
+423,purchase tow boat,0
+424,good option decent power decent mileage,0
+425,need daily driver,0
+426,cuvs suv actually utility usage,0
+427,seek recommendation daily sedan cdn monthly lease budget,0
+428,look mid full size sedan detail post,0
+429,look buy luxury suv think bmw xdrive suggestion,0
+430,get new job want new small suv hatchback sedan budget,0
+431,luxury sedan around cad upgrade,0
+432,small mid suv get,0
+433,luxury sporty,0
+434,budget know anything car,0
+435,good daily,0
+436,guy think suzuki swift sport first car,0
+437,look reliable first car build mod best year honda civic accord recommendation thanks,0
+438,look car good gas reliable easy repair around around canadian willing,0
+439,insurance use sport car,0
+440,look mazda sport good first car commute college student,0
+441,look something sporty fast budget look advice,0
+442,look possibly buying chevrolet tahoe hybrid never see road anymore,0
+443,look new commuter car,0
+444,look something sporty reliable low maintenance cost,0
+445,look tow stay around,0
+446,fun sporty daily driver,0
+447,need help car look,0
+448,think buying buick encore,0
+449,look daily driver audi volkswagen bmw opel manual,0
+450,good cheap car buy new driver college student,0
+451,look good car less,0
+452,chevy rst tundra trd pro,0
+453,cheap fast non daily manual usa,0
+454,look mix sport car new car,0
+455,look new daily,0
+456,look next midwest winter mobile,0
+457,get drive licence car get,0
+458,market new car need advice someone dad,0
+459,look car pop crackle factory,0
+460,guidance next car purchase sporty,0
+461,look buy acura find automatic,0
+462,get toyota corolla honda civic hyundai elantra sport manual transmission,0
+463,sporty fun drive daily driver,0
+464,best place find car type online person,0
+465,might get use truck soon first car gunna february medium red cover bed get eny tip ask look buying,0
+466,car fit need primary secondary car,0
+467,yes actual model,0
+468,late model launch company,0
+469,service warranty,0
+470,buying lease system work,0
+471,make car different model market,0
+472,mode transmission available,0
+473,color available,0
+474,car manufacture last year offer low price compare late manufacture,0
+475,car manual automatic,0
+476,car compare car segment manufacturer,0
+477,different finance scheme available,0
+478,car smart car,0
+479,system car work,0
+480,mileage car,0
+481,many accident car model take place last year,0
+482,change make previous model,0
+483,would interested know engine power like much engine etc,0
+484,colour available,0
+485,model available sale,0
+486,fuel efficiency,0
+487,power car,0
+488,wheel drive car come,0
+489,wheel drive car come,0
+490,showroom road price corporate discount,0
+491,bharat stage standard,0
+492,type style car coupe sport utility hybrid etc,0
+493,buying remodel car per requirement,0
+494,minimum payment emi option,0
+495,accept exchange offer car company,0
+496,price range accord variant,0
+497,price differential compare different model,0
+498,insurance service partnership,0
+499,option multi year service contract,0
+500,option electric car,0
+501,price car,0
+502,often car require service,0
+503,dog sit comfortably car,0
+504,unique feature model comparison competitor unique feature car share,0
+505,accessory offer purchase car,0
+506,could guide feature car,0
+507,value pattern vehicle,0
+508,safety measure car offer,0
+509,cng petrol hybrid,0
+510,buy back old car loyalty discount bring old car company company tie dealership finance finance company bank also please check tie bank salary account bank,0
+511,delivery date vehicle,0
+512,far customisations available,0
+513,specification engine,0
+514,yes,0
+515,service network,0
+516,would react different terrain specifically indian road,0
+517,option prepaid multi year insurance,0
+518,petrol diesel car tie specific petrol pump company,0
+519,resale value car,0
+520,something vehicle discover till week ownership,0
+521,year model release,0
+522,safety feature,0
+523,get customise car,0
+524,amenity vehicle come,0
+525,sale facility available,0
+526,model available petrol diesel version,0
+527,safety technology safety feature car,0
+528,would like know everything related car,0
+529,stick shift automatic,0
+530,yes kpl important factor also feature like brake airbags wheel disc brake enhance brake etc,0
+531,vehicle take premium gas need special maintenance,0
+532,many sell till,0
+533,course price run cost major component fuel consumption two critical factor purchase decision average car buyer india middle class person,0
+534,control within reach,0
+535,interior upgraded,0
+536,average service cost,0
+537,yeah would want know mileage,0
+538,engine power,0
+539,ground clearance,0
+540,repair plan future repair initial investment,0
+541,option segment model compete weigh feature price band,0
+542,available colour,0
+543,financing work credit score play important role,0
+544,yes consumer response data available,0
+545,four wheel drive,0
+546,buyback option year agree,0
+547,life accessory fit car,0
+548,option car upgrade two year additional cost,0
+549,compare previous model change make model,0
+550,warranty like,0
+551,enough storage facility,0
+552,much fuel give free car bought,0
+553,customer feedback,0
+554,gauge performance test drive,0
+555,would emi interested buying car,0
+556,fog light,0
+557,long warranty warranty cover,0
+558,ivi feature provide without additional cost,0
+559,different model zxi cxi lxi available difference,0
+560,late technology car,0
+561,remodel car loose warranty free service,0
+562,car cruise control,0
+563,please email price list sheet various variant day std sheet show customer dealer make mind cost variant check feature net visit showroom request test drive festival discount,0
+564,color option,0
+565,accessible service centre,0
+566,cng system inbuilt,0
+567,average maintenance cost post two year,0
+568,max speed car,0
+569,option buying outside mumbai,0
+570,electric car battery charge option,0
+571,sale volume vehicle,0
+572,many people car accomodate,0
+573,color variant car sell,0
+574,choose car,0
+575,mileage car city highway drive test mileage share,0
+576,many sale car make since launch,0
+577,voice recognition system work,0
+578,safety feature car,0
+579,seat easily adjustable,0
+580,height roof car,0
+581,comparison model feature price,0
+582,disk break vehicle,0
+583,nissan sentra turn come stop,4
+584,car shut stop light sign,4
+585,bad drive broken oil pressure sensor,4
+586,help narrow start issue,4
+587,need new wiring harness beat short,4
+588,drove flood today,4
+589,isolate weird sound mechanic know talk,4
+590,car battery reading volt,4
+591,time change rotor,4
+592,transmission replacement car mile,4
+593,tire sidewall split thin long metal show driveable,4
+594,camry trouble vehicle take turn help would greatly appreciate mile,4
+595,scrap tire wallshould replace could still drive little longer bfgoodrich force sport comp,4
+596,anyone help identity noise,4
+597,cool fan relay grand marquis,4
+598,runner idle,4
+599,sorry bad qualityanyone know gear like noise never notice beforeonly happens reverse dodge ram pickup,4
+600,nitrogen fill tire,4
+601,idea tighten shifter linkage fwd mazda protege,4
+602,anyone know car grille use attach tryin figure idea,4
+603,ford focus window wont roll,4
+604,driver side window roll back,4
+605,car phantom unlock half lock manually lock possiblebut second later unlocks stop min car mechanic available sept,4
+606,test coil pack locate manifold sentra,4
+607,error code recently bought use chevy sonic,4
+608,leave cargo trailer hitch suv overnight,4
+609,hell kind lock lug shop work anything like need rotate tire bought car mention lock lugsdidn provide keyand found receipt emergency lock lug remover setwhich apparently work,4
+610,get lug nut without key flat replace,4
+611,replace control arm ball joint oldsmobile alero,4
+612,anyone tell snap car drive sudden heard something snap car start slide left make drag sound silly double check rust live michiganso wonder something else snap thanks,4
+613,mix red blue coolant bad car,4
+614,paint repair option,4
+615,squeal belt solve replace alternator belt,4
+616,rear pad fully sweep disc,4
+617,think problem dont know information give third car usually start honda accord sedan,4
+618,tire recommendation fiat pop,4
+619,need advice new engine break period outback,4
+620,anyone know remove water inside headlight happen,4
+621,left rear signal light turn,4
+622,sign die battery,4
+623,engine swap new engine,4
+624,anyone know grill delete gen liberty pre make insert,4
+625,buick century wagon die uphill,4
+626,would fix worn plastic corvette,4
+627,kia optimum lxmakes weird noise mphit last second start within minute sound like come passenger sidesomeone suggest might tire issue look second opinion,4
+628,best way fix rust leaky pipe,4
+629,button driver door work say doorbut lock button work door,4
+630,grand cherokee sputter shuts back engine light light electric work idea wrong,4
+631,get new peoject accent dofficult replace front passenger brake caliperrotorpadsand line diyable,4
+632,replace radiator hose engine side look little pock marked anything worry,4
+633,need change rotor resurfacednoob,4
+634,get urine car seat,4
+635,key stuck ignition shifter knob attach hyundai sonata,4
+636,reason car stutter rpm accelerate happens,4
+637,audi engine cut power,4
+638,jvc radio display back cam shiftingany idea,4
+639,try multiple usb adapter car portall fail charge intermittently accessory may support iphone,4
+640,anyone help diagnose noise,4
+641,replace compressor,4
+642,increase ride comfort without dramatically reduce handle discussion,4
+643,interest overheat problem,4
+644,smoke come engine coolant full,4
+645,tin noise,4
+646,mix old gas oil oil recycle,4
+647,slight shake drive turn,4
+648,cause sound turn,4
+649,suburban drivingthen start right back,4
+650,power steer issue runner pump something else,4
+651,red battery light come dash whenever brake,4
+652,possible computer issue,4
+653,turbo boost pressure bounce car get temperature,4
+654,someone part car make model mine part get,4
+655,please help idea battery related,4
+656,hyundai elantra clunk sound,4
+657,replace fuel tankfuel pumpand sender unit error code return,4
+658,type engine oil decent peugeot even,4
+659,someone post link driver side panel green amp fusible link connects corolla model zre best way test volt regulator besides autozone,4
+660,transmission problem,4
+661,replace brake,4
+662,mile need repair safe drive worth maintenance sell car,4
+663,pontiac get issue,4
+664,silverado electrical issue,4
+665,would try put brake pad rotor pay auto shop,4
+666,hearing weird noise car past week sound like rod knockbut oil level fine occurs cold start idea toyota venza xle awd inline,4
+667,transmission issue,4
+668,way cool engine compartment,4
+669,road oil pan replacement,4
+670,notice car exhaust system part would need get would easy fix fancy spending car yet,4
+671,hyundai sante noise problem,4
+672,ram troubleshoot,4
+673,good afternoon cartalk question replace shift solenoid,4
+674,oil change mile,4
+675,reason put upgraded clutch almost stock car,4
+676,local want replace door chevy equinox dent,4
+677,hyundai elantra cylinder throttle cut,4
+678,restore hood new paint necessary thanks,4
+679,power steer,4
+680,need help diagnose problem,4
+681,trouble valve cover gasket replacement,4
+682,subaru impreza slow leak tirewent subaru service centerquoted replace tire mile tire take look found assume bent nail reason could plug thanks,4
+683,something car keep reverberate vibrational resonance engine upon shock impact bump crack road,4
+684,cert tech confirm people say want oil change feel necessary blow rod,4
+685,nissan clutch issue,4
+686,hit car pole much would repair cost,4
+687,best rust convertersinhibitorsand undercoatings long salty winter,4
+688,get nissan altima fell glove compartment trunk open idea fix,4
+689,weird battery problem solve,4
+690,something today cause oil leak puddle try figure could source damage info comment,4
+691,mazda broken strut,4
+692,honda accord rebuiltso warranty fcw system fail keep flash along ldw lane departure warn also show video ebrake light along traction control happen last winter ebrake lock happen without brake lockup,4
+693,honda accord crankshaft position bad oil consumption,4
+694,rav violently shift park use day,4
+695,ford focus stationcar bad repair usually,4
+696,hey guy really need help identify pipe broke last night ran low ground boulder idea sure could fix locate bottom passenger side radiator oldsmobile alero,4
+697,find replacement screw hold map sensor ford escape,4
+698,golf door lockedhelp,4
+699,get loud car tradeexhaust bit loud like recommendation make quieter,4
+700,clear coat spray,4
+701,need help diagnose possible electrical issue rpm fluctuate ever slightly briefly uphill dodge neon sxt automatic,4
+702,low rpm neutral,4
+703,find information regard share platformspartsetc,4
+704,bubble safe drive,4
+705,find way find new breather hose,4
+706,car squeak reversebut sound stop press brake,4
+707,scammed fake dent repair guy parking lot option damage car,4
+708,gti manual transmission issue,4
+709,pump gas pedal start mile,4
+710,chevy cavalier power steer issue,4
+711,car make weird noiseany guess could possibly pontiac vibe,4
+712,customer complain rear axle noise crown vic rear rotor separation rust thru axle tube near backing plate surface rust due afternoon storm,4
+713,gas line destroyed,4
+714,chevrolet scottsdale grind make sharp right turn sound like come front passenger side would cause,4
+715,anyone tell cap found unattached anything stuck line engine mustang,4
+716,common alternator issue camry,4
+717,nissan scissor jack raiser tool lug remover,4
+718,low transmission fluid driveshould worry,4
+719,case anyone need know thrown rod sound like,4
+720,questioni recently bought use truck company one matrix sticker back window best way remove,4
+721,spark plug indicate burning oil,4
+722,jeep grand cherokee laredo update dad put airbag warn car startis generator issue something else,4
+723,mazda key ignition look like little tooth block,4
+724,shop say caliper seizedi jacked car work fine,4
+725,lot white smoke exhaust,4
+726,white smoke come mazda accelerate floor car,4
+727,possible fusebox pcm computer software issue,4
+728,brake sound like sandpaper second kia niro,4
+729,lock hydraulic hood support,4
+730,serpentine belt rant,4
+731,civic crank start unless press gas peddle replace camshaft position sensor,4
+732,jetta front hood would open take body shop yesterday remove symbol front grill access latch remove latch morning tire pressure light onthe temperature gauge yellow engine light,4
+733,coat steer wheel degrade even feel sticky touch think mostly due oily handssunlight heat anything could stop degradationor even restore,4
+734,water ingres fox,4
+735,squeak,4
+736,anyone give advice repair mazda bumper damage photo showwondering much repair would cost need replace,4
+737,easily remove car badge emblem,4
+738,guyscan anyone please tell second light right mean,4
+739,car make noise,4
+740,ran curbnot sure badly car damage,4
+741,ignition coil issue,4
+742,wcgw side step clutch clapped old ford,4
+743,anybody know get oil pump brat,4
+744,door ajar intermittently show,4
+745,ecu keep reset,4
+746,volkswagen jetta turn randomly say mean turn,4
+747,oil change help,4
+748,ford explorer radio play use auxiliary cord,4
+749,timing belt replacement along seat belt buckle,4
+750,dashboard dead today dodge grand caravan,4
+751,wheel squeal,4
+752,chrysler sebring blowing air passenger vent,4
+753,camry squeal accessory belt area,4
+754,get away resurface rotor,4
+755,wheel bolt santa snappedevery auto part store say correct size find actual part need try call hyundai directly service department dealersto avail bolt never change,4
+756,idea would cause damage camshaft lifter engine detail comment,4
+757,ford ranger clutch hard push suddenly fix,4
+758,crankshaft position sensor hyundai santa sport fwd,4
+759,suzuki start make noisethen try start idea attempt video,4
+760,explorerblend door actuator malfunction,4
+761,radiator leak,4
+762,someone rear end sure handle sure driver insurance,4
+763,punishment muffler delete california,4
+764,jeep grand cherokee laredo check engine light blinking,4
+765,smoke come hoodbut car drive fine bmw,4
+766,switch synthetic oil conventional high mileage vehicle oil,4
+767,camry oil quicklyhelp,4
+768,type adhesive use apply replacement crome tech wheel cover cadillac srx,4
+769,best budget car speaker,4
+770,honda oddessy early make clatter clang noise first gear rpm,4
+771,weak air flow driver side dashboard air vent,4
+772,anyone ever found someone actual flush machine,4
+773,walk outside last night car key key fob also could unlock idea,4
+774,truck anything use tow high engine torque,4
+775,rotational thump low speedon smooth roadfront left stump,4
+776,repair general information honda ridgeline,4
+777,inner front tire wear aggressively,4
+778,howdy folk grandpa fiat fancy shifter look icon show drive good idea info handbook circle red key turn come,4
+779,passat tdi motion idea vibration,4
+780,help car warn,4
+781,many time need flush radiator,4
+782,anyone idea could cause generator belt snap time last year,4
+783,drain gas silverado,4
+784,brake pad question,4
+785,check engine vsa light come pilot vtm light turn couple time start car stay know mean,4
+786,need help automatic honda civic sedan parking brake issue,4
+787,buick lacrosse issue,4
+788,regal starter locate end positive cable,4
+789,could clog catalytic converter cause misfire,4
+790,car still run loud post accident repair,4
+791,hit bump coolant leak hose water come radiator hose collapse,4
+792,scrap wrrring noise accelerate,4
+793,help understand problem check engine light come back,4
+794,oil pan leak highlander dealer want fix much would cost party mechanic,4
+795,buick century trouble,4
+796,use friend use torque wrench tighten water pump bolt outback see aluminum block thread,4
+797,nope isnt oil read transmission fluid maximum,4
+798,found ice cream motor seem old wtf,4
+799,hey guysjust bought car day ago wonder whats best solution fix paint damage window frame guess remove completely best way thisand repaint thanks,4
+800,alfa romeo gtv suddenly lose power highwaybut seem fine,4
+801,woke day ago see car like ran car wash try isopropyl alcohol idea,4
+802,order bolt get bag bag noi receive bolt,4
+803,temp gauge complete center warm new thing,4
+804,steer rack knock safe drive,4
+805,pontiac grand prix sensor extra plug,4
+806,mazda mechanic mess brakeswhat,4
+807,car temperature spike high pointthe drop back regular temp secondswhat mean,4
+808,steer heavy,4
+809,steer wheel make soft pop sharp turn,4
+810,need tip massive chunk take front bumperi piece,4
+811,stuck,4
+812,steer wheel brand new car make noise even replacelemt clockspring replacement,4
+813,cost efficient way get lincoln mkc key fob duplicate,4
+814,hyundai problem starter motor battery,4
+815,break help change pad rotor,4
+816,idea wrong,4
+817,car drive well circulation,4
+818,much transmission fluid flush cost,4
+819,car help car make creak sound turn wheel,4
+820,noise come suspension tire driver side frontminimal straight accentuate wheel turn left varies rpm joint axle seem could wheel bearing,4
+821,honda element sometimes steer wheel would shake crazy idle,4
+822,corolla always seem pull despite get align,4
+823,remove corrode back light switch chevy aveo hatchback,4
+824,car repairable,4
+825,toyota corona back,4
+826,best way store battery solar chargerfloat chargeror,4
+827,honda civic muffler fell offwhat,4
+828,clutch fail,4
+829,oil change audi,4
+830,car burning oil,4
+831,window driver side work,4
+832,taurus weird sound come tensioner,4
+833,low rpm shake,4
+834,replace rotor,4
+835,jeep cherokeemaster cylinder replacementhad replace linesnow one fitting leak stop,4
+836,fixable damage like,4
+837,toyota camry dash meter flicker,4
+838,drain plug bad orange thing around,4
+839,get away cheap tire,4
+840,grand caravan sxt radio upgrade,4
+841,car still drive crooked alignment,4
+842,windshield washer fluid reservoir contamination,4
+843,warn light,4
+844,random squeal noise,4
+845,passat hearing strange soundscould related transmission fluid,4
+846,radiator work much,4
+847,need help identify coolant leak please,4
+848,tire leak connect air hose,4
+849,detailer ruin paint,4
+850,advice remove seize axle steer knuckle,4
+851,ive see front radiator,4
+852,fan thing stock mazda,4
+853,sign clutch damage specifically rid,4
+854,bad alternator kill battery,4
+855,pontiac radio fuse problem,4
+856,car fuel issue,4
+857,help wrong car tire,4
+858,change differential fluid,4
+859,oil change,4
+860,anyone know fit chevy silverado classic vin,4
+861,must always setting charge bmw,4
+862,find exhuast leak safe use home vaccume,4
+863,suburban gush power steer fluid,4
+864,fix car honda element edition,4
+865,tire safe drive,4
+866,civic non vtec head gasket replace idle,4
+867,mile fail turboleaking water pumpengine oil overfill foul spark plug cylinder overheat left loandealership offer car screw thoughtsadvicesuggestions,4
+868,water pump gasket dead,4
+869,worried tire,4
+870,wash fluid window cleaner,4
+871,saw instagram anyone use well work,4
+872,roughly much repair corlla automatic tranmission,4
+873,ford focus compressor issue,4
+874,break pad,4
+875,tpms stay toyota tacoma trd road anything wheel tire reset turn,4
+876,replace stock rim,4
+877,bolt cutter replace belt tensioner,4
+878,strange roar noise drive warm period cold start,4
+879,tire bad,4
+880,car coolnot cold,4
+881,bubbling noise,4
+882,possible replace regulator window mount camry,4
+883,accidentally put antifreeze radiator instead overfill tankcan drive minute shop,4
+884,volvo,4
+885,one tire damage need replace replace detail inside,4
+886,steer wheel become nearly impossible turn drivingno soundsbattery light come minute later,4
+887,runsclean titlesold insurancedoes damage look bad fix picture tomorrow see copartwhat guy think,4
+888,bad grind rear,4
+889,luggage compartment door stay close help toyota camry need confirmation good replacement piece also much would mechanic charge change thanks anyone take time answer thisfeeling like damsel distress,4
+890,inch wheel let know thanks,4
+891,bad scratch fix car paint pen need work estimate cost vertical stripe reflection horizontal one spot scratch,4
+892,much cost repair ford max,4
+893,anyone else interested best way recondition car battery,4
+894,rub noise hot weather,4
+895,much would cost repair,4
+896,absespand hill descent light hyundai santa,4
+897,inexperienced car noob need help change headgasket,4
+898,turbo problem,4
+899,car dodge caliber,4
+900,lotus esprit twin turbo,4
+901,guy paintless dent repair car say hour need couple pay couple extra,4
+902,conversion,4
+903,car paint peel pretty bad wash without make bad use stop continue peel,4
+904,oil changewent home issuesneed advice,4
+905,transport car,4
+906,notice pipe dont know anything car hang car idea could help greatly appreciate,4
+907,seek advice coolant leak ford flex,4
+908,car heatingbut air tire overheat,4
+909,honda civic problem,4
+910,lot caffeine stop laugh friend say,4
+911,need know transfer vehicle title,4
+912,code totoya prius,4
+913,toyota camrys cabin air filter,4
+914,try accelerate tachometer shoot upthe engine revsbut car doesnt accelerate,4
+915,thing leak bad enough replace legacy,4
+916,mom figure probably time brake pad change almost year,4
+917,car thing need wonder diy pay mechanic,4
+918,pontiac lemans starter issue,4
+919,nissan altima bcm kill air conditioning,4
+920,anyone idea noise may clutch startsclutch awayin say sometimes around corner cluecheers help,4
+921,turn cabin filter include service kia year mile old,4
+922,holidaysudden leak worry,4
+923,air deflector thing get exact part broke silverado mine want fix properly come front low bumper thanks,4
+924,fact little triangle point direction problem,4
+925,body shop claim car total need advice keep run year info inside post,4
+926,screw reserve cap back broke like way fix,4
+927,remove tire rim hand,4
+928,graph mean oil use base rough average outside temperature,4
+929,scratch car dent,4
+930,bought new stereo wire way different hook upswhat,4
+931,use able pair phone radionow get way fix,4
+932,mazda try replace axle end dump half transmission fluid ground put back top fluid,4
+933,change oil,4
+934,engine transmission interest fix hard shift particularly hard engagement,4
+935,tapped wall reverse admire woman passing fix touch paint clear coat car,4
+936,squeak noise come rear passenger side civic hybrid spd consistent rhythmic engine surge gear steady low throttle car make crack noise front passenger side gear change pull really easily cause easy fix drop something fuel tankwhat,4
+937,acura rdx battery keep die overnight,4
+938,pull starter oddessy put accord,4
+939,chevrolet traverse oxygen sensor bank sensor,4
+940,anyone know turbocharger land rover discovery hse locate,4
+941,need help identify sound manual tranny,4
+942,challenger warp heat flex seal,4
+943,would fit good choice winter tire audi currently use season,4
+944,windshield chipped crack,4
+945,even budge mazda radio bolt,4
+946,need front glass window door chevy tracker front driver,4
+947,oil engine burnt,4
+948,license plate issue still intricate art,4
+949,camry gas leak top engine fuel rail injector start,4
+950,check engine vsc light come oil change,4
+951,front vent work,4
+952,stupidly add coolant car,4
+953,hii honda dealer oil change ask need replace tire sure need replace right,4
+954,infiniti make faint drum noise say forty mile per hour steer wheel turn like hit curve road highway away start straight,4
+955,decarbonize diesel engine,4
+956,chevy suburban light mph,4
+957,best way fix loose dash vent clip toyota camry,4
+958,stupid brother force turn steer wheel engine,4
+959,mazda issue boost,4
+960,experiencecan anyone explain replace rubber ford fiesta,4
+961,idea car make sound,4
+962,third brake light worksbut side,4
+963,fix low rpm gear reverse neutral high rpmreverse drivelow rpm car shaky civic auto,4
+964,camino stereo troubleshoot,4
+965,fixable piece water pump mount enginedatsun,4
+966,need help figure wrong car,4
+967,get cheap wheel,4
+968,steer wheel grease,4
+969,one last question rotella oil,4
+970,planning brake,4
+971,look buying mustang strip spindlewhat mean difficult replacement,4
+972,mustang want shift gear,4
+973,nissan datsun takeoff squeal noise,4
+974,question hole bottom air filter suppost connect anything carburetor camaro pretty new car stuff dont want cause issue car already thanks,4
+975,oil leak engine,4
+976,add underbody lead light tesla model,4
+977,engine coolant level low,4
+978,help meendless clutch bleeding bubble miata,4
+979,change transmission filter honda insight,4
+980,sure piece call thats half,4
+981,honda civic sedan mile problem steeringsuspensiontiresand wheel car seem skid lightly vibrate encounter potholebumpor medium light bump road,4
+982,really deep clean inside car leather seat,4
+983,open jammed door deer impact,4
+984,suggestion fix paint blemish,4
+985,jeep grand cherokee airbag warn dad airbag light constantly cause issue also,4
+986,good use car less,4
+987,jeep grand cherokee recognize shut door cut power driver passenger side door panel suggestion,4
+988,nissan pathfinder make squeak noise motion time,4
+989,loud metallic snap driver side brake accelerate reverse,4
+990,honda civic overheat still,4
+991,replace fuse saturn ion,4
+992,wire suppose hook,4
+993,question car whose engine auto shut light,4
+994,hey redditi bought truck wonder whats best spray roll bed liner step take put cleaningsandingetc thank,4
+995,strange rumble noise,4
+996,huge thud whenever driveway sound like come back idea kind hard hear car super loud,4
+997,subaru forester light issue,4
+998,help stubborn engine light code small evap leak kia forte,4
+999,coil plug ignition ohm measurement,4
+1000,ford focus clutch relay fuse blow soon turn,4
+1001,nissan frontier crew cab,4
+1002,electrical issue car,4
+1003,cavalier rear brake,4
+1004,anyone know replace mirror corolla look like cover missingno mirror inside,4
+1005,gmc yukon tick noise,4
+1006,automatic truck keep stall start sometimes drive,4
+1007,worth change brake pad,4
+1008,dodge durango transmission dodge durango,4
+1009,need change oil honda accord drove mile month,4
+1010,loud grind noise axle replacement,4
+1011,sonata rear window problem help,4
+1012,help civic start,4
+1013,chevy express rough rideca figure,4
+1014,hit deer sensible way repair,4
+1015,know something thing wrongbut need help honda crv mile,4
+1016,help severe grind brake reverse,4
+1017,bad rust,4
+1018,weird noise blower motor take look found filter damage,4
+1019,car shake around mph,4
+1020,break new engine quickly rebuild,4
+1021,remove plastidip overspray car,4
+1022,find issue car mechanic trust,4
+1023,anything side wall sure deep,4
+1024,could something engine cause hole bigor animal hood close hole left battery,4
+1025,fix need new paint clear coat clay something,4
+1026,toyota agze never see own thought originally oil starvation think foreign debris bearing cap equally bad thought,4
+1027,help civic make odd grind noise,4
+1028,could use hyundai elantra replacement side mirror replace broken elantra side mirror,4
+1029,toyota tundra brake bleeding,4
+1030,look short duration power source door open,4
+1031,check brake flash car thing hang,4
+1032,probably common diagnose brake light issue,4
+1033,need buy new buckle case,4
+1034,honda civic mile overheats drive slow idle cool drive fast,4
+1035,anybody know part get cargo hook chevy traverse,4
+1036,pump gas engine,4
+1037,car electronics work car,4
+1038,need replace master window switch hyundai left one switch worni found replacement online right auto buttonsdoes matter make difference,4
+1039,severe grind noise reverse brake,4
+1040,cleaning car use cleaning rag clean make plastic bluehow try use water regular rag away anyone know get rid blue colorant make back normal,4
+1041,sound like air brake minute charge,4
+1042,sorry wrong place dont know else ask button right middle dial fan speed dont car manual anymore golf couldnt find online also dont notice difference push,4
+1043,car reverse,4
+1044,honda fit milesany preventative maintenence,4
+1045,mazda head unit issue,4
+1046,change valve cover gasketanything look cover,4
+1047,camry code,4
+1048,car announce write,4
+1049,way remove without hose clamp plier,4
+1050,engage first time mile,4
+1051,windshield wiper stop squeak,4
+1052,help sound happens start truck,4
+1053,ripped tire sidewall hit curb need replace honda fit,4
+1054,anyone know cause source sound happens whenever start drive honda civic thanks advance everyone,4
+1055,anyone idea warn mean keep pop find thing online,4
+1056,cold move,4
+1057,meme make memoriam anti ford weapon,4
+1058,chinese quad starter engage key turn position,4
+1059,replace driver side seat belt buckle sound reasonable much,4
+1060,ram transmission issue,4
+1061,steer wheel make weird noise turn right could wrong safe drive like,4
+1062,could take electrical motor battery prius put buggy,4
+1063,newbie herequestion tire,4
+1064,alternative repaint car rust,4
+1065,best first car fun reliable budget cad,4
+1066,ford explorer sport trac knock,4
+1067,noise occur maximum steer angle,4
+1068,truck lose coolant,4
+1069,ford edge electrical issue,4
+1070,subaru baja remove dash disconnect wire speed sensor neutral switch work starter solenoid code show engine light flash,4
+1071,nissan altima suspension fail issue canada,4
+1072,someone tell part call corvette,4
+1073,manual sioux city lowa,4
+1074,best auto shop clarksvilletn,4
+1075,ever tire shop say tire pressure low inflate,4
+1076,corolla shift transmission toast,4
+1077,bad wheel bearing lead axle issue,4
+1078,honda accord startup noise,4
+1079,use power auto tint mirror dash cam,4
+1080,whine noise track,4
+1081,hit wheel stud drum break solution,4
+1082,right wheel shake,4
+1083,please help identify alarm like sound come engine video,4
+1084,toyota solara low rattle rumble stoppedgoes away take foot brake start move,4
+1085,found oil metal spring thing hard black price something car mile thought,4
+1086,inch gash circular dent suggestion make less noticeable,4
+1087,recommendation use car know affordable repairsreliabilityand high mpg,4
+1088,car need aux input use bluetooth adapter play music phone car charge port carry audio signal,4
+1089,anybody race deck tip keep floor pop car pull,4
+1090,sure right subreddit thisbut take tag key idea volvo btw,4
+1091,vauxhall astra chain belt,4
+1092,water collect astra door,4
+1093,trigger airbag lamp malfunction,4
+1094,help pls fill bmw ipassenger side run lighttaillightand dash light stop work afterwardsit bulb,4
+1095,shopping nissan xterra gotchas look,4
+1096,high pitch whine engine bay,4
+1097,question custom exhaust idea,4
+1098,disturb clutch transmission noise input shaftthrowout bearingor something else,4
+1099,road trip oil change,4
+1100,chrysler cruiser rpm randomly spikecar jerk forwardwhat happen,4
+1101,check engine audi,4
+1102,altima whine squeak front wheel make turn left right,4
+1103,single outlet muffler dual outlet muffler help,4
+1104,evap system code come ranger,4
+1105,camino weird issue starter neutral safety switch,4
+1106,sound like problem ignition lock cylinder,4
+1107,need help put dash back together,4
+1108,someone stole side mirror glass destroyed wire nyc thanks douchebags,4
+1109,runner check engine vsc,4
+1110,anybody help identify transmission would come,4
+1111,guy think could repair need new windshield,4
+1112,really need helpthe speaker crazy loud whit radio offwhat,4
+1113,toyota corolla shorn sometimes work,4
+1114,key chain part broke idea fix key set,4
+1115,break pedal suddenly super hard press,4
+1116,part namepart number miss back bumper,4
+1117,altima fan runningstops maybe secondsand come back,4
+1118,think get bad gas,4
+1119,die battery extremely low idle,4
+1120,reinstall valve body underneath car,4
+1121,fluid wheel tire leak brake fluid runner,4
+1122,lazy itokay,4
+1123,weird rattle startupgoes away second hyundai genesis coupe,4
+1124,record strange noise car,4
+1125,question change tire,4
+1126,like know would recommend change brake rotor vehicle,4
+1127,shell rotella oil question,4
+1128,weird noise inside car,4
+1129,start car couple monthstried found spark plug time new plug large issue cylinder like assume throughout bmw engine btw,4
+1130,center console make loud noise,4
+1131,engine mount brokeleaked tranny oil,4
+1132,car radio randomly start,4
+1133,new beetle hatch open emergency lever,4
+1134,hyundai accent clutch noise,4
+1135,strange noise inside car,4
+1136,oil reset overheat,4
+1137,saturn vue start fine fuel,4
+1138,make turbo louder without increase much power,4
+1139,car idle rpm try turn normal,4
+1140,rear bumper fell,4
+1141,best rotary engine,4
+1142,get picture step dad wonder could tell car interior belong,4
+1143,look good set wheel mercedes wagon,4
+1144,clean battery terminal subaru forester car start differently shudder,4
+1145,garage reuse inspection sticker,4
+1146,flat tire today inspect tirethere puncture hole could cause flat would result flat tire,4
+1147,whistle sound push gas pedal toyota tacoma mile,4
+1148,one bad problem car happen,4
+1149,saturn aura stereo work,4
+1150,could squeak clutch throw bearing happens clutch press,4
+1151,help tire pressure drop reason,4
+1152,help vortec trailblazer sensor broke change head gasket bolt,4
+1153,best way fix rust,4
+1154,nissan micra battery problem,4
+1155,dad discuss first car option,4
+1156,sentra transmission fluid,4
+1157,crv die blower motoror resistor,4
+1158,good time headlight question prius,4
+1159,accidentally put premium grade fuel car,4
+1160,bad happen fall,4
+1161,would recommend spray inside rusty back door fill hole,4
+1162,engine question,4
+1163,gas cap also safest way clean grime,4
+1164,botch alignment entitle tire reimbursement,4
+1165,car dent settle,4
+1166,idea could cause slowly leak week happen chance get look,4
+1167,rac recently put new battery car mine die rev loudly stationaryis normal,4
+1168,cause rust buildup burst pipe cool system,4
+1169,non oem vacuum hose replacement,4
+1170,temperature jeep instrument cluster water temp dummy light turn,4
+1171,drive bad sensor,4
+1172,smog legal exhaust mod california,4
+1173,drove overheat car minute junkyard kind damage think occur,4
+1174,fuse shin red light mean circuit still short could cause lexus,4
+1175,replace headlight bulb headlight still work,4
+1176,could bad charcoal filter cause intermittent check engine light,4
+1177,someone please tell rub noise start week get new brake sure break start drive insane lol,4
+1178,car randomly shuts turn low speed,4
+1179,chevy equinox audio,4
+1180,subaru forester air pump issue,4
+1181,crack steer knuckle clean tighten tie rod castle nut safe drive mile street shop grand prix,4
+1182,whole car keyed car way fix repaint whole thing,4
+1183,guy prefer dual tip exhaust quad exhaust car look,4
+1184,nissan versa brake noise,4
+1185,idle issue knock issue weird rev issue see end video mini countryman,4
+1186,need help remove dash stuck part,4
+1187,sorry wrong sub saw earlier,4
+1188,speed wobble nissan roguehelp,4
+1189,guess normal corollait also fail autozone charger battery test via volt regulator right get test result,4
+1190,subaru legacy fill every gas station,4
+1191,else need know crate motor,4
+1192,normal rear pad rotor replacement maximum,4
+1193,get shot beauty change throttle actuator anyone guess platform,4
+1194,bumped crv today office parking cost mucb fix,4
+1195,cadillac deville start problem,4
+1196,oil filter changebefore trip,4
+1197,suffer manufacturing defect vehicle please take back exchange maintain great quality good relation extreme reputation market customer tata motor know,4
+1198,suspension car,4
