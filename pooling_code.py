@@ -48,6 +48,16 @@ def lemmatize_stemming(text):
    return  WordNetLemmatizer().lemmatize(text, get_wordnet_pos(text))
 
 
+def ReadEnglishDictionary():
+  with open('english.txt', 'r') as f:
+    english_words = f.readlines()
+  english_words = set([WordNetLemmatizer().lemmatize(x.strip().lower().replace('\'s', '')) for x in english_words] )
+  english_words = dict.fromkeys(english_words, None)
+  return english_words
+
+english_words = ReadEnglishDictionary()
+
+
 # To clean the text of unnecessary data
 def clean_text(text):
     text = text.lower()
@@ -72,7 +82,8 @@ def clean_text(text):
     text = re.sub(r'(?<=^|(?<=[^a-zA-Z0-9-_\.]))@([A-Za-z]+[A-Za-z0-9-_]+)', '', text)
     text = re.sub(r"[^A-Za-z]", " ", text)
     filtered_size = [word for word in text.split() if len(word) > 2]
-    text = ' '.join(filtered_size)
+    filtered_dict = [word for word in filtered_size if word in english_words]
+    text = ' '.join(filtered_dict)
     return text
 
 breakdown_df['text'] = breakdown_df['text'].apply(lambda x : clean_text(x))
@@ -120,7 +131,7 @@ count_words(car_enq_df['text'])'''
 
 
 pooled_data = breakdown_df
-pooled_data = pooled_data.append(feedback[:200], ignore_index = True)
+pooled_data = pooled_data.append(feedback, ignore_index = True)
 pooled_data = pooled_data.append(testdrive_df, ignore_index = True)
 pooled_data = pooled_data.append(quality_df, ignore_index = True)
 pooled_data = pooled_data.append(car_enq_df, ignore_index = True)
@@ -142,4 +153,4 @@ def count_words(data):
     
 count_words(pooled_data.iloc[:,0])
 
-pooled_data.to_csv(r'data.csv')
+pooled_data.to_csv(r'all+data.csv')

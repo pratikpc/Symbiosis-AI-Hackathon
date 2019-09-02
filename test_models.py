@@ -11,11 +11,15 @@ from nltk.corpus import wordnet
 import nltk
 stop_words = set(stopwords.words('english')) 
 stop_words.add('tata')
+stop_words.add('motors')
+stop_words.add('motor')
 stop_words.add('car')
 stop_words.add('truck')
 stop_words.add('vehicle')
 stop_words.add('honda')
 stop_words.add('mazda')
+stop_words.add('hello')
+stop_words.add('sir')
 
 nlp=spacy.load('en')
 
@@ -31,12 +35,22 @@ data = shuffle(data)
 text = data['text']
 label = data['label']
 
+def ReadEnglishDictionary():
+  with open('english.txt', 'r') as f:
+    english_words = f.readlines()
+  english_words = set([WordNetLemmatizer().lemmatize(x.strip().lower().replace('\'s', '')) for x in english_words] )
+  english_words = dict.fromkeys(english_words, None)
+  return english_words
+
+english_words = ReadEnglishDictionary()
+
 from sklearn.model_selection import train_test_split
 xtrain, xtest, ytrain, ytest = train_test_split(text, label, random_state=0, test_size=0.2)
 
+
 def get_vectorizer(corpus, preprocessor=None, tokenizer=None):
     #vectorizer = CountVectorizer(ngram_range=(2,4),analyzer='char')
-    vectorizer = CountVectorizer()
+    vectorizer = CountVectorizer(min_df=5)
     vectorizer.fit(corpus)
     return vectorizer, vectorizer.get_feature_names()
 
@@ -60,7 +74,7 @@ class_weights = dict(enumerate(class_weight.compute_class_weight('balanced', np.
 
 def trim(s):
     """Trim string to fit on terminal (assuming 80-column display)"""
-    return s if len(s) <= 80 else s[:77] + "..."
+    return s if len(s) <= 100 else s[:97] + "..."
 
 
 def predict_text(clf, text):
@@ -88,8 +102,15 @@ def predict_text(clf, text):
         text = re.sub(r'(?<=^|(?<=[^a-zA-Z0-9-_\.]))@([A-Za-z]+[A-Za-z0-9-_]+)', '', text)
         text = re.sub(r"[^A-Za-z]", " ", text)
         filtered_size = [word for word in text.split() if len(word) > 2]
-        text = ' '.join(filtered_size)
+        filtered_dict = [word for word in filtered_size if word in english_words]
+        filtered_dict = filtered_dict[:20]
+        text = ' '.join(filtered_dict)
+        print(text)
         return text
+    
+    
+    def IsEnglishWord(word):
+        return (word in english_words)
 
         
     
@@ -227,7 +248,10 @@ from sklearn.naive_bayes import MultinomialNB
 clf_mnb = MultinomialNB()
 
 
-classify_list = [clf_log1, clf_log2, clf_linsvc, clf_sgd, clf_cnb, clf_mnb]
+from sklearn.ensemble import VotingClassifier
+VC = VotingClassifier(estimators=[('lg1', clf_log1), ('log2', clf_log2), ('sgd', clf_sgd)], voting='hard')
+
+classify_list = [clf_log1, clf_log2, clf_linsvc, clf_sgd, clf_cnb, clf_mnb, VC]
 
 for index, clf in enumerate(classify_list):
     print("Evaluating Split {}".format(index + 1))
