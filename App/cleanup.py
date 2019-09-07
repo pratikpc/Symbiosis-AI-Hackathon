@@ -35,11 +35,21 @@ def get_wordnet_pos(word):
 def lemmatize_stemming(text):
     return WordNetLemmatizer().lemmatize(text, get_wordnet_pos(text))
 
-def ReadEnglishDictionary():
+# This code was used to preprocess and clean the English Dictionary raw value
+# We acquired from Ubuntu WAmerican package
+def PreProcessAndCleanEnglishDictionary():
     with open('english.txt', 'r') as f:
         english_words = f.readlines()
-    english_words = set([WordNetLemmatizer().lemmatize(
+    english_words = set([lemmatize_stemming(
         x.strip().lower().replace('\'s', '')) for x in english_words])
+    english_words = [word for word in english_words if word not in stop_words]
+    with open('english_processed.txt', 'w') as outfile:
+        outfile.write("\n".join(english_words))
+
+def ReadEnglishDictionary():
+    with open('english_processed.txt', 'r') as f:
+        english_words = f.readlines()
+    english_words = set(english_words)
     english_words = dict.fromkeys(english_words, None)
     return english_words
 
@@ -124,3 +134,6 @@ def ApplyCleanup(sentence):
       return None
   sentence = ' '.join(split)
   return sentence
+
+if __name__ == "__main__":
+    PreProcessAndCleanEnglishDictionary()
