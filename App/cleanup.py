@@ -19,6 +19,10 @@ stop_words.add('please')
 stop_words.add('thank')
 stop_words.add('thanks')
 stop_words.add('car')
+stop_words.add('sorry')
+stop_words.add('request')
+stop_words.add('yes')
+stop_words.add('apologize')
 
 
 def get_wordnet_pos(word):

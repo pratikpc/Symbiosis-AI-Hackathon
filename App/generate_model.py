@@ -62,7 +62,7 @@ def trim(s):
 # Benchmark classifiers
 
 clf_log1 = LogisticRegression(C=0.3, class_weight=class_weights, dual=False,
-                              fit_intercept=True, intercept_scaling=1, max_iter=10000,
+                              fit_intercept=True, intercept_scaling=1, max_iter=30000,
                               multi_class='multinomial', n_jobs=1, penalty='l2', random_state=None,
                               solver='lbfgs', tol=0.0001, verbose=0, warm_start=False)
 

@@ -134,6 +134,6 @@ def SpeechToText(fileName, language = 'en-US'):
         # Close the file and break. 
         if flag == 1: 
             break
-    shutil.rmtree("audio/chunks")
+    shutil.rmtree("audio_chunks")
 
     return recognised_text
