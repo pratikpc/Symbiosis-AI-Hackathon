@@ -4,3 +4,4 @@ model.save
 train-text.csv
 data2.csv
 *.pyc
+App/vortex-I-man01.csv

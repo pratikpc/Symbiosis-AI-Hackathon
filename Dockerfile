@@ -14,6 +14,9 @@ ADD ./App/nltk_load_new.py /App
 
 RUN python3.6 nltk_load_new.py
 
+RUN mkdir -p /App/out
+RUN mkdir -p /App/audio
+
 ADD ./App /App
 
 ENTRYPOINT ["python3.6", "./predict.py"]
