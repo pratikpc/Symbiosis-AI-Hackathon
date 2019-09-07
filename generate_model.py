@@ -21,7 +21,6 @@ data['label'] = data['label'].apply(int)
 data['text'] = data['text'].apply(lambda x : ApplyCleanup(x))
 data.dropna(inplace=True)
 data = data.drop_duplicates()
-
 data = shuffle(data)
 
 text = data['text']
@@ -30,7 +29,7 @@ label = data['label']
 xtrain, xtest, ytrain, ytest = train_test_split(
     text, label, random_state=0, test_size=0.2)
 
-xtrain.to_csv('train-text.csv', encoding='latin1', index=False, header=['label'])
+text.to_csv('train-text.csv', encoding='latin1', index=False, header=['label'])
 
 def get_vectorizer(corpus, preprocessor=None, tokenizer=None):
     #vectorizer = CountVectorizer(ngram_range=(2,4),analyzer='char')
@@ -40,7 +39,7 @@ def get_vectorizer(corpus, preprocessor=None, tokenizer=None):
 
 
 def data_for_training():
-    vectorizer, feature_names = get_vectorizer(xtrain)
+    vectorizer, feature_names = get_vectorizer(text)
 
     X_train_no_HD = vectorizer.transform(xtrain).toarray()
     X_test_no_HD = vectorizer.transform(xtest).toarray()
@@ -62,8 +61,8 @@ def trim(s):
 # #############################################################################
 # Benchmark classifiers
 
-clf_log1 = LogisticRegression(C=0.5, class_weight=class_weights, dual=False,
-                              fit_intercept=True, intercept_scaling=1, max_iter=1000,
+clf_log1 = LogisticRegression(C=0.3, class_weight=class_weights, dual=False,
+                              fit_intercept=True, intercept_scaling=1, max_iter=3000,
                               multi_class='multinomial', n_jobs=1, penalty='l2', random_state=None,
                               solver='lbfgs', tol=0.0001, verbose=0, warm_start=False)
 
@@ -84,10 +83,9 @@ print(metrics.classification_report(y_test, pred,
                                             target_names=target_names))
 print(precision_score(y_test, clf_log1.predict(X_test), average='weighted'))
 
-
 print("=" * 50)
 
-print(predict_text(clf_log1, 'I was thinking of buying a the tata tiago'))
+print(predict_text(clf_log1, 'I buying a the tata tiago'))
 print(predict_text(clf_log1, 'I am looking to test drive the tata tiago'))
 print(predict_text(clf_log1, 'My tata tiago broke down in the middle of the road'))
 print(predict_text(clf_log1, 'I am satsified with the service i received at the garage'))

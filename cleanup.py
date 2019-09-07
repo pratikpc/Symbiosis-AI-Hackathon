@@ -5,14 +5,17 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk.stem.wordnet import WordNetLemmatizer
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('stopwords')
+# nltk.download('averaged_perceptron_tagger')
 
 stop_words = set(stopwords.words('english'))
 stop_words.add('hello')
+stop_words.add('hey')
+stop_words.add('hi')
 stop_words.add('sir')
 stop_words.add('sioux')
+stop_words.add('car')
 
 
 def get_wordnet_pos(word):
@@ -39,13 +42,14 @@ def ReadEnglishDictionary():
 english_words = ReadEnglishDictionary()
 def AddOurReplacements(cleanup_replace_words):
     cleanup_replace_words["vehicle"] = "car"
-    cleanup_replace_words["wanna"] = "want to"
     cleanup_replace_words["truck"] = "car"
     cleanup_replace_words["bus"] = "car"
     cleanup_replace_words["honda"] = "car"
     cleanup_replace_words["civic"] = "car"
     cleanup_replace_words["impala"] = "car"
     cleanup_replace_words["mazda"] = "car"
+    cleanup_replace_words["audi"] = "car"
+    cleanup_replace_words["volkswagen"] = "car"
     cleanup_replace_words["toyota"] = "car"
     cleanup_replace_words["hyundai"] = "car"
     cleanup_replace_words["suzuki"] = "car"
@@ -58,7 +62,15 @@ def AddOurReplacements(cleanup_replace_words):
     cleanup_replace_words["oldsmobile"] = "car"
     cleanup_replace_words["mercedes"] = "car"
     cleanup_replace_words["ford"] = "car"
+    cleanup_replace_words["tata"] = "car"
+    cleanup_replace_words["swift"] = "car"
+    cleanup_replace_words["micra"] = "car"
+    cleanup_replace_words["corolla"] = "car"
+    cleanup_replace_words["tiago"] = "car"
     cleanup_replace_words["taurus"] = "car"
+    cleanup_replace_words["crossover"] = "car"
+
+    cleanup_replace_words["buying"] = "buy"
     return cleanup_replace_words
 
 def ReadCleanupText():
@@ -99,5 +111,7 @@ def ApplyCleanup(sentence):
   split = [
       word for word in split if word is not None and word not in stop_words and IsEnglishWord(word)]
   split = split[:20]
+  if (len(split) < 1):
+      return None
   sentence = ' '.join(split)
   return sentence
