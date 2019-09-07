@@ -5,9 +5,9 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk.stem.wordnet import WordNetLemmatizer
-nltk.download('wordnet')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('wordnet')
+# nltk.download('stopwords')
+# nltk.download('averaged_perceptron_tagger')
 
 stop_words = set(stopwords.words('english'))
 stop_words.add('hello')
@@ -18,7 +18,6 @@ stop_words.add('sioux')
 stop_words.add('please')
 stop_words.add('thank')
 stop_words.add('thanks')
-stop_words.add('car')
 stop_words.add('car')
 
 
@@ -47,9 +46,9 @@ def PreProcessAndCleanEnglishDictionary():
         outfile.write("\n".join(english_words))
 
 def ReadEnglishDictionary():
-    with open('english_processed.txt', 'r') as f:
+    with open('english_processed.txt', 'r', encoding='latin1') as f:
         english_words = f.readlines()
-    english_words = set(english_words)
+    english_words = set([word.strip().lower() for word in english_words])
     english_words = dict.fromkeys(english_words, None)
     return english_words
 
@@ -78,6 +77,7 @@ def AddOurReplacements(cleanup_replace_words):
     cleanup_replace_words["oldsmobile"] = "car"
     cleanup_replace_words["mercedes"] = "car"
     cleanup_replace_words["ford"] = "car"
+    cleanup_replace_words["automobile"] = "car"
     cleanup_replace_words["tata"] = "car"
     cleanup_replace_words["swift"] = "car"
     cleanup_replace_words["micra"] = "car"
@@ -90,6 +90,11 @@ def AddOurReplacements(cleanup_replace_words):
 
     cleanup_replace_words["buying"] = "buy"
     cleanup_replace_words["purchase"] = "buy"
+    cleanup_replace_words["crash"] = "accident"
+    cleanup_replace_words["crashed"] = "accident"
+    cleanup_replace_words["collision"] = "accident"
+    cleanup_replace_words["accident"] = "accident"
+    cleanup_replace_words["totaled"] = "accident"
     return cleanup_replace_words
 
 def ReadCleanupText():

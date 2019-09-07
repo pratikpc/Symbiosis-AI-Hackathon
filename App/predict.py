@@ -1,4 +1,6 @@
-from speech_to_text import SpeechToText
+#!/usr/bin/env python3.6
+
+#from speech_to_text import SpeechToText
 from predict_model import PredictResults
 import sys
 import os
@@ -13,15 +15,18 @@ if __name__ == "__main__":
         exit()
     path = sys.argv[1]
 
-    files = listdir_fullpath(path)
+    # print("Path is", path)
 
-    for file in files:
-        # Convert Speech to Text
-        print("Converting Speech to Text for ", file)
-        text = SpeechToText(file)
+    # files = listdir_fullpath(path)
 
-        # Use this to predict results
-        print("Text Recognised is ", text)
-        prediction = PredictResults(text)
-        
-        print(prediction)    
+    # for file in files:
+    # Convert Speech to Text
+    # print("Converting Speech to Text for ", file)
+    # text = SpeechToText(file)
+    text = path
+
+    # Use this to predict results
+    print("Text Recognised is ", text)
+    prediction = PredictResults(text)
+    
+    print(prediction)    
