@@ -94,6 +94,7 @@ def AddOurReplacements(cleanup_replace_words):
 
     cleanup_replace_words["buying"] = "buy"
     cleanup_replace_words["purchase"] = "buy"
+    cleanup_replace_words["purchasing"] = "buy"
     cleanup_replace_words["crash"] = "accident"
     cleanup_replace_words["crashed"] = "accident"
     cleanup_replace_words["collision"] = "accident"

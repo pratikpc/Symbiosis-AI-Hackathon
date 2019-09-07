@@ -30,6 +30,6 @@ if __name__ == "__main__":
             print("Text Recognised is ", text)
             prediction = PredictResults(text)
 
-            f.write(file + ", " + prediction)
+            f.write(file + ", " + prediction + "\n")
             
             print(prediction)    
