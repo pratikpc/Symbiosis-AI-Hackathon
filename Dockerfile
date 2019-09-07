@@ -18,5 +18,6 @@ RUN mkdir -p /App/out
 RUN mkdir -p /App/audio
 
 ADD ./App /App
+RUN python3.6 generate_model.py
 
 ENTRYPOINT ["python3.6", "./predict.py"]

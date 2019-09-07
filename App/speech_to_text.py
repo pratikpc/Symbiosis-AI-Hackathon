@@ -5,7 +5,7 @@ import os
 import shutil
 
 def SpeechToText(fileName, language = 'en-US'):
-    os.makedirs("audio/chunks", exist_ok=True)
+    os.makedirs("audio_chunks", exist_ok=True)
     # Input audio file to be sliced 
     audio = AudioSegment.from_wav(fileName) 
 
@@ -84,7 +84,7 @@ def SpeechToText(fileName, language = 'en-US'):
         # Filename / Path to store the sliced audio 
         # We store the data here temporarily
         # Then we will delete hte data
-        filename = 'audio/chunks/chunk'+str(counter)+'.wav'
+        filename = 'audio_chunks/chunk'+str(counter)+'.wav'
 
         # Store the sliced audio file to the defined path 
         chunk.export(filename, format ="wav") 

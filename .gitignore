@@ -1,7 +1,7 @@
 
 \.idea/
-model.save
-train-text.csv
-data2.csv
-*.pyc
+App/model.save
+App/train-text.csv
+App/data2.csv
+App/*.pyc
 App/vortex-I-man01.csv
