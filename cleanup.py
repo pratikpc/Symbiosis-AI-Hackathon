@@ -15,6 +15,10 @@ stop_words.add('hey')
 stop_words.add('hi')
 stop_words.add('sir')
 stop_words.add('sioux')
+stop_words.add('please')
+stop_words.add('thank')
+stop_words.add('thanks')
+stop_words.add('car')
 stop_words.add('car')
 
 
@@ -50,6 +54,8 @@ def AddOurReplacements(cleanup_replace_words):
     cleanup_replace_words["mazda"] = "car"
     cleanup_replace_words["audi"] = "car"
     cleanup_replace_words["volkswagen"] = "car"
+    cleanup_replace_words["pontiac"] = "car"
+    cleanup_replace_words["jeep"] = "car"
     cleanup_replace_words["toyota"] = "car"
     cleanup_replace_words["hyundai"] = "car"
     cleanup_replace_words["suzuki"] = "car"
@@ -69,8 +75,11 @@ def AddOurReplacements(cleanup_replace_words):
     cleanup_replace_words["tiago"] = "car"
     cleanup_replace_words["taurus"] = "car"
     cleanup_replace_words["crossover"] = "car"
+    cleanup_replace_words["cherokee"] = "car"
+    cleanup_replace_words["chevy"] = "car"
 
     cleanup_replace_words["buying"] = "buy"
+    cleanup_replace_words["purchase"] = "buy"
     return cleanup_replace_words
 
 def ReadCleanupText():
@@ -110,7 +119,7 @@ def ApplyCleanup(sentence):
   split = sentence.split()
   split = [
       word for word in split if word is not None and word not in stop_words and IsEnglishWord(word)]
-  split = split[:20]
+  split = split[:25]
   if (len(split) < 1):
       return None
   sentence = ' '.join(split)

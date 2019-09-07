@@ -1,6 +1,8 @@
 # Import necessary libraries 
 from pydub import AudioSegment 
 import speech_recognition as sr 
+import os
+import shutil
 
 def SpeechToText(fileName, language = 'en-US'):
     os.makedirs("audio/chunks", exist_ok=True)
@@ -80,7 +82,9 @@ def SpeechToText(fileName, language = 'en-US'):
         chunk = audio[start:end] 
 
         # Filename / Path to store the sliced audio 
-        filename = 'audio/chunk'+str(counter)+'.wav'
+        # We store the data here temporarily
+        # Then we will delete hte data
+        filename = 'audio/chunks/chunk'+str(counter)+'.wav'
 
         # Store the sliced audio file to the defined path 
         chunk.export(filename, format ="wav") 
@@ -118,13 +122,12 @@ def SpeechToText(fileName, language = 'en-US'):
         
         # If google could not understand the audio 
         except sr.UnknownValueError: 
-            print("Could not understand audio") 
+            pass
 
         # If the results cannot be requested from Google. 
         # Probably an internet connection error. 
         except sr.RequestError as e: 
-            print("Could not request results.") 
-        print("-"*100)
+            pass
 
         # Check for flag. 
         # If flag is 1, end of the whole audio reached. 

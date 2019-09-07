@@ -18,7 +18,7 @@ data = data[['label', 'text']]
 data['text'] = data['text'].apply(str)
 data['label'] = data['label'].apply(int)
 
-data['text'] = data['text'].apply(lambda x : ApplyCleanup(x))
+data['text'] = data['text'].apply(ApplyCleanup)
 data.dropna(inplace=True)
 data = data.drop_duplicates()
 data = shuffle(data)
@@ -62,7 +62,7 @@ def trim(s):
 # Benchmark classifiers
 
 clf_log1 = LogisticRegression(C=0.3, class_weight=class_weights, dual=False,
-                              fit_intercept=True, intercept_scaling=1, max_iter=3000,
+                              fit_intercept=True, intercept_scaling=1, max_iter=10000,
                               multi_class='multinomial', n_jobs=1, penalty='l2', random_state=None,
                               solver='lbfgs', tol=0.0001, verbose=0, warm_start=False)
 
@@ -81,14 +81,4 @@ target_names = ['New Car Enquiry','Test Drive Enquiry','Breakdown', 'Feedback', 
 from sklearn import metrics
 print(metrics.classification_report(y_test, pred,
                                             target_names=target_names))
-print(precision_score(y_test, clf_log1.predict(X_test), average='weighted'))
-
-print("=" * 50)
-
-print(predict_text(clf_log1, 'I buying a the tata tiago'))
-print(predict_text(clf_log1, 'I am looking to test drive the tata tiago'))
-print(predict_text(clf_log1, 'My tata tiago broke down in the middle of the road'))
-print(predict_text(clf_log1, 'I am satsified with the service i received at the garage'))
-print(predict_text(
-    clf_log1, 'There is a lot of noise coming out of the engine of my tata tiago'))
-print('-' * 50)
+print("Precision Score : ", precision_score(y_test, clf_log1.predict(X_test), average='weighted'))
