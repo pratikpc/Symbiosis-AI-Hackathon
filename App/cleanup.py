@@ -5,9 +5,9 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk.stem.wordnet import WordNetLemmatizer
-# nltk.download('wordnet')
-# nltk.download('stopwords')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
 
 stop_words = set(stopwords.words('english'))
 stop_words.add('hello')
