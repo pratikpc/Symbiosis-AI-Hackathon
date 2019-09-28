@@ -2,10 +2,16 @@
 from pydub import AudioSegment 
 import speech_recognition as sr 
 import os
+import time
 import shutil
+import app_utils
 
-def SpeechToText(fileName, language = 'en-US'):
-    os.makedirs("audio_chunks", exist_ok=True)
+language_codes = {"English" : "en-IN",
+                  "Hindi" : "hi-IN",
+                  "Marathi" : "mr-IN"};
+
+def SpeechToText(fileName, language):
+    os.makedirs("./audio_chunks", exist_ok=True)
     # Input audio file to be sliced 
     audio = AudioSegment.from_wav(fileName) 
 
@@ -24,9 +30,9 @@ def SpeechToText(fileName, language = 'en-US'):
     # If length is 22 seconds, and interval is 5 seconds, 
     # The chunks created will be: 
     # chunk1 : 0 - 5 seconds 
-    # chunk2 : 5 - 10 seconds 
+    # chunk2 : 5 - 10 seconds TranslatorDestSource
     # chunk3 : 10 - 15 seconds 
-    # chunk4 : 15 - 20 seconds 
+    # chunk4 : 15 - 20 seconds delay
     # chunk5 : 20 - 22 seconds 
     interval = 10 * 1000
 
@@ -100,6 +106,7 @@ def SpeechToText(fileName, language = 'en-US'):
         # Initialize the recognizer 
         r = sr.Recognizer() 
         
+        app_utils.DebugCommand("Chunk being Acted On ", AUDIO_FILE)
         
         ## recognizer properties refer https://pypi.org/project/SpeechRecognition
         #r.pause_threshold = 0.8
@@ -110,30 +117,34 @@ def SpeechToText(fileName, language = 'en-US'):
 
         # Traverse the audio file and listen to the audio 
         with sr.AudioFile(AUDIO_FILE) as source:
-        
             audio_listened = r.listen(source) 
 
         # Try to recognize the listened audio 
         # And catch expections. 
         try:     
             #translating the sliced audio into english text and saving it into a file
-            rec_eng = r.recognize_google(audio_listened, language = language) 
+            rec_eng = r.recognize_google(audio_listened, language = language_codes[language]) 
             recognised_text = recognised_text + " " + rec_eng
+            time.sleep(0.1)
+            app_utils.DebugCommand("Recognised ", rec_eng)
         
         # If google could not understand the audio 
         except sr.UnknownValueError: 
-            pass
+            r = sr.Recognizer() 
+            app_utils.DebugCommand("UnkVal")
 
         # If the results cannot be requested from Google. 
         # Probably an internet connection error. 
         except sr.RequestError as e: 
-            pass
+            r = sr.Recognizer() 
+            app_utils.DebugCommand("ReqFail")
+            time.sleep(0.3)
 
         # Check for flag. 
         # If flag is 1, end of the whole audio reached. 
         # Close the file and break. 
         if flag == 1: 
             break
-    shutil.rmtree("audio_chunks")
+    shutil.rmtree("./audio_chunks")
 
     return recognised_text

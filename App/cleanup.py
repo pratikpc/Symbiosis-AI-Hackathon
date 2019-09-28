@@ -124,6 +124,7 @@ def ApplyCleanup(sentence):
   def IsEnglishWord(word):
       return (word in english_words)
   
+  sentence = sentence.strip().lower()
   # Remove Mentions and URLs
   sentence = str(sentence)
   sentence = re.sub(r'\S*@\S*\s?', '', sentence)
@@ -139,7 +140,6 @@ def ApplyCleanup(sentence):
   split = sentence.split()
   split = [
       word for word in split if word is not None and word not in stop_words and IsEnglishWord(word)]
-  split = split[:25]
   if (len(split) < 1):
       return None
   sentence = ' '.join(split)

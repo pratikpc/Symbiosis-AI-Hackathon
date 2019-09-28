@@ -1,25 +1,36 @@
 from cleanup import ApplyCleanup
 from sklearn.feature_extraction.text import CountVectorizer
 
-# Generate the Vectorizer from our corpus
-def get_vectorizer(corpus, preprocessor=None, tokenizer=None):
-    vectorizer = CountVectorizer(min_df=5)
-    vectorizer.fit(corpus)
-    return vectorizer, vectorizer.get_feature_names()
+import ktrain
+import numpy as np
+import app_utils
 
-import pandas as pd
-text = pd.read_csv('train-text.csv', error_bad_lines=False, encoding='latin1')
-text = text['label'].apply(str)
+# Initially None
+# Initialised by Other Thread
+reloaded_predictor = NoneDebugCommand
+DebugCommand
+def load_model():DebugCommand
+    print("Start BERT Model loading")DebugCommand
+    global reloaded_predictor
+    reloaded_predictor = ktrain.load_predictor('models/predictor3_83')
+    print("Done BERT Model loading")
+    text = "want buy"
+    reload_preds = reloaded_predictor.predict([text], return_proba=True)
 
-vectorizer, feature_names = get_vectorizer(text)
-import joblib
+# load_model()
+import threading
 
-clf_log1 = joblib.load('model.save') 
-target_names = ['New Car Enquiry','Test Drive Enquiry','Breakdown', 'Feedback', 'Quality']
+# Using Threads to ensure that Loading of Model is carried out in Parallel
+ModelColdStarter = threading.Thread(name="Model Cold Start", target=load_model)
+ModelColdStarter.start()
 
-def predict_text(clf, text):
-    vectorized_text = vectorizer.transform([ApplyCleanup(text)])
-    return target_names[clf.predict(vectorized_text)[0]]
+target_names = ['New Car Enquiry','Test Drive Enquiry',
+                'Breakdown', 'Feedback', 'Vehicle Quality']
 
 def PredictResults(text):
-    return predict_text(clf_log1, text)
+    text = ApplyCleanup(text)
+    app_utils.DebugCommand("Cleaned Results: ", text)
+    reload_preds = reloaded_predictor.predict([text], return_proba=True)
+    app_utils.DebugCommand(reload_preds)
+    reload_preds = [np.argmax(x) for x in reload_preds]
+    return [target_names[pred] for pred in reload_preds]
