@@ -125,7 +125,6 @@ def SpeechToText(fileName, language):
             #translating the sliced audio into english text and saving it into a file
             rec_eng = r.recognize_google(audio_listened, language = language_codes[language]) 
             recognised_text = recognised_text + " " + rec_eng
-            time.sleep(0.1)
             app_utils.DebugCommand("Recognised ", rec_eng)
         
         # If google could not understand the audio 

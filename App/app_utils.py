@@ -10,5 +10,6 @@ def create_fullpath_if_not_exists(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def DebugCommand(input):
-    print("DEBUG:-" + input)
+def DebugCommand(*input):
+    print("DEBUG:-" , input)
+    # pass

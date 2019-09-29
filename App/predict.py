@@ -16,7 +16,7 @@ if __name__ == "__main__":
         path = sys.argv[1]
         out_path = sys.argv[2]
 
-    app_utils.DebugCommand("Path is", path)
+    app_utils.DebugCommand("Path is " + path)
     app_utils.create_fullpath_if_not_exists(out_path)
 
     for language in languages:
@@ -28,10 +28,10 @@ if __name__ == "__main__":
             for file in files:
                 # Convert Speech to Text
                 print("Converting Speech to Text for ", file)
-                # text = SpeechToText(file, language)
+                text = SpeechToText(file, language)
  
                 # Use this to predict results
-                # app_utils.DebugCommand("Text Recognised is ", text)
+                app_utils.DebugCommand("Text Recognised is ", text)
                 translated = text
                 translated = TranslateToEnglish(text, language)
                 app_utils.DebugCommand("Translated to English Is ", translated)
@@ -39,6 +39,6 @@ if __name__ == "__main__":
                 ModelColdStarter.join()
                 prediction = PredictResults(translated)
 
-                print(prediction[0])    
+                print(prediction)    
                 f.write(file + ", " + prediction[0] + "\n")
                 

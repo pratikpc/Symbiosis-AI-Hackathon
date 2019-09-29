@@ -7,13 +7,13 @@ import app_utils
 
 # Initially None
 # Initialised by Other Thread
-reloaded_predictor = NoneDebugCommand
-DebugCommand
-def load_model():DebugCommand
-    print("Start BERT Model loading")DebugCommand
+reloaded_predictor = None
+
+def load_model():
+    app_utils.DebugCommand("Start BERT Model loading")
     global reloaded_predictor
     reloaded_predictor = ktrain.load_predictor('models/predictor3_83')
-    print("Done BERT Model loading")
+    app_utils.DebugCommand("Done BERT Model loading")
     text = "want buy"
     reload_preds = reloaded_predictor.predict([text], return_proba=True)
 
