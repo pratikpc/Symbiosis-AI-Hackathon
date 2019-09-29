@@ -1,11 +1,25 @@
-import os
 import app_utils
 
+from googletrans import Translator
+
+GoogleTranslatorAPIFunc = Translator()
+GoogleTranslatorCodes = {
+    "English" : "en",
+    "Hindi" : "hi",
+    "Marathi" : "mr"
+}
+def TranslateToEnglishUsingGoogle(text, language):
+    text = GoogleTranslatorAPIFunc.translate(text, dest='en', src=GoogleTranslatorCodes[language])
+    text = text.text
+    print("goog")
+    return text
+
+import os
 app_utils.create_fullpath_if_not_exists("tmp")
 
 # Command to call on command line to start translation
-def GetCommand(language):
-    return "python3 ./models/translator/translate.py -model ./models/translator/" + language + ".pt  -src ./tmp/input_translate.txt -output ./tmp/output_translated.txt -replace_unk"
+def get_command(language):
+    return "python3 ./models/translator/translate.py -model ./models/translator/" + language + ".pt  -src ./tmp/input_translate_" + language + ".txt -output ./tmp/output_translated_" + language + ".txt -replace_unk"
 
 def merged_text(text):
     text = text.split(' ')
@@ -17,15 +31,21 @@ def merged_text(text):
     text_res = "\n".join(text_res)
     return text_res
 
-def TranslateToEnglish(text, source):
+def TranslateToEnglishUsingSeqModel(text, language):
     # This translates to English
-    if (source == "English"):
+    if (language == "English"):
         return text
     text = merged_text(text)
-    with open("tmp/input_translate.txt", "w") as inner:
+    with open("tmp/input_translate_"    + language + ".txt", "w") as inner:
         inner.write(text)
-    os.system(GetCommand(source))
-    with open("tmp/output_translated.txt", "r") as outer:
+    os.system(get_command(language))
+    with open("tmp/output_translated_" + language + ".txt", "r") as outer:
         text = outer.readlines()
     text = "".join(text)
     return text
+
+def TranslateToEnglish(text, language, translator="Google"):
+    if translator == "Google":
+        return TranslateToEnglishUsingGoogle(text, language)
+    elif translator == "Seq2Seq":
+        return TranslateToEnglishUsingSeqModel(text, language)

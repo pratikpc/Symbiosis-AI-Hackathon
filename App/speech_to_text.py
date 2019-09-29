@@ -1,17 +1,74 @@
 # Import necessary libraries 
+from concurrent.futures import ThreadPoolExecutor, wait
 from pydub import AudioSegment 
 import speech_recognition as sr 
 import os
 import time
 import shutil
 import app_utils
+import asyncio
+
 
 language_codes = {"English" : "en-IN",
                   "Hindi" : "hi-IN",
                   "Marathi" : "mr-IN"};
 
-def SpeechToText(fileName, language):
-    os.makedirs("./audio_chunks", exist_ok=True)
+def SpeechToTextSingle(chunk, language, counter, start, end, speech_text_dir):
+    # Filename / Path to store the sliced audio 
+    # We store the data here temporarily
+    # Then we will delete hte data
+    filename = speech_text_dir + '/chunk'+str(counter)+'.wav'
+
+    # Store the sliced audio file to the defined path 
+    chunk.export(filename, format ="wav") 
+    # # Print information about the current chunk 
+    # print("Processing chunk "+str(counter)+". Start = "
+    #                     +str(start)+" end = "+str(end)) 
+
+    AUDIO_FILE = filename 
+
+    # Initialize the recognizer 
+    r = sr.Recognizer() 
+    
+    print("Chunk being Acted On ", AUDIO_FILE)
+    
+    ## recognizer properties refer https://pypi.org/project/SpeechRecognition
+    #r.pause_threshold = 0.8
+    #r.energy_threshold = 500
+    #r.dynamic_energy_threshold = True
+    #r.dynamic_energy_adjustment_damping = 0.15
+    #r.dynamic_energy_adjustment_ratio = 1.5
+
+    # Traverse the audio file and listen to the audio 
+    with sr.AudioFile(AUDIO_FILE) as source:
+        # r.adjust_for_ambient_noise(source)
+        audio_listened = r.listen(source) 
+
+    # Try to recognize the listened audio 
+    # And catch expections. 
+    try:     
+        #translating the sliced audio into english text and saving it into a file
+        rec_eng = r.recognize_google(audio_listened, language = language_codes[language]) 
+        app_utils.DebugCommand("Recognised ", rec_eng)
+        return rec_eng
+
+    # If google could not understand the audio 
+    except sr.UnknownValueError: 
+        r = sr.Recognizer() 
+        app_utils.DebugCommand("UnkVal")
+
+    # If the results cannot be requested from Google. 
+    # Probably an internet connection error. 
+    except sr.RequestError as e: 
+        r = sr.Recognizer() 
+        app_utils.DebugCommand("ReqFail")
+        time.sleep(0.3)
+    return ""
+
+
+def SpeechToText(executor, fileName, language):
+    speech_text_dir = "./tmp/audio_chunks_" + language
+    os.makedirs(speech_text_dir, exist_ok=True)
     # Input audio file to be sliced 
     audio = AudioSegment.from_wav(fileName) 
 
@@ -57,18 +114,18 @@ def SpeechToText(fileName, language):
 
     flag = 0
 
+    tasks = []
+
     # Iterate from 0 to end of the file, 
     # with increment = interval 
 
-    recognised_text = ""
-
+    futures = []
     for i in range(0, 2 * n, interval): 
-        
-        # During first iteration, 
-        # start is 0, end is the interval 
-        if i == 0: 
+        # During first iteration, import asyncio
+        # start is 0, end is the intervaimport asynciol 
+        if i == 0:
             start = 0
-            end = interval 
+            end = interval
 
         # All other iterations, 
         # start is the previous end - overlap 
@@ -80,70 +137,32 @@ def SpeechToText(fileName, language):
         # When end becomes greater than the file length, 
         # end is set to the file length 
         # flag is set to 1 to indicate break. 
-        if end >= n: 
+        if end >= n: #or end >= 300000: 
             end = n 
             flag = 1
 
         # Storing audio file from the defined start to end 
         chunk = audio[start:end] 
 
-        # Filename / Path to store the sliced audio 
-        # We store the data here temporarily
-        # Then we will delete hte data
-        filename = 'audio_chunks/chunk'+str(counter)+'.wav'
-
-        # Store the sliced audio file to the defined path 
-        chunk.export(filename, format ="wav") 
-        # # Print information about the current chunk 
-        # print("Processing chunk "+str(counter)+". Start = "
-        #                     +str(start)+" end = "+str(end)) 
-
-        # Increment counter for the next chunk 
-        counter = counter + 1
-
-        AUDIO_FILE = filename 
-
-        # Initialize the recognizer 
-        r = sr.Recognizer() 
-        
-        app_utils.DebugCommand("Chunk being Acted On ", AUDIO_FILE)
-        
-        ## recognizer properties refer https://pypi.org/project/SpeechRecognition
-        #r.pause_threshold = 0.8
-        #r.energy_threshold = 500
-        #r.dynamic_energy_threshold = True
-        #r.dynamic_energy_adjustment_damping = 0.15
-        #r.dynamic_energy_adjustment_ratio = 1.5
-
-        # Traverse the audio file and listen to the audio 
-        with sr.AudioFile(AUDIO_FILE) as source:
-            audio_listened = r.listen(source) 
-
-        # Try to recognize the listened audio 
-        # And catch expections. 
-        try:     
-            #translating the sliced audio into english text and saving it into a file
-            rec_eng = r.recognize_google(audio_listened, language = language_codes[language]) 
-            recognised_text = recognised_text + " " + rec_eng
-            app_utils.DebugCommand("Recognised ", rec_eng)
-        
-        # If google could not understand the audio 
-        except sr.UnknownValueError: 
-            r = sr.Recognizer() 
-            app_utils.DebugCommand("UnkVal")
-
-        # If the results cannot be requested from Google. 
-        # Probably an internet connection error. 
-        except sr.RequestError as e: 
-            r = sr.Recognizer() 
-            app_utils.DebugCommand("ReqFail")
-            time.sleep(0.3)
+        future = executor.submit(SpeechToTextSingle, chunk, language, counter, start, end, speech_text_dir)
+        futures.append(future)
 
         # Check for flag. 
         # If flag is 1, end of the whole audio reached. 
         # Close the file and break. 
         if flag == 1: 
             break
-    shutil.rmtree("./audio_chunks")
+
+        # Increment counter for the next chunk 
+        counter = counter + 1
+    # The first contains Results of items which
+    # were completed
+    results = wait(futures)[0]
+    shutil.rmtree(speech_text_dir)
+
+    results = [result.result() for result in results]
+    results = [result for result in results if len(result) != 0]
+    recognised_text = ' '.join(results)
+    print (recognised_text)
 
     return recognised_text
