@@ -1,14 +1,14 @@
 My vehicle stalled would you be able to help 
 Indeed please reveal to me your vehicle number 
-It is this number 
+It is this number for the road side engineer
 Alright sir I'm reaching you to the closest associate 
 Hi sir I'm your roadside engineer 
 Where are you found? 
 I'm situated at someone or other 
 I was driving and my motor ceased 
 I don't have the foggiest idea why 
-This isn't normal 
-I needed to go far 
+This isn't normal my car stopped
+I needed to go far but my car broke down
 I'm sorry sir I'll be coming soon to help 
 My vehicle quit working 
 The truck slowed down 
@@ -16,42 +16,42 @@ Truck won't begin
 Vehicle won't run
 My car broke down can you help
 Yes please tell me your car number
-It is this number
+It is this number to contact road side engineer
 Okay sir I'm contacting you to the nearest assistant
 Hello sir I'm your roadside engineer
 Where are you located?
 I'm located at so and so
 I was driving and my engine stopped
-I don't know why
-This is not expected
-I wanted to go far
+I don't know why my car broke down
+This is not expected my car is not working
+I wanted to go far but my car stopped
 I'm sorry sir I'll be coming soon to help
 My car stopped working
 The truck stalled
 Truck won't start
 Car won't run
-No fuel
-No gas
+No fuel send a mechanic
+No gas my car will not run
 Engine overheated and stalled
 Truck has broken down
 hello car company my car stopped?
-i need help
-car fuel is over, can you help me?
-car tyre punctured, need to replace the the tyre?
+i need help please send a mechanic
+car fuel is over can you help me?
+car tyre punctured need to replace the the tyre?
 i called call centre no one picking up
 am in the middle of the road i need urgent help
-am at a crowded place, am in trouble
+am at a crowded place am in trouble send a mechanic
 when is it towing coming?
 send me cat towing co. contact number?
 looks like battery is down?
 seems to me engine not starting?
-looks like engine over heated?
+looks like engine over heated? car is not running
 three is smoke coming
-am 50 km away from my place
+am 50 km away from my place please send engineer
 i can send you gps location
 can you send assistant to replace the battery?
 my car met with an accident 
-i need towing help
+i need towing help send a mechanic
 how much it will cost for towing help
 i have road side assistance insurance
 do i need to pay for road side assistance
@@ -88,3 +88,22 @@ my family is stressed, it is night now
 will I get a vehicle to arrive at home? 
 I lost my vehicle key 
 I need vehicle key substitution
+We need to call the engineer as my car has broken down
+I'm trying to start my car but the battery is down
+The petrol in the car tank is low
+The car tyres are punctured
+The engine of my car is heated up
+Im trying to start my car but the battery is down
+My car AC is not cooling
+The car temperature meter is indicating a high
+It is raining but my wipers are not working hence poor visibility
+I called the car services but i cant get through
+I need someone to kickstart my car
+I met with an accident i need to tow my car
+The towing car will be here to tow my car shortly
+Im stuck in the traffic and my car has suddenly broken down
+Im on the highway and can see some smoke coming out of the bonnet.
+The brakes of my car has failed all of a sudden.
+I am driving on the road and when i am accelerating my car is not picking up speed.
+My car has stalled in the middle of the road please send help
+My car is locked and I cannot get in please send a mechanic

@@ -129,9 +129,26 @@ count_words(feedback['text'])
 count_words(quality_df['text'])
 count_words(car_enq_df['text'])'''
 
+print("Breakdown ", len(breakdown_df))
+print("Feedback ", len(feedback))
+print("Test Drive ", len(testdrive_df))
+print("Quality ", len(quality_df))
+print("Car Enquiry ", len(car_enq_df))
+
+breakdown_df = breakdown_df.dropna()
+feedback = feedback.dropna()
+testdrive_df = testdrive_df.dropna()
+quality_df = quality_df.dropna()
+car_enq_df = car_enq_df.dropna()
+
+print("Breakdown ", len(breakdown_df))
+print("Feedback ", len(feedback))
+print("Test Drive ", len(testdrive_df))
+print("Quality ", len(quality_df))
+print("Car Enquiry ", len(car_enq_df))
 
 pooled_data = breakdown_df
-pooled_data = pooled_data.append(feedback, ignore_index = True)
+pooled_data = pooled_data.append(feedback.iloc[:200], ignore_index = True)
 pooled_data = pooled_data.append(testdrive_df, ignore_index = True)
 pooled_data = pooled_data.append(quality_df, ignore_index = True)
 pooled_data = pooled_data.append(car_enq_df, ignore_index = True)
@@ -153,4 +170,7 @@ def count_words(data):
     
 count_words(pooled_data.iloc[:,0])
 
-pooled_data.to_csv(r'all+data.csv')
+print(pooled_data['label'].value_counts())
+
+
+pooled_data.to_csv(r'bert_test.csv')
