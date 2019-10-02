@@ -4,7 +4,7 @@ import nltk_load_new
 from speech_to_text import SpeechToText
 from predict_model import PredictResults, ModelColdStarter
 from translator import TranslateToEnglish
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 import sys
 import os
 import app_utils
@@ -23,7 +23,7 @@ def PredictForLanguage(executor, language):
             # Use this to predict results
             app_utils.DebugCommand("Text Recognised is ", text)
             translated = text
-            translated = TranslateToEnglish(text, language)
+            translated = TranslateToEnglish(text, language, translator="Seq2Seq")
             app_utils.DebugCommand("Translated to English Is ", translated)
             
             if ModelColdStarter.isAlive():
@@ -44,6 +44,6 @@ if __name__ == "__main__":
 
     app_utils.DebugCommand("Path is ", path)
     app_utils.create_fullpath_if_not_exists(out_path)
-    with ThreadPoolExecutor(max_workers=app_utils.CPU_COUNTS) as executor:
+    with ProcessPoolExecutor(max_workers=app_utils.CPU_COUNTS) as executor:
         for language in languages:
             PredictForLanguage(executor, language)                

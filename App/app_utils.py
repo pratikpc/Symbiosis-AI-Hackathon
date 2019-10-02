@@ -12,8 +12,8 @@ def create_fullpath_if_not_exists(directory):
         os.makedirs(directory)
 
 def DebugCommand(*input):
-    print("DEBUG:-" , input)
-    # pass
+    # print("DEBUG:-" , input)
+    pass
 
 
 CPU_COUNTS = int(multiprocessing.cpu_count()/3 + 1)

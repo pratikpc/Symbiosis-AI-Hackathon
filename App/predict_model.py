@@ -12,7 +12,7 @@ reloaded_predictor = None
 def load_model():
     print("Start BERT Model loading")
     global reloaded_predictor
-    reloaded_predictor = ktrain.load_predictor('models/predictor3_83')
+    reloaded_predictor = ktrain.load_predictor('models/predictor2_77')
     text = "want buy"
     reload_preds = reloaded_predictor.predict([text], return_proba=True)
     print("Done BERT Model loading")
@@ -30,7 +30,7 @@ target_names = ['New Car Enquiry','Test Drive Enquiry',
 def PredictResults(text):
     text = ApplyCleanup(text)
     if text is None or len(text) == 0:
-        text = "my car broke down"
+        text = "car break down"
     app_utils.DebugCommand("Cleaned Results: ", text)
     reload_preds = reloaded_predictor.predict([text], return_proba=True)
     app_utils.DebugCommand(reload_preds)

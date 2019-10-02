@@ -1,5 +1,5 @@
 # Import necessary libraries 
-from concurrent.futures import ThreadPoolExecutor, wait
+from concurrent.futures import wait
 from pydub import AudioSegment 
 import speech_recognition as sr 
 import os
@@ -7,7 +7,6 @@ import time
 import shutil
 import app_utils
 import asyncio
-
 
 language_codes = {"English" : "en-IN",
                   "Hindi" : "hi-IN",
@@ -30,7 +29,7 @@ def SpeechToTextSingle(chunk, language, counter, start, end, speech_text_dir):
     # Initialize the recognizer 
     r = sr.Recognizer() 
     
-    print("Chunk being Acted On ", AUDIO_FILE)
+    app_utils.DebugCommand("Chunk being Acted On ", AUDIO_FILE)
     
     ## recognizer properties refer https://pypi.org/project/SpeechRecognition
     #r.pause_threshold = 0.8
@@ -163,6 +162,6 @@ def SpeechToText(executor, fileName, language):
     results = [result.result() for result in results]
     results = [result for result in results if len(result) != 0]
     recognised_text = ' '.join(results)
-    print (recognised_text)
+    app_utils.DebugCommand (recognised_text)
 
     return recognised_text

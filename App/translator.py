@@ -11,7 +11,6 @@ GoogleTranslatorCodes = {
 def TranslateToEnglishUsingGoogle(text, language):
     text = GoogleTranslatorAPIFunc.translate(text, dest='en', src=GoogleTranslatorCodes[language])
     text = text.text
-    print("goog")
     return text
 
 import os
