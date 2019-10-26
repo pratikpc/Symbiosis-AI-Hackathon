@@ -4,10 +4,10 @@ import numpy as np
   
 # Fill the X's with the credentials obtained by  
 # following the above mentioned procedure. 
-consumer_key = "lppCZGbbhlq3HfM9SEPBJzfZw" 
-consumer_secret = "mmAs1ZtvXfZtD3fk9UR6R3CP0Pgbvc8Z79nE8XIpxpFKoGeB4y"
-access_key = "1302899276-g5QUqb8wYSKbdAzvuFWSzF9aAQAt24i135zKAsx"
-access_secret = "guzzYGk94tgLdoCTVkUUMi08SZoid3NTCUYPbGN49ih6Z"
+consumer_key = "XXXX" 
+consumer_secret = "XXXX"
+access_key = "XXXX"
+access_secret = "XXXX"
   
 # Function to extract tweets 
 def get_tweets(username): 
